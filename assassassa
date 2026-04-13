@@ -274,6 +274,8 @@ TabFrame1.BackgroundTransparency = 1
 TabFrame1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 TabFrame1.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
 TabFrame1.Size = UDim2.new(0, 297, 0, 225)
+TabFrame1.Visible = false
+TabFrame1.CanvasPosition = Vector2.new(0, 200)
 TabFrame1.ScrollBarThickness = 0
 
 TextLabel_2.Parent = TabFrame1
@@ -1102,7 +1104,6 @@ TabFrame3.BackgroundTransparency = 1
 TabFrame3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 TabFrame3.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
 TabFrame3.Size = UDim2.new(0, 297, 0, 225)
-TabFrame3.Visible = false
 TabFrame3.ScrollBarThickness = 0
 
 TargetHit_2.Name = "TargetHit"
@@ -1321,7 +1322,7 @@ UIAspectRatioConstraint_7.AspectRatio = 2.009615421295166
 
 -- Scripts
 
-local function KJXBBOH_fake_script() -- Frame.LocalScript 
+local function FZRMCBH_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local HttpService = game:GetService("HttpService")
@@ -1434,8 +1435,8 @@ local function KJXBBOH_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KJXBBOH_fake_script)()
-local function YKVTCJK_fake_script() -- OutlastHubNormal_2.NotificationScript 
+coroutine.wrap(FZRMCBH_fake_script)()
+local function ASDPPUT_fake_script() -- OutlastHubNormal_2.NotificationScript 
 	local script = Instance.new('LocalScript', OutlastHubNormal_2)
 
 	local StarterGui = game:GetService("StarterGui")
@@ -1470,8 +1471,8 @@ local function YKVTCJK_fake_script() -- OutlastHubNormal_2.NotificationScript
 		end
 	end)
 end
-coroutine.wrap(YKVTCJK_fake_script)()
-local function DKLEF_fake_script() -- OutlastHubNormal_2.LocalScript 
+coroutine.wrap(ASDPPUT_fake_script)()
+local function AHZQJ_fake_script() -- OutlastHubNormal_2.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormal_2)
 
 	script:Destroy()
@@ -1625,8 +1626,8 @@ local function DKLEF_fake_script() -- OutlastHubNormal_2.LocalScript
 		end
 	end
 end
-coroutine.wrap(DKLEF_fake_script)()
-local function YIMYKZ_fake_script() -- Frame_2.LocalScript 
+coroutine.wrap(AHZQJ_fake_script)()
+local function GTWRZI_fake_script() -- Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local dragger = {}
@@ -1707,8 +1708,8 @@ local function YIMYKZ_fake_script() -- Frame_2.LocalScript
 	frame.Active = true
 	frame.Draggable = true -- disable old roblox drag (we use custom)
 end
-coroutine.wrap(YIMYKZ_fake_script)()
-local function OXAFRU_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(GTWRZI_fake_script)()
+local function JFJOX_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -1738,8 +1739,8 @@ local function OXAFRU_fake_script() -- Toggle.LocalScript
 		end)
 	
 end
-coroutine.wrap(OXAFRU_fake_script)()
-local function BTTYEP_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(JFJOX_fake_script)()
+local function BGJEUFJ_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local Players = game:GetService("Players")
@@ -1783,8 +1784,8 @@ local function BTTYEP_fake_script() -- TextLabel_2.LocalScript
 	
 	
 end
-coroutine.wrap(BTTYEP_fake_script)()
-local function MCIK_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(BGJEUFJ_fake_script)()
+local function GPEOXMR_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	local Players = game:GetService("Players")
@@ -1885,8 +1886,8 @@ local function MCIK_fake_script() -- TextLabel_3.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(MCIK_fake_script)()
-local function UPHF_fake_script() -- TextLabel_4.LocalScript 
+coroutine.wrap(GPEOXMR_fake_script)()
+local function IFPUGTE_fake_script() -- TextLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_4)
 
 	local Players = game:GetService("Players")
@@ -1952,8 +1953,8 @@ local function UPHF_fake_script() -- TextLabel_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UPHF_fake_script)()
-local function AGXL_fake_script() -- bSliderFrame.mainScript 
+coroutine.wrap(IFPUGTE_fake_script)()
+local function SYKFB_fake_script() -- bSliderFrame.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame)
 
 	local Players = game:GetService("Players")
@@ -2086,8 +2087,8 @@ local function AGXL_fake_script() -- bSliderFrame.mainScript
 	-- Initial display
 	amountValue.Text = tostring(currentSpeed)
 end
-coroutine.wrap(AGXL_fake_script)()
-local function FAYY_fake_script() -- TextLabel_7.LocalScript 
+coroutine.wrap(SYKFB_fake_script)()
+local function AYSE_fake_script() -- TextLabel_7.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_7)
 
 	local RunService = game:GetService("RunService")
@@ -2141,8 +2142,8 @@ local function FAYY_fake_script() -- TextLabel_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FAYY_fake_script)()
-local function ORFGJ_fake_script() -- bSliderFrame_2.mainScript 
+coroutine.wrap(AYSE_fake_script)()
+local function PLXERJC_fake_script() -- bSliderFrame_2.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_2)
 
 	local Players = game:GetService("Players")
@@ -2156,49 +2157,33 @@ local function ORFGJ_fake_script() -- bSliderFrame_2.mainScript
 	local slideFrame = slider:WaitForChild("slideFrame")
 	local amountValue = slider:WaitForChild("amountValue")
 	
-	local MIN_VALUE = 0
-	local MAX_VALUE = 1
+	local MIN_VALUE, MAX_VALUE = 0, 1
 	local currentValue = MIN_VALUE
 	local dragging = false
-	local wipEnabled = false -- will be toggled by button
+	local wipEnabled = false
 	
 	local function updateSlider(pos)
-		if not wipEnabled then return end -- only update if WipButton is enabled
-	
-		-- Update slider UI
+		if not wipEnabled then return end
 		slideFrame:TweenSize(
-			UDim2.new(pos, 0, 1, 0),
+			UDim2.new(pos,0,1,0),
 			Enum.EasingDirection.Out,
 			Enum.EasingStyle.Quad,
 			0.1,
 			true
 		)
-	
-		-- Update current value
-		currentValue = MIN_VALUE + (pos * (MAX_VALUE - MIN_VALUE))
-		currentValue = math.floor(currentValue * 100) / 100 -- round to 2 decimals
+		currentValue = math.floor((MIN_VALUE + pos*(MAX_VALUE-MIN_VALUE))*100)/100
 		amountValue.Text = tostring(currentValue)
-	
-		-- Update the global interval to reflect slider value
 		_G.WeaveInterval = currentValue
 	end
 	
 	local function getInputPosition(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement 
-			or input.UserInputType == Enum.UserInputType.MouseButton1 
-			or input.UserInputType == Enum.UserInputType.Touch then
-			return input.Position.X
-		end
+		return input.Position.X
 	end
 	
-	-- =========================
-	-- Slider input handling
-	-- =========================
 	slider.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
-			-- tap-to-set
-			local pos = math.clamp((getInputPosition(input) - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+			local pos = math.clamp((getInputPosition(input) - slider.AbsolutePosition.X)/slider.AbsoluteSize.X,0,1)
 			updateSlider(pos)
 		end
 	end)
@@ -2211,43 +2196,40 @@ local function ORFGJ_fake_script() -- bSliderFrame_2.mainScript
 	
 	UIS.InputChanged:Connect(function(input)
 		if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
-			local pos = math.clamp((getInputPosition(input) - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+			local pos = math.clamp((getInputPosition(input) - slider.AbsolutePosition.X)/slider.AbsoluteSize.X,0,1)
 			updateSlider(pos)
 		end
 	end)
 	
+	-- =========================
+	-- Global State
+	-- =========================
 	_G.WeaveEnabled = false
 	_G.WeaveInterval = currentValue
 	_G.MicroInterval = 0
 	_G._t = 0
+	
 	local parentRoot = slider.Parent.Parent
 	local wipButton = parentRoot:FindFirstChild("WipButton")
 	
 	if wipButton then
 		wipButton.MouseButton1Click:Connect(function()
 			wipEnabled = not wipEnabled
-			if wipEnabled then
-			        _G.WeaveEnabled = true
-				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
-			else
-				_G.WeaveEnabled = false
-				wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
-			end
+			_G.WeaveEnabled = wipEnabled
+			wipButton.BackgroundColor3 = wipEnabled and Color3.fromRGB(51,255,47) or Color3.fromRGB(255,11,0)
 		end)
 	end
 	
-	
-	
+	-- =========================
+	-- Utility: Get your weave remote
+	-- =========================
 	local function getRemote()
 		local char = LocalPlayer.Character
 		if not char then return end
-	
 		local core = char:FindFirstChild("Core")
 		if not core then return end
-	
 		local comm = core:FindFirstChild("Communicate")
 		if not comm then return end
-	
 		for _, v in pairs(comm:GetChildren()) do
 			if v:IsA("RemoteEvent") then
 				return v
@@ -2255,41 +2237,32 @@ local function ORFGJ_fake_script() -- bSliderFrame_2.mainScript
 		end
 	end
 	
-	task.spawn(function()
-		local last = os.clock()
-	
-		while true do
-			task.wait()
-	
-			if not _G.WeaveEnabled then
-				last = os.clock()
-				_G._t = 0
-				continue
-			end
-	
-			local now = os.clock()
-			local dt = now - last
-			last = now
-	
-			_G._t += dt
-	
-			local interval = math.max(0, _G.WeaveInterval + _G.MicroInterval)
-	
-			if _G._t >= interval then
-				_G._t -= interval
-	
-				local remote = getRemote()
-				if remote then
-					pcall(function()
-						remote:FireServer("Weave", nil, true)
+	-- =========================
+	-- Hook RemoteEvents that fire to your client
+	-- =========================
+	local function hookAllClientRemotes()
+		for _, obj in pairs(workspace:GetDescendants()) do
+			if obj:IsA("RemoteEvent") then
+				pcall(function()
+					obj.OnClientEvent:Connect(function(...)
+						if _G.WeaveEnabled then
+							local remote = getRemote()
+							if remote then
+								pcall(function()
+									remote:FireServer("Weave", nil, true)
+								end)
+							end
+						end
 					end)
-				end
+				end)
 			end
 		end
-	end)
+	end
+	
+	hookAllClientRemotes()
 end
-coroutine.wrap(ORFGJ_fake_script)()
-local function BTHBG_fake_script() -- bSliderFrame_3.mainScript 
+coroutine.wrap(PLXERJC_fake_script)()
+local function MCNG_fake_script() -- bSliderFrame_3.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_3)
 
 	local Players = game:GetService("Players")
@@ -2431,8 +2404,8 @@ local function BTHBG_fake_script() -- bSliderFrame_3.mainScript
 	local initialPos = (currentSpeed - MIN_SPEED) / (MAX_SPEED - MIN_SPEED)
 	updateSlider(initialPos)
 end
-coroutine.wrap(BTHBG_fake_script)()
-local function DDKZWU_fake_script() -- TextLabel_12.LocalScript 
+coroutine.wrap(MCNG_fake_script)()
+local function EZUBVQ_fake_script() -- TextLabel_12.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_12)
 
 	local Players = game:GetService("Players")
@@ -2477,8 +2450,8 @@ local function DDKZWU_fake_script() -- TextLabel_12.LocalScript
 		DestroyCell(child)
 	end)
 end
-coroutine.wrap(DDKZWU_fake_script)()
-local function YYKHWZF_fake_script() -- Tab1Button.LocalScript 
+coroutine.wrap(EZUBVQ_fake_script)()
+local function PMVCGJK_fake_script() -- Tab1Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab1Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2493,8 +2466,8 @@ local function YYKHWZF_fake_script() -- Tab1Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(YYKHWZF_fake_script)()
-local function YCUET_fake_script() -- Tab2Button.LocalScript 
+coroutine.wrap(PMVCGJK_fake_script)()
+local function JALSKE_fake_script() -- Tab2Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab2Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2509,8 +2482,8 @@ local function YCUET_fake_script() -- Tab2Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(YCUET_fake_script)()
-local function CTBN_fake_script() -- Tab4Button.LocalScript 
+coroutine.wrap(JALSKE_fake_script)()
+local function XFHBP_fake_script() -- Tab4Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab4Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2525,8 +2498,8 @@ local function CTBN_fake_script() -- Tab4Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(CTBN_fake_script)()
-local function UPHJE_fake_script() -- bSliderFrame_4.mainScript 
+coroutine.wrap(XFHBP_fake_script)()
+local function SXLOZN_fake_script() -- bSliderFrame_4.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_4)
 
 	local Players = game:GetService("Players")
@@ -2835,8 +2808,8 @@ local function UPHJE_fake_script() -- bSliderFrame_4.mainScript
 		end)
 	end
 end
-coroutine.wrap(UPHJE_fake_script)()
-local function CYJL_fake_script() -- TargetHit.LocalScript 
+coroutine.wrap(SXLOZN_fake_script)()
+local function TFNQYWP_fake_script() -- TargetHit.LocalScript 
 	local script = Instance.new('LocalScript', TargetHit)
 
 	local Players = game:GetService("Players")
@@ -3115,8 +3088,8 @@ local function CYJL_fake_script() -- TargetHit.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CYJL_fake_script)()
-local function SSUJQL_fake_script() -- bSliderFrame_5.mainScript 
+coroutine.wrap(TFNQYWP_fake_script)()
+local function OPUT_fake_script() -- bSliderFrame_5.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_5)
 
 	local UIS = game:GetService("UserInputService")
@@ -3212,8 +3185,8 @@ local function SSUJQL_fake_script() -- bSliderFrame_5.mainScript
 		end)
 	end
 end
-coroutine.wrap(SSUJQL_fake_script)()
-local function YRPO_fake_script() -- bSliderFrame_6.mainScript 
+coroutine.wrap(OPUT_fake_script)()
+local function WQQIN_fake_script() -- bSliderFrame_6.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_6)
 
 	local Players = game:GetService("Players")
@@ -3410,8 +3383,8 @@ local function YRPO_fake_script() -- bSliderFrame_6.mainScript
 		end)
 	end
 end
-coroutine.wrap(YRPO_fake_script)()
-local function QGRTV_fake_script() -- Rejoin.LocalScript 
+coroutine.wrap(WQQIN_fake_script)()
+local function ZEWOQQ_fake_script() -- Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin)
 
 	local button = script.Parent
@@ -3442,8 +3415,8 @@ local function QGRTV_fake_script() -- Rejoin.LocalScript
 	end)
 	
 end
-coroutine.wrap(QGRTV_fake_script)()
-local function WSGGJBJ_fake_script() -- TextLabel_19.LocalScript 
+coroutine.wrap(ZEWOQQ_fake_script)()
+local function TFFOQ_fake_script() -- TextLabel_19.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_19)
 
 	local Toggle = false
@@ -3474,8 +3447,8 @@ local function WSGGJBJ_fake_script() -- TextLabel_19.LocalScript
 	button.MouseButton1Click:Connect(toggleAntiAFK)
 	
 end
-coroutine.wrap(WSGGJBJ_fake_script)()
-local function WNJTJE_fake_script() -- Tab3Button.LocalScript 
+coroutine.wrap(TFFOQ_fake_script)()
+local function UNOF_fake_script() -- Tab3Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab3Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -3490,8 +3463,8 @@ local function WNJTJE_fake_script() -- Tab3Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(WNJTJE_fake_script)()
-local function NADOMFI_fake_script() -- TargetHit_2.LocalScript 
+coroutine.wrap(UNOF_fake_script)()
+local function SJYAKN_fake_script() -- TargetHit_2.LocalScript 
 	local script = Instance.new('LocalScript', TargetHit_2)
 
 	local Players = game:GetService("Players")
@@ -3747,8 +3720,8 @@ local function NADOMFI_fake_script() -- TargetHit_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NADOMFI_fake_script)()
-local function QFXIDHT_fake_script() -- TextLabel_20.LocalScript 
+coroutine.wrap(SJYAKN_fake_script)()
+local function OUFBQ_fake_script() -- TextLabel_20.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_20)
 
 	local Players = game:GetService("Players")
@@ -3828,8 +3801,8 @@ local function QFXIDHT_fake_script() -- TextLabel_20.LocalScript
 		spawn(function() autoResetLoop(player.Character) end)
 	end
 end
-coroutine.wrap(QFXIDHT_fake_script)()
-local function GGAO_fake_script() -- bSliderFrame_7.mainScript 
+coroutine.wrap(OUFBQ_fake_script)()
+local function PGYONSF_fake_script() -- bSliderFrame_7.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_7)
 
 	local Players = game:GetService("Players")
@@ -4092,8 +4065,18 @@ local function GGAO_fake_script() -- bSliderFrame_7.mainScript
 	end
 	
 	-- =========================
-	-- SLIDER (HEALTH THRESHOLD 1-50)
+	-- SLIDER (HEALTH THRESHOLD 1-50) WITH TOUCH SUPPORT
 	-- =========================
+	
+	-- Helper to get input X position (mouse or touch)
+	local function getInputX(input)
+		if input.UserInputType == Enum.UserInputType.Touch then
+			return input.Position.X
+		else
+			return mouse.X
+		end
+	end
+	
 	local function updateSlider(pos)
 		slideFrame:TweenSize(
 			UDim2.new(pos, 0, 1, 0),
@@ -4109,22 +4092,22 @@ local function GGAO_fake_script() -- bSliderFrame_7.mainScript
 	end
 	
 	slider.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
-			local pos = math.clamp((mouse.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+			local pos = math.clamp((getInputX(input) - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
 			updateSlider(pos)
 		end
 	end)
 	
 	slider.InputEnded:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = false
 		end
 	end)
 	
 	UIS.InputChanged:Connect(function(input)
-		if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
-			local pos = math.clamp((mouse.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+		if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+			local pos = math.clamp((getInputX(input) - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
 			updateSlider(pos)
 		end
 	end)
@@ -4133,7 +4116,7 @@ local function GGAO_fake_script() -- bSliderFrame_7.mainScript
 	-- WIP BUTTON WITH SPAWN TELEPORT
 	-- =========================
 	if wipButton then
-		wipButton.MouseButton1Down:Connect(function()
+		wipButton.MouseButton1Click:Connect(function()
 			wipEnabled = not wipEnabled
 			if wipEnabled then
 				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
@@ -4157,4 +4140,4 @@ local function GGAO_fake_script() -- bSliderFrame_7.mainScript
 		end)
 	end
 end
-coroutine.wrap(GGAO_fake_script)()
+coroutine.wrap(PGYONSF_fake_script)()
