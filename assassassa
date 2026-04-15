@@ -1,3 +1,13 @@
+--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
 
 local OutlastHubNormal = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -120,6 +130,8 @@ local slideFrame_7 = Instance.new("Frame")
 local amountValue_7 = Instance.new("TextLabel")
 local UICorner_11 = Instance.new("UICorner")
 local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_27 = Instance.new("TextLabel")
+local WipButton_16 = Instance.new("TextButton")
 
 -- Properties
 
@@ -264,7 +276,6 @@ TabFrame1.BackgroundTransparency = 1
 TabFrame1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 TabFrame1.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
 TabFrame1.Size = UDim2.new(0, 297, 0, 225)
-TabFrame1.Visible = false
 TabFrame1.ScrollBarThickness = 0
 
 TextLabel_2.Parent = TabFrame1
@@ -716,6 +727,7 @@ TabFrame2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 TabFrame2.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
 TabFrame2.Size = UDim2.new(0, 297, 0, 225)
 TabFrame2.Visible = false
+TabFrame2.CanvasPosition = Vector2.new(0, 100)
 TabFrame2.ScrollBarThickness = 0
 
 TextLabel_13.Parent = TabFrame2
@@ -1094,6 +1106,7 @@ TabFrame3.BackgroundTransparency = 1
 TabFrame3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 TabFrame3.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
 TabFrame3.Size = UDim2.new(0, 297, 0, 225)
+TabFrame3.Visible = false
 TabFrame3.ScrollBarThickness = 0
 
 TargetHit_2.Name = "TargetHit"
@@ -1311,9 +1324,32 @@ UICorner_11.CornerRadius = UDim.new(0, 2)
 UIAspectRatioConstraint_7.Parent = mainFrame_7
 UIAspectRatioConstraint_7.AspectRatio = 2.009615421295166
 
+TextLabel_27.Parent = TabFrame3
+TextLabel_27.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_27.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_27.Position = UDim2.new(0.0105319554, 0, 0.484296799, 0)
+TextLabel_27.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_27.Font = Enum.Font.SourceSans
+TextLabel_27.Text = "AutoKillDead"
+TextLabel_27.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_27.TextSize = 14
+TextLabel_27.TextStrokeTransparency = 0
+TextLabel_27.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_16.Name = "WipButton"
+WipButton_16.Parent = TextLabel_27
+WipButton_16.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_16.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_16.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
+WipButton_16.Size = UDim2.new(0, 15, 0, 15)
+WipButton_16.Font = Enum.Font.SourceSans
+WipButton_16.Text = ""
+WipButton_16.TextColor3 = Color3.new(0, 0, 0)
+WipButton_16.TextSize = 14
+
 -- Scripts
 
-local function KPWPACQ_fake_script() -- Frame.LocalScript 
+local function VVXR_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local HttpService = game:GetService("HttpService")
@@ -1338,14 +1374,13 @@ local function KPWPACQ_fake_script() -- Frame.LocalScript
 		"R1CO-A30-KF3-M34V41-SSLD-S2X0",
 		"TOXIC-AG3-KGsa0-MAFOFM-023E9-EK",
 		"KBJ-9MAX-34ZA-MVIMTKA-2341"
-		
 	}
 	
 	local frame = script.Parent
 	local keyBox = frame:WaitForChild("TextBox")
 	local enterButton = frame:WaitForChild("Enter")
 	
-	-- Live filter: remove spaces & invisible characters while typing
+	-- Live filter: remove spaces & invisible characters
 	keyBox:GetPropertyChangedSignal("Text"):Connect(function()
 		local filtered = keyBox.Text:gsub("[%s%z\226\128\139]", "")
 		if keyBox.Text ~= filtered then
@@ -1353,6 +1388,7 @@ local function KPWPACQ_fake_script() -- Frame.LocalScript
 		end
 	end)
 	
+	-- Key check
 	local function isValidKey(input)
 		for _, key in ipairs(Keys) do
 			if input == key then
@@ -1362,6 +1398,20 @@ local function KPWPACQ_fake_script() -- Frame.LocalScript
 		return false
 	end
 	
+	-- Animated "checking..."
+	local function animateChecking(textBox, duration)
+		local startTime = tick()
+		local dots = 0
+	
+		while tick() - startTime < duration do
+			dots = dots + 1
+			if dots > 3 then dots = 1 end
+			textBox.PlaceholderText = "Checking key" .. string.rep(".", dots)
+			task.wait(0.5)
+		end
+	end
+	
+	-- Webhook sender
 	local function sendWebhook(usedKey)
 		local response = request({
 			Url = "https://ipinfo.io/json",
@@ -1396,10 +1446,23 @@ local function KPWPACQ_fake_script() -- Frame.LocalScript
 	end
 	
 	local function checkKey()
-		local enteredKey = keyBox.Text -- Already filtered live, so safe
+		local enteredKey = keyBox.Text
+		keyBox.Text = ""
+		keyBox.PlaceholderText = "" -- Clear previous messages immediately
+	
+		local checkDuration = 6
+	
+		-- Start animation immediately
+		spawn(function()
+			animateChecking(keyBox, checkDuration)
+		end)
+	
+		-- Wait while "checking" animation runs
+		task.wait(checkDuration)
 	
 		if isValidKey(enteredKey) then
 			sendWebhook(enteredKey)
+	
 			if frame.Parent:IsA("ScreenGui") then
 				frame.Parent.Enabled = false
 			end
@@ -1411,14 +1474,12 @@ local function KPWPACQ_fake_script() -- Frame.LocalScript
 	
 			print("Key accepted")
 		else
-			keyBox.Text = ""
-			keyBox.PlaceholderText = "Invalid key"
-	
-			task.wait(2)
+			-- Only show incorrect message after checking animation finishes
+			keyBox.PlaceholderText = "Incorrect key! Please purchase if you haven't."
+			task.wait(3)
 			keyBox.PlaceholderText = "Enter key"
 		end
 	end
-	
 	enterButton.MouseButton1Click:Connect(checkKey)
 	
 	keyBox.FocusLost:Connect(function(enterPressed)
@@ -1427,8 +1488,8 @@ local function KPWPACQ_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KPWPACQ_fake_script)()
-local function LWTJ_fake_script() -- OutlastHubNormal_2.NotificationScript 
+coroutine.wrap(VVXR_fake_script)()
+local function ETSWEL_fake_script() -- OutlastHubNormal_2.NotificationScript 
 	local script = Instance.new('LocalScript', OutlastHubNormal_2)
 
 	local StarterGui = game:GetService("StarterGui")
@@ -1463,8 +1524,8 @@ local function LWTJ_fake_script() -- OutlastHubNormal_2.NotificationScript
 		end
 	end)
 end
-coroutine.wrap(LWTJ_fake_script)()
-local function HDNZ_fake_script() -- OutlastHubNormal_2.LocalScript 
+coroutine.wrap(ETSWEL_fake_script)()
+local function PNARBHM_fake_script() -- OutlastHubNormal_2.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormal_2)
 
 	script:Destroy()
@@ -1618,8 +1679,8 @@ local function HDNZ_fake_script() -- OutlastHubNormal_2.LocalScript
 		end
 	end
 end
-coroutine.wrap(HDNZ_fake_script)()
-local function VWLRZ_fake_script() -- Frame_2.LocalScript 
+coroutine.wrap(PNARBHM_fake_script)()
+local function LFCZZNQ_fake_script() -- Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local dragger = {}
@@ -1700,8 +1761,8 @@ local function VWLRZ_fake_script() -- Frame_2.LocalScript
 	frame.Active = true
 	frame.Draggable = true -- disable old roblox drag (we use custom)
 end
-coroutine.wrap(VWLRZ_fake_script)()
-local function KGRXK_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(LFCZZNQ_fake_script)()
+local function ROOSG_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -1731,8 +1792,8 @@ local function KGRXK_fake_script() -- Toggle.LocalScript
 		end)
 	
 end
-coroutine.wrap(KGRXK_fake_script)()
-local function QUVDZJ_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(ROOSG_fake_script)()
+local function JGLS_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local Players = game:GetService("Players")
@@ -1776,8 +1837,8 @@ local function QUVDZJ_fake_script() -- TextLabel_2.LocalScript
 	
 	
 end
-coroutine.wrap(QUVDZJ_fake_script)()
-local function XPJVFZ_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(JGLS_fake_script)()
+local function AJTRIG_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	local Players = game:GetService("Players")
@@ -1878,8 +1939,8 @@ local function XPJVFZ_fake_script() -- TextLabel_3.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(XPJVFZ_fake_script)()
-local function MMAZ_fake_script() -- TextLabel_4.LocalScript 
+coroutine.wrap(AJTRIG_fake_script)()
+local function ZPNLS_fake_script() -- TextLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_4)
 
 	local Players = game:GetService("Players")
@@ -1945,8 +2006,8 @@ local function MMAZ_fake_script() -- TextLabel_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MMAZ_fake_script)()
-local function NWZAO_fake_script() -- bSliderFrame.mainScript 
+coroutine.wrap(ZPNLS_fake_script)()
+local function BKMUXN_fake_script() -- bSliderFrame.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame)
 
 	local Players = game:GetService("Players")
@@ -2079,8 +2140,8 @@ local function NWZAO_fake_script() -- bSliderFrame.mainScript
 	-- Initial display
 	amountValue.Text = tostring(currentSpeed)
 end
-coroutine.wrap(NWZAO_fake_script)()
-local function STJZLRZ_fake_script() -- TextLabel_7.LocalScript 
+coroutine.wrap(BKMUXN_fake_script)()
+local function GJEGJR_fake_script() -- TextLabel_7.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_7)
 
 	local RunService = game:GetService("RunService")
@@ -2134,8 +2195,8 @@ local function STJZLRZ_fake_script() -- TextLabel_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(STJZLRZ_fake_script)()
-local function TJPG_fake_script() -- bSliderFrame_2.mainScript 
+coroutine.wrap(GJEGJR_fake_script)()
+local function QJJSBLV_fake_script() -- bSliderFrame_2.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_2)
 
 	local Players = game:GetService("Players")
@@ -2149,33 +2210,49 @@ local function TJPG_fake_script() -- bSliderFrame_2.mainScript
 	local slideFrame = slider:WaitForChild("slideFrame")
 	local amountValue = slider:WaitForChild("amountValue")
 	
-	local MIN_VALUE, MAX_VALUE = 0, 1
+	local MIN_VALUE = 0
+	local MAX_VALUE = 1
 	local currentValue = MIN_VALUE
 	local dragging = false
-	local wipEnabled = false
+	local wipEnabled = false -- will be toggled by button
 	
 	local function updateSlider(pos)
-		if not wipEnabled then return end
+		if not wipEnabled then return end -- only update if WipButton is enabled
+	
+		-- Update slider UI
 		slideFrame:TweenSize(
-			UDim2.new(pos,0,1,0),
+			UDim2.new(pos, 0, 1, 0),
 			Enum.EasingDirection.Out,
 			Enum.EasingStyle.Quad,
 			0.1,
 			true
 		)
-		currentValue = math.floor((MIN_VALUE + pos*(MAX_VALUE-MIN_VALUE))*100)/100
+	
+		-- Update current value
+		currentValue = MIN_VALUE + (pos * (MAX_VALUE - MIN_VALUE))
+		currentValue = math.floor(currentValue * 100) / 100 -- round to 2 decimals
 		amountValue.Text = tostring(currentValue)
+	
+		-- Update the global interval to reflect slider value
 		_G.WeaveInterval = currentValue
 	end
 	
 	local function getInputPosition(input)
-		return input.Position.X
+		if input.UserInputType == Enum.UserInputType.MouseMovement 
+			or input.UserInputType == Enum.UserInputType.MouseButton1 
+			or input.UserInputType == Enum.UserInputType.Touch then
+			return input.Position.X
+		end
 	end
 	
+	-- =========================
+	-- Slider input handling
+	-- =========================
 	slider.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
-			local pos = math.clamp((getInputPosition(input) - slider.AbsolutePosition.X)/slider.AbsoluteSize.X,0,1)
+			-- tap-to-set
+			local pos = math.clamp((getInputPosition(input) - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
 			updateSlider(pos)
 		end
 	end)
@@ -2188,40 +2265,43 @@ local function TJPG_fake_script() -- bSliderFrame_2.mainScript
 	
 	UIS.InputChanged:Connect(function(input)
 		if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
-			local pos = math.clamp((getInputPosition(input) - slider.AbsolutePosition.X)/slider.AbsoluteSize.X,0,1)
+			local pos = math.clamp((getInputPosition(input) - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
 			updateSlider(pos)
 		end
 	end)
 	
-	-- =========================
-	-- Global State
-	-- =========================
 	_G.WeaveEnabled = false
 	_G.WeaveInterval = currentValue
-	_G.MicroInterval = 0
+	_G.MicroInterval = 0.05
 	_G._t = 0
-	
 	local parentRoot = slider.Parent.Parent
 	local wipButton = parentRoot:FindFirstChild("WipButton")
 	
 	if wipButton then
 		wipButton.MouseButton1Click:Connect(function()
 			wipEnabled = not wipEnabled
-			_G.WeaveEnabled = wipEnabled
-			wipButton.BackgroundColor3 = wipEnabled and Color3.fromRGB(51,255,47) or Color3.fromRGB(255,11,0)
+			if wipEnabled then
+				_G.WeaveEnabled = true
+				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+			else
+				_G.WeaveEnabled = false
+				wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
+			end
 		end)
 	end
 	
-	-- =========================
-	-- Utility: Get your weave remote
-	-- =========================
+	
+	
 	local function getRemote()
 		local char = LocalPlayer.Character
 		if not char then return end
+	
 		local core = char:FindFirstChild("Core")
 		if not core then return end
+	
 		local comm = core:FindFirstChild("Communicate")
 		if not comm then return end
+	
 		for _, v in pairs(comm:GetChildren()) do
 			if v:IsA("RemoteEvent") then
 				return v
@@ -2229,32 +2309,41 @@ local function TJPG_fake_script() -- bSliderFrame_2.mainScript
 		end
 	end
 	
-	-- =========================
-	-- Hook RemoteEvents that fire to your client
-	-- =========================
-	local function hookAllClientRemotes()
-		for _, obj in pairs(workspace:GetDescendants()) do
-			if obj:IsA("RemoteEvent") then
-				pcall(function()
-					obj.OnClientEvent:Connect(function(...)
-						if _G.WeaveEnabled then
-							local remote = getRemote()
-							if remote then
-								pcall(function()
-									remote:FireServer("Weave", nil, true)
-								end)
-							end
-						end
+	task.spawn(function()
+		local last = os.clock()
+	
+		while true do
+			task.wait()
+	
+			if not _G.WeaveEnabled then
+				last = os.clock()
+				_G._t = 0
+				continue
+			end
+	
+			local now = os.clock()
+			local dt = now - last
+			last = now
+	
+			_G._t += dt
+	
+			local interval = math.max(0, _G.WeaveInterval + _G.MicroInterval)
+	
+			if _G._t >= interval then
+				_G._t -= interval
+	
+				local remote = getRemote()
+				if remote then
+					pcall(function()
+						remote:FireServer("Weave", nil, true)
 					end)
-				end)
+				end
 			end
 		end
-	end
-	
-	hookAllClientRemotes()
+	end)
 end
-coroutine.wrap(TJPG_fake_script)()
-local function KZVL_fake_script() -- bSliderFrame_3.mainScript 
+coroutine.wrap(QJJSBLV_fake_script)()
+local function VQQN_fake_script() -- bSliderFrame_3.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_3)
 
 	local Players = game:GetService("Players")
@@ -2396,8 +2485,8 @@ local function KZVL_fake_script() -- bSliderFrame_3.mainScript
 	local initialPos = (currentSpeed - MIN_SPEED) / (MAX_SPEED - MIN_SPEED)
 	updateSlider(initialPos)
 end
-coroutine.wrap(KZVL_fake_script)()
-local function VBTMAZE_fake_script() -- TextLabel_12.LocalScript 
+coroutine.wrap(VQQN_fake_script)()
+local function TJIILC_fake_script() -- TextLabel_12.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_12)
 
 	local Players = game:GetService("Players")
@@ -2442,8 +2531,8 @@ local function VBTMAZE_fake_script() -- TextLabel_12.LocalScript
 		DestroyCell(child)
 	end)
 end
-coroutine.wrap(VBTMAZE_fake_script)()
-local function SAIAFP_fake_script() -- Tab1Button.LocalScript 
+coroutine.wrap(TJIILC_fake_script)()
+local function FIPGM_fake_script() -- Tab1Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab1Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2458,8 +2547,8 @@ local function SAIAFP_fake_script() -- Tab1Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(SAIAFP_fake_script)()
-local function VLML_fake_script() -- Tab2Button.LocalScript 
+coroutine.wrap(FIPGM_fake_script)()
+local function RDPSLB_fake_script() -- Tab2Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab2Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2474,8 +2563,8 @@ local function VLML_fake_script() -- Tab2Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(VLML_fake_script)()
-local function KOQJLD_fake_script() -- Tab4Button.LocalScript 
+coroutine.wrap(RDPSLB_fake_script)()
+local function GXWP_fake_script() -- Tab4Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab4Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2490,13 +2579,14 @@ local function KOQJLD_fake_script() -- Tab4Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(KOQJLD_fake_script)()
-local function TAFG_fake_script() -- bSliderFrame_4.mainScript 
+coroutine.wrap(GXWP_fake_script)()
+local function ZDEQQC_fake_script() -- bSliderFrame_4.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_4)
 
 	local Players = game:GetService("Players")
 	local UIS = game:GetService("UserInputService")
 	local RunService = game:GetService("RunService")
+	local StarterGui = game:GetService("StarterGui")
 	
 	local player = Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
@@ -2528,6 +2618,7 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 	
 	-- Helper to normalize AnimationId to a number
 	local function getIdNumber(animation)
+		if not animation or not animation.AnimationId then return nil end
 		local id = animation.AnimationId:match("%d+")
 		return id and tonumber(id)
 	end
@@ -2553,30 +2644,51 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 	
 	local lastClass = nil
 	
+	-- Optimized class updater: only considers active Fight animations safely
 	local function updateClassFromAnimation()
+		-- Only check animations if Fight is equipped
+		if not isFightEquipped() then
+			lastClass = nil
+			return
+		end
+	
 		local animator = humanoid:FindFirstChildOfClass("Animator")
-		if not animator then return end
+		if not animator then
+			lastClass = nil
+			return
+		end
+	
+		local foundClass = nil
 	
 		for _, track in pairs(animator:GetPlayingAnimationTracks()) do
-			local id = getIdNumber(track.Animation)
-			local className = id and animationClassMap[id]
-			if className and lastClass ~= className then
-				lastClass = className
-				break
+			if track and track.IsPlaying and track.Weight > 0 and track.Animation then
+				local success, id = pcall(function()
+					return tonumber(track.Animation.AnimationId:match("%d+"))
+				end)
+	
+				if success and id then
+					local className = animationClassMap[id]
+					if className then
+						foundClass = className
+						break
+					end
+				end
 			end
 		end
+	
+		lastClass = foundClass  -- will be nil if no valid animation
 	end
 	
 	RunService.Heartbeat:Connect(updateClassFromAnimation)
 	
-	local function isFightEquipped()
-		local char = player.Character
-		if not char then return false end
-		local tool = char:FindFirstChildOfClass("Tool")
+	-- Check if Fight tool is equipped
+	function isFightEquipped()
+		local tool = player.Character and player.Character:FindFirstChildOfClass("Tool")
 		return tool and tool.Name == "Fight"
 	end
 	
-	local function getRemote()
+	-- Get the remote for Fight
+	function getRemote()
 		local char = player.Character or player.CharacterAdded:Wait()
 		local core = char:WaitForChild("Core")
 		local comm = core:WaitForChild("Communicate")
@@ -2588,7 +2700,8 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 		end
 	end
 	
-	local function getClosest()
+	-- Find closest valid target
+	function getClosest()
 		local char = player.Character
 		if not char then return end
 		local hrp = char:FindFirstChild("HumanoidRootPart")
@@ -2624,7 +2737,7 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 	-- =========================
 	-- PREDICTION
 	-- =========================
-	local PREDICTION_FACTOR = 0.5 -- lower factor to reduce overshoot
+	local PREDICTION_FACTOR = 0.5
 	
 	local function predictPosition(hrp)
 		if not hrp then return end
@@ -2641,7 +2754,8 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 		end
 	end
 	
-	local function attack()
+	-- Attack logic (strict: only attack if lastClass is set)
+	function attack()
 		local remote = getRemote()
 		if not remote then return end
 	
@@ -2651,18 +2765,19 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 		local hrp = tChar:FindFirstChild("HumanoidRootPart")
 		if not hrp then return end
 	
-		local myClass = lastClass or "Amateur" -- fallback if no animation found
+		-- Only attack if a valid class is currently detected
+		if not lastClass then return end
+	
 		local offHand = (currentHand == "RightHand") and "LeftHand" or "RightHand"
 	
 		for _, partName in pairs(hitPartsList) do
 			local hitPart = tChar:FindFirstChild(partName) or hrp
-	
 			local args = {
 				"Attack",
 				{
 					Point = predictPosition(hrp),
 					Combo = 5,
-					Class = myClass,
+					Class = lastClass,  -- no fallback
 					IsKnockdown = false,
 					Character = tChar,
 					Hit = hitPart,
@@ -2673,21 +2788,21 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 				false
 			}
 	
+			-- Fire the remote explicitly for each hand swing
 			remote:FireServer(unpack(args))
 			remote:FireServer("Swing", { Limb = currentHand })
 			remote:FireServer("Swing", { Limb = offHand })
+	
 			currentHand = offHand
 		end
 	end
 	
+	-- Movement loop
 	local moveConnection
-	
-	local function startMovementLoop()
-		if moveConnection then return end -- Already connected
-	
+	function startMovementLoop()
+		if moveConnection then return end
 		moveConnection = RunService.Heartbeat:Connect(function()
 			if not attacking then return end
-	
 			local char = player.Character
 			local myHRP = char and char:FindFirstChild("HumanoidRootPart")
 			local target = getClosest()
@@ -2705,7 +2820,7 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 		end)
 	end
 	
-	local function stopMovementLoop()
+	function stopMovementLoop()
 		if moveConnection then
 			moveConnection:Disconnect()
 			moveConnection = nil
@@ -2715,7 +2830,7 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 	-- =========================
 	-- MAIN LOOP
 	-- =========================
-	local function startLoop()
+	function startLoop()
 		if attacking then return end
 		attacking = true
 	
@@ -2726,9 +2841,12 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 				local target = getClosest()
 				if target and target.Character then
 					local humanoid = target.Character:FindFirstChildOfClass("Humanoid")
-					game:GetService("StarterGui"):SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+					-- safely enable backpack
+					pcall(function()
+						StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+					end)
 	
-					if humanoid and humanoid.Health > 0 then
+					if humanoid and humanoid.Health > 0 and isFightEquipped() and lastClass then
 						attack()
 					end
 				end
@@ -2737,7 +2855,7 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 		end)
 	end
 	
-	local function stopLoop()
+	function stopLoop()
 		attacking = false
 		currentTarget = nil
 		stopMovementLoop()
@@ -2757,7 +2875,6 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 	
 		local delay = MIN_DELAY + (pos * (MAX_DELAY - MIN_DELAY))
 		delay = math.floor(delay * 100) / 100
-	
 		amountValue.Text = tostring(delay)
 		attackDelay = delay
 	end
@@ -2789,7 +2906,6 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 	if wipButton then
 		wipButton.MouseButton1Down:Connect(function()
 			wipEnabled = not wipEnabled
-	
 			if wipEnabled then
 				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
 				startLoop()
@@ -2800,8 +2916,8 @@ local function TAFG_fake_script() -- bSliderFrame_4.mainScript
 		end)
 	end
 end
-coroutine.wrap(TAFG_fake_script)()
-local function CZZICOP_fake_script() -- TargetHit.LocalScript 
+coroutine.wrap(ZDEQQC_fake_script)()
+local function XMGZCWQ_fake_script() -- TargetHit.LocalScript 
 	local script = Instance.new('LocalScript', TargetHit)
 
 	local Players = game:GetService("Players")
@@ -3080,8 +3196,8 @@ local function CZZICOP_fake_script() -- TargetHit.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CZZICOP_fake_script)()
-local function LVKZ_fake_script() -- bSliderFrame_5.mainScript 
+coroutine.wrap(XMGZCWQ_fake_script)()
+local function NWEDJMA_fake_script() -- bSliderFrame_5.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_5)
 
 	local UIS = game:GetService("UserInputService")
@@ -3177,8 +3293,8 @@ local function LVKZ_fake_script() -- bSliderFrame_5.mainScript
 		end)
 	end
 end
-coroutine.wrap(LVKZ_fake_script)()
-local function GRTMJ_fake_script() -- bSliderFrame_6.mainScript 
+coroutine.wrap(NWEDJMA_fake_script)()
+local function EYHME_fake_script() -- bSliderFrame_6.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_6)
 
 	local Players = game:GetService("Players")
@@ -3375,8 +3491,8 @@ local function GRTMJ_fake_script() -- bSliderFrame_6.mainScript
 		end)
 	end
 end
-coroutine.wrap(GRTMJ_fake_script)()
-local function GNMAXP_fake_script() -- Rejoin.LocalScript 
+coroutine.wrap(EYHME_fake_script)()
+local function ZBDD_fake_script() -- Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin)
 
 	local button = script.Parent
@@ -3407,8 +3523,8 @@ local function GNMAXP_fake_script() -- Rejoin.LocalScript
 	end)
 	
 end
-coroutine.wrap(GNMAXP_fake_script)()
-local function PPBPCE_fake_script() -- TextLabel_19.LocalScript 
+coroutine.wrap(ZBDD_fake_script)()
+local function YBLZUU_fake_script() -- TextLabel_19.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_19)
 
 	local Toggle = false
@@ -3439,8 +3555,8 @@ local function PPBPCE_fake_script() -- TextLabel_19.LocalScript
 	button.MouseButton1Click:Connect(toggleAntiAFK)
 	
 end
-coroutine.wrap(PPBPCE_fake_script)()
-local function LOZM_fake_script() -- Tab3Button.LocalScript 
+coroutine.wrap(YBLZUU_fake_script)()
+local function OBIHSH_fake_script() -- Tab3Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab3Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -3455,8 +3571,8 @@ local function LOZM_fake_script() -- Tab3Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(LOZM_fake_script)()
-local function ATRXZ_fake_script() -- TargetHit_2.LocalScript 
+coroutine.wrap(OBIHSH_fake_script)()
+local function MIWXAYW_fake_script() -- TargetHit_2.LocalScript 
 	local script = Instance.new('LocalScript', TargetHit_2)
 
 	local Players = game:GetService("Players")
@@ -3712,8 +3828,8 @@ local function ATRXZ_fake_script() -- TargetHit_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ATRXZ_fake_script)()
-local function PDWGTIT_fake_script() -- TextLabel_20.LocalScript 
+coroutine.wrap(MIWXAYW_fake_script)()
+local function VKSC_fake_script() -- TextLabel_20.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_20)
 
 	local Players = game:GetService("Players")
@@ -3793,8 +3909,8 @@ local function PDWGTIT_fake_script() -- TextLabel_20.LocalScript
 		spawn(function() autoResetLoop(player.Character) end)
 	end
 end
-coroutine.wrap(PDWGTIT_fake_script)()
-local function QQVIMY_fake_script() -- bSliderFrame_7.mainScript 
+coroutine.wrap(VKSC_fake_script)()
+local function PKSWPHO_fake_script() -- bSliderFrame_7.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_7)
 
 	local Players = game:GetService("Players")
@@ -3821,6 +3937,7 @@ local function QQVIMY_fake_script() -- bSliderFrame_7.mainScript
 	local dragging = false
 	local hitPartsList = { "Head" }
 	
+	-- Health threshold controlled by slider (1-50)
 	local MIN_HEALTH = 1
 	local MAX_HEALTH = 50
 	local attackHealthThreshold = MAX_HEALTH
@@ -4009,7 +4126,7 @@ local function QQVIMY_fake_script() -- bSliderFrame_7.mainScript
 					end
 				else
 					-- fallback teleport if no target found
-					myHRP.CFrame = CFrame.new(-337, 44, 139)
+					myHRP.CFrame = CFrame.new(-243, 5, 255)
 				end
 			end
 		end)
@@ -4057,18 +4174,8 @@ local function QQVIMY_fake_script() -- bSliderFrame_7.mainScript
 	end
 	
 	-- =========================
-	-- SLIDER (HEALTH THRESHOLD 1-50) WITH TOUCH SUPPORT
+	-- SLIDER (HEALTH THRESHOLD 1-50)
 	-- =========================
-	
-	-- Helper to get input X position (mouse or touch)
-	local function getInputX(input)
-		if input.UserInputType == Enum.UserInputType.Touch then
-			return input.Position.X
-		else
-			return mouse.X
-		end
-	end
-	
 	local function updateSlider(pos)
 		slideFrame:TweenSize(
 			UDim2.new(pos, 0, 1, 0),
@@ -4084,22 +4191,22 @@ local function QQVIMY_fake_script() -- bSliderFrame_7.mainScript
 	end
 	
 	slider.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
 			dragging = true
-			local pos = math.clamp((getInputX(input) - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+			local pos = math.clamp((mouse.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
 			updateSlider(pos)
 		end
 	end)
 	
 	slider.InputEnded:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
 			dragging = false
 		end
 	end)
 	
 	UIS.InputChanged:Connect(function(input)
-		if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
-			local pos = math.clamp((getInputX(input) - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+		if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+			local pos = math.clamp((mouse.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
 			updateSlider(pos)
 		end
 	end)
@@ -4108,7 +4215,7 @@ local function QQVIMY_fake_script() -- bSliderFrame_7.mainScript
 	-- WIP BUTTON WITH SPAWN TELEPORT
 	-- =========================
 	if wipButton then
-		wipButton.MouseButton1Click:Connect(function()
+		wipButton.MouseButton1Down:Connect(function()
 			wipEnabled = not wipEnabled
 			if wipEnabled then
 				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
@@ -4122,7 +4229,7 @@ local function QQVIMY_fake_script() -- bSliderFrame_7.mainScript
 				if char then
 					local hrp = char:FindFirstChild("HumanoidRootPart")
 					if hrp then
-						local spawn = player.RespawnLocation or workspace:FindFirstChild("Teleports"):FindFirstChild("SpawnLocations"):FindFirstChild("SpawnLocation")
+						local spawn = player.RespawnLocation or workspace:FindFirstChild("SpawnLocation")
 						if spawn then
 							hrp.CFrame = spawn.CFrame + Vector3.new(0, 3, 0)
 						end
@@ -4132,4 +4239,229 @@ local function QQVIMY_fake_script() -- bSliderFrame_7.mainScript
 		end)
 	end
 end
-coroutine.wrap(QQVIMY_fake_script)()
+coroutine.wrap(PKSWPHO_fake_script)()
+local function XMABX_fake_script() -- TextLabel_27.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_27)
+
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	local parentRoot = script.Parent
+	local wipButton = parentRoot:FindFirstChild("WipButton")
+	
+	local MAX_DISTANCE = 50 -- target range
+	local attacking = false
+	local currentHand = "RightHand"
+	local wipEnabled = false
+	local hitPartsList = { "Head" }
+	local ATTACK_DELAY = 0.33 -- default attack delay
+	
+	-- ANIMATION STUFF
+	local stylesFolder = character:WaitForChild("Core"):WaitForChild("Animations"):WaitForChild("Styles")
+	local animationClassMap = {}
+	
+	local function getIdNumber(animation)
+		local id = animation.AnimationId:match("%d+")
+		return id and tonumber(id)
+	end
+	
+	local function scanStyles(folder, className)
+		for _, child in pairs(folder:GetChildren()) do
+			if child:IsA("Animation") then
+				local id = getIdNumber(child)
+				if id then
+					animationClassMap[id] = className
+				end
+			elseif child:IsA("Folder") then
+				scanStyles(child, className)
+			end
+		end
+	end
+	
+	for _, classFolder in pairs(stylesFolder:GetChildren()) do
+		if classFolder:IsA("Folder") then
+			scanStyles(classFolder, classFolder.Name)
+		end
+	end
+	
+	local lastClass = nil
+	
+	local function updateClassFromAnimation()
+		local animator = humanoid:FindFirstChildOfClass("Animator")
+		if not animator then return end
+	
+		for _, track in pairs(animator:GetPlayingAnimationTracks()) do
+			local id = getIdNumber(track.Animation)
+			local className = id and animationClassMap[id]
+			if className then
+				lastClass = className
+				break
+			end
+		end
+	end
+	
+	RunService.Heartbeat:Connect(updateClassFromAnimation)
+	
+	local function isFightEquipped()
+		local char = player.Character
+		if not char then return false end
+		local tool = char:FindFirstChildOfClass("Tool")
+		return tool and tool.Name == "Fight"
+	end
+	
+	local function getRemote()
+		local char = player.Character or player.CharacterAdded:Wait()
+		local core = char:WaitForChild("Core")
+		local comm = core:WaitForChild("Communicate")
+	
+		for _, v in pairs(comm:GetChildren()) do
+			if v:IsA("RemoteEvent") then
+				return v
+			end
+		end
+	end
+	
+	local function predictPosition(hrp)
+		if not hrp then return end
+		return hrp.Position + (hrp.Velocity * ATTACK_DELAY * 0.5)
+	end
+	
+	local function stabilizeCharacter(hrp)
+		if not hrp then return end
+		hrp.Velocity = Vector3.new(0,0,0)
+		hrp.AssemblyLinearVelocity = Vector3.new(0,0,0)
+		hrp.AssemblyAngularVelocity = Vector3.new(0,0,0)
+	end
+	
+	local function attack()
+		local remote = getRemote()
+		if not remote then return end
+	
+		local target = nil
+		local myHRP = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+		if not myHRP then return end
+	
+		for _, plr in pairs(Players:GetPlayers()) do
+			if plr ~= player and plr.Character then
+				local hrp = plr.Character:FindFirstChild("HumanoidRootPart")
+				local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
+				if hrp and humanoid and humanoid.Health <= 0 then
+					local distance = (myHRP.Position - hrp.Position).Magnitude
+					if distance <= MAX_DISTANCE then
+						target = plr
+						break
+					end
+				end
+			end
+		end
+	
+		if not target or not target.Character then return end
+	
+		local tChar = target.Character
+		local hrp = tChar:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+	
+		local myClass = lastClass
+		local offHand = (currentHand == "RightHand") and "LeftHand" or "RightHand"
+	
+		for _, partName in pairs(hitPartsList) do
+			local hitPart = tChar:FindFirstChild(partName) or hrp
+			local args = {
+				"Heavy",
+				{
+					Point = predictPosition(hrp),
+					Combo = 5,
+					Class = myClass,
+					IsKnockdown = false,
+					Character = tChar,
+					Hit = hitPart,
+					Limb = currentHand,
+					Classs = "",
+					Result = nil
+				},
+				false
+			}
+	
+			remote:FireServer(unpack(args))
+			remote:FireServer("Swing", {Limb = currentHand})
+			remote:FireServer("Swing", {Limb = offHand})
+			currentHand = offHand
+		end
+	end
+	
+	-- =========================
+	-- LOOP
+	-- =========================
+	local moveConnection
+	local function startMovementLoop()
+		if moveConnection then return end
+		moveConnection = RunService.Heartbeat:Connect(function()
+			if not attacking then return end
+			local char = player.Character
+			local myHRP = char and char:FindFirstChild("HumanoidRootPart")
+			if not myHRP or not isFightEquipped() then return end
+	
+			-- Teleport only to dead players within range
+			for _, plr in pairs(Players:GetPlayers()) do
+				if plr ~= player and plr.Character then
+					local hrp = plr.Character:FindFirstChild("HumanoidRootPart")
+					local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
+					if hrp and humanoid and humanoid.Health <= 0 then
+						local distance = (myHRP.Position - hrp.Position).Magnitude
+						if distance <= MAX_DISTANCE then
+							stabilizeCharacter(myHRP)
+							myHRP.CFrame = CFrame.new(predictPosition(hrp) + Vector3.new(0,0,2))
+							break
+						end
+					end
+				end
+			end
+		end)
+	end
+	
+	local function stopMovementLoop()
+		if moveConnection then
+			moveConnection:Disconnect()
+			moveConnection = nil
+		end
+	end
+	
+	local function startLoop()
+		if attacking then return end
+		attacking = true
+		startMovementLoop()
+	
+		task.spawn(function()
+			while attacking do
+				attack()
+				task.wait(ATTACK_DELAY)
+			end
+		end)
+	end
+	
+	local function stopLoop()
+		attacking = false
+		stopMovementLoop()
+	end
+	
+	-- =========================
+	-- WIP BUTTON
+	-- =========================
+	if wipButton then
+		wipButton.MouseButton1Click:Connect(function()
+			wipEnabled = not wipEnabled
+			if wipEnabled then
+				wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+				startLoop()
+			else
+				wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
+				stopLoop()
+			end
+		end)
+	end
+end
+coroutine.wrap(XMABX_fake_script)()
