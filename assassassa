@@ -1416,7 +1416,7 @@ WipButton_17.TextSize = 14
 
 -- Scripts
 
-local function AMPNXA_fake_script() -- Frame.LocalScript 
+local function HFGDPRZ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local HttpService = game:GetService("HttpService")
@@ -1571,8 +1571,8 @@ local function AMPNXA_fake_script() -- Frame.LocalScript
 		script:Destroy()
 	end)
 end
-coroutine.wrap(AMPNXA_fake_script)()
-local function OJCWX_fake_script() -- OutlastHubNormal_2.NotificationScript 
+coroutine.wrap(HFGDPRZ_fake_script)()
+local function OPWAMO_fake_script() -- OutlastHubNormal_2.NotificationScript 
 	local script = Instance.new('LocalScript', OutlastHubNormal_2)
 
 	local StarterGui = game:GetService("StarterGui")
@@ -1607,8 +1607,8 @@ local function OJCWX_fake_script() -- OutlastHubNormal_2.NotificationScript
 		end
 	end)
 end
-coroutine.wrap(OJCWX_fake_script)()
-local function GGCQ_fake_script() -- Frame_2.LocalScript 
+coroutine.wrap(OPWAMO_fake_script)()
+local function BBPXP_fake_script() -- Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local dragger = {}
@@ -1689,8 +1689,8 @@ local function GGCQ_fake_script() -- Frame_2.LocalScript
 	frame.Active = true
 	frame.Draggable = true -- disable old roblox drag (we use custom)
 end
-coroutine.wrap(GGCQ_fake_script)()
-local function LZRW_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(BBPXP_fake_script)()
+local function GDHDVD_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -1720,8 +1720,8 @@ local function LZRW_fake_script() -- Toggle.LocalScript
 		end)
 	
 end
-coroutine.wrap(LZRW_fake_script)()
-local function ZYVXWBO_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(GDHDVD_fake_script)()
+local function RBEXKJ_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	local Players = game:GetService("Players")
@@ -1765,8 +1765,8 @@ local function ZYVXWBO_fake_script() -- TextLabel_3.LocalScript
 	
 	
 end
-coroutine.wrap(ZYVXWBO_fake_script)()
-local function PARF_fake_script() -- TextLabel_4.LocalScript 
+coroutine.wrap(RBEXKJ_fake_script)()
+local function NZCOOFY_fake_script() -- TextLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_4)
 
 	local Players = game:GetService("Players")
@@ -1867,8 +1867,8 @@ local function PARF_fake_script() -- TextLabel_4.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(PARF_fake_script)()
-local function JXEKN_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(NZCOOFY_fake_script)()
+local function EUUFXJ_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local Players = game:GetService("Players")
@@ -1934,8 +1934,8 @@ local function JXEKN_fake_script() -- TextLabel_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JXEKN_fake_script)()
-local function SFHWR_fake_script() -- bSliderFrame.mainScript 
+coroutine.wrap(EUUFXJ_fake_script)()
+local function KXNN_fake_script() -- bSliderFrame.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame)
 
 	local Players = game:GetService("Players")
@@ -2068,8 +2068,8 @@ local function SFHWR_fake_script() -- bSliderFrame.mainScript
 	-- Initial display
 	amountValue.Text = tostring(currentSpeed)
 end
-coroutine.wrap(SFHWR_fake_script)()
-local function WYJPGT_fake_script() -- TextLabel_8.LocalScript 
+coroutine.wrap(KXNN_fake_script)()
+local function MCMTY_fake_script() -- TextLabel_8.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_8)
 
 	local RunService = game:GetService("RunService")
@@ -2123,8 +2123,8 @@ local function WYJPGT_fake_script() -- TextLabel_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WYJPGT_fake_script)()
-local function VHQL_fake_script() -- bSliderFrame_2.mainScript 
+coroutine.wrap(MCMTY_fake_script)()
+local function PQRKG_fake_script() -- bSliderFrame_2.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_2)
 
 	local Players = game:GetService("Players")
@@ -2270,8 +2270,8 @@ local function VHQL_fake_script() -- bSliderFrame_2.mainScript
 		end
 	end)
 end
-coroutine.wrap(VHQL_fake_script)()
-local function ORVGD_fake_script() -- bSliderFrame_3.mainScript 
+coroutine.wrap(PQRKG_fake_script)()
+local function WAOXNKQ_fake_script() -- bSliderFrame_3.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_3)
 
 	local Players = game:GetService("Players")
@@ -2413,8 +2413,8 @@ local function ORVGD_fake_script() -- bSliderFrame_3.mainScript
 	local initialPos = (currentSpeed - MIN_SPEED) / (MAX_SPEED - MIN_SPEED)
 	updateSlider(initialPos)
 end
-coroutine.wrap(ORVGD_fake_script)()
-local function LMIQZYL_fake_script() -- TextLabel_13.LocalScript 
+coroutine.wrap(WAOXNKQ_fake_script)()
+local function FKHY_fake_script() -- TextLabel_13.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_13)
 
 	local Players = game:GetService("Players")
@@ -2459,8 +2459,8 @@ local function LMIQZYL_fake_script() -- TextLabel_13.LocalScript
 		DestroyCell(child)
 	end)
 end
-coroutine.wrap(LMIQZYL_fake_script)()
-local function VJMQIH_fake_script() -- Tab1Button.LocalScript 
+coroutine.wrap(FKHY_fake_script)()
+local function ATSPQBQ_fake_script() -- Tab1Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab1Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2475,8 +2475,8 @@ local function VJMQIH_fake_script() -- Tab1Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(VJMQIH_fake_script)()
-local function PLJDES_fake_script() -- Tab2Button.LocalScript 
+coroutine.wrap(ATSPQBQ_fake_script)()
+local function UBJSGTJ_fake_script() -- Tab2Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab2Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2491,8 +2491,8 @@ local function PLJDES_fake_script() -- Tab2Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(PLJDES_fake_script)()
-local function KBUQ_fake_script() -- Tab4Button.LocalScript 
+coroutine.wrap(UBJSGTJ_fake_script)()
+local function EFCP_fake_script() -- Tab4Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab4Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2507,8 +2507,8 @@ local function KBUQ_fake_script() -- Tab4Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(KBUQ_fake_script)()
-local function FLDBPU_fake_script() -- bSliderFrame_4.mainScript 
+coroutine.wrap(EFCP_fake_script)()
+local function AYMBZBI_fake_script() -- bSliderFrame_4.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_4)
 
 	local Players = game:GetService("Players")
@@ -2817,8 +2817,8 @@ local function FLDBPU_fake_script() -- bSliderFrame_4.mainScript
 		end)
 	end
 end
-coroutine.wrap(FLDBPU_fake_script)()
-local function WRFZIFU_fake_script() -- bSliderFrame_5.mainScript 
+coroutine.wrap(AYMBZBI_fake_script)()
+local function MHTRE_fake_script() -- bSliderFrame_5.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_5)
 
 	local UIS = game:GetService("UserInputService")
@@ -2914,8 +2914,8 @@ local function WRFZIFU_fake_script() -- bSliderFrame_5.mainScript
 		end)
 	end
 end
-coroutine.wrap(WRFZIFU_fake_script)()
-local function ZBIFEQQ_fake_script() -- bSliderFrame_6.mainScript 
+coroutine.wrap(MHTRE_fake_script)()
+local function BHDVVKY_fake_script() -- bSliderFrame_6.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_6)
 
 	local Players = game:GetService("Players")
@@ -3112,8 +3112,8 @@ local function ZBIFEQQ_fake_script() -- bSliderFrame_6.mainScript
 		end)
 	end
 end
-coroutine.wrap(ZBIFEQQ_fake_script)()
-local function EIKID_fake_script() -- Rejoin.LocalScript 
+coroutine.wrap(BHDVVKY_fake_script)()
+local function LZTCSTT_fake_script() -- Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin)
 
 	local button = script.Parent
@@ -3144,8 +3144,8 @@ local function EIKID_fake_script() -- Rejoin.LocalScript
 	end)
 	
 end
-coroutine.wrap(EIKID_fake_script)()
-local function UOHYUBN_fake_script() -- TextLabel_20.LocalScript 
+coroutine.wrap(LZTCSTT_fake_script)()
+local function KGFTDD_fake_script() -- TextLabel_20.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_20)
 
 	local Toggle = false
@@ -3176,8 +3176,8 @@ local function UOHYUBN_fake_script() -- TextLabel_20.LocalScript
 	button.MouseButton1Click:Connect(toggleAntiAFK)
 	
 end
-coroutine.wrap(UOHYUBN_fake_script)()
-local function MYJDPX_fake_script() -- Tab3Button.LocalScript 
+coroutine.wrap(KGFTDD_fake_script)()
+local function ISIKIK_fake_script() -- Tab3Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab3Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -3192,8 +3192,8 @@ local function MYJDPX_fake_script() -- Tab3Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(MYJDPX_fake_script)()
-local function WUKGGE_fake_script() -- TargetHit.LocalScript 
+coroutine.wrap(ISIKIK_fake_script)()
+local function INFJLZ_fake_script() -- TargetHit.LocalScript 
 	local script = Instance.new('LocalScript', TargetHit)
 
 	local Players = game:GetService("Players")
@@ -3449,27 +3449,33 @@ local function WUKGGE_fake_script() -- TargetHit.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WUKGGE_fake_script)()
-local function VPTPKQ_fake_script() -- TextLabel_21.LocalScript 
+coroutine.wrap(INFJLZ_fake_script)()
+local function KTMCJVA_fake_script() -- TextLabel_21.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_21)
 
 	local Players = game:GetService("Players")
 	local player = Players.LocalPlayer
+	local gui = script.Parent
 	
 	local padPositions = {
 		Pad1 = Vector3.new(-83, 5, -5),
 		Pad2 = Vector3.new(-74, 5, -5),
 	}
 	
-	-- Setup buttons (pads + autoreset)
-	local buttons = {"Pad1", "Pad2", "AutoReset"}
-	for _, buttonName in ipairs(buttons) do
-		local button = script.Parent:FindFirstChild(buttonName)
-		if not button then continue end
+	-- Cache buttons
+	local buttons = {
+		Pad1 = gui:WaitForChild("Pad1"),
+		Pad2 = gui:WaitForChild("Pad2"),
+		AutoReset = gui:WaitForChild("AutoReset")
+	}
 	
+	-- Setup buttons
+	for name, button in pairs(buttons) do
 		if button:GetAttribute("Active") == nil then
 			button:SetAttribute("Active", false)
 		end
+	
+		button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	
 		button.MouseButton1Click:Connect(function()
 			local active = not button:GetAttribute("Active")
@@ -3478,10 +3484,10 @@ local function VPTPKQ_fake_script() -- TextLabel_21.LocalScript
 		end)
 	end
 	
-	-- Function to get the first active pad
+	-- Get active pad
 	local function getActivePadPosition()
 		for padName, pos in pairs(padPositions) do
-			local button = script.Parent:FindFirstChild(padName)
+			local button = buttons[padName]
 			if button and button:GetAttribute("Active") then
 				return pos
 			end
@@ -3492,8 +3498,9 @@ local function VPTPKQ_fake_script() -- TextLabel_21.LocalScript
 	-- Teleport loop
 	local function teleportLoop(char)
 		local hrp = char:WaitForChild("HumanoidRootPart")
+	
 		while char.Parent do
-			wait() -- adjust speed if needed
+			task.wait()
 			local targetPos = getActivePadPosition()
 			if targetPos then
 				hrp.CFrame = CFrame.new(targetPos)
@@ -3501,37 +3508,43 @@ local function VPTPKQ_fake_script() -- TextLabel_21.LocalScript
 		end
 	end
 	
-	-- Auto-reset loop (PvP only, after teleporting)
+	-- Auto-reset loop
 	local function autoResetLoop(char)
 		local humanoid = char:WaitForChild("Humanoid")
 		local playerFolder = workspace:WaitForChild("Live"):WaitForChild(player.Name)
 		local pvpValue = playerFolder:WaitForChild("PVP")
 	
 		while humanoid.Parent do
-			local autoresetButton = script.Parent:FindFirstChild("AutoReset")
-			if autoresetButton and autoresetButton:GetAttribute("Active") and pvpValue.Value then
-				wait(0.5)  -- Wait before reset, ensures teleport can happen first
+			local button = buttons.AutoReset
+	
+			if button:GetAttribute("Active") and pvpValue.Value then
+				task.wait(0.5)
 				humanoid.Health = 0
 			else
-				wait(1)
+				task.wait(1)
 			end
 		end
 	end
 	
-	-- Start loops on respawn
-	player.CharacterAdded:Connect(function(char)
-		spawn(function() teleportLoop(char) end)
-		spawn(function() autoResetLoop(char) end)
-	end)
+	-- Character added
+	local function onCharacter(char)
+		task.spawn(function()
+			teleportLoop(char)
+		end)
 	
-	-- Start loops if already spawned
+		task.spawn(function()
+			autoResetLoop(char)
+		end)
+	end
+	
+	player.CharacterAdded:Connect(onCharacter)
+	
 	if player.Character then
-		spawn(function() teleportLoop(player.Character) end)
-		spawn(function() autoResetLoop(player.Character) end)
+		onCharacter(player.Character)
 	end
 end
-coroutine.wrap(VPTPKQ_fake_script)()
-local function MACZWO_fake_script() -- bSliderFrame_7.mainScript 
+coroutine.wrap(KTMCJVA_fake_script)()
+local function RLKIOQ_fake_script() -- bSliderFrame_7.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_7)
 
 	local Players = game:GetService("Players")
@@ -3860,8 +3873,8 @@ local function MACZWO_fake_script() -- bSliderFrame_7.mainScript
 		end)
 	end
 end
-coroutine.wrap(MACZWO_fake_script)()
-local function ENIL_fake_script() -- TextLabel_28.LocalScript 
+coroutine.wrap(RLKIOQ_fake_script)()
+local function JEME_fake_script() -- TextLabel_28.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_28)
 
 	local Players = game:GetService("Players")
@@ -4090,8 +4103,8 @@ local function ENIL_fake_script() -- TextLabel_28.LocalScript
 		end)
 	end
 end
-coroutine.wrap(ENIL_fake_script)()
-local function AHUIU_fake_script() -- TextLabel_29.LocalScript 
+coroutine.wrap(JEME_fake_script)()
+local function NTAYPV_fake_script() -- TextLabel_29.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_29)
 
 	
@@ -4175,8 +4188,8 @@ local function AHUIU_fake_script() -- TextLabel_29.LocalScript
 	button.MouseButton1Click:Connect(toggleButton)
 	button.TouchTap:Connect(toggleButton)
 end
-coroutine.wrap(AHUIU_fake_script)()
-local function LJZH_fake_script() -- TextLabel_30.mainScript 
+coroutine.wrap(NTAYPV_fake_script)()
+local function LOJPX_fake_script() -- TextLabel_30.mainScript 
 	local script = Instance.new('LocalScript', TextLabel_30)
 
 	local Players = game:GetService("Players")
@@ -4275,4 +4288,4 @@ local function LJZH_fake_script() -- TextLabel_30.mainScript
 		end
 	end)
 end
-coroutine.wrap(LJZH_fake_script)()
+coroutine.wrap(LOJPX_fake_script)()
