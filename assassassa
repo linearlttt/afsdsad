@@ -1359,7 +1359,6 @@ TabFrame3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 TabFrame3.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
 TabFrame3.Size = UDim2.new(0, 297, 0, 225)
 TabFrame3.Visible = false
-TabFrame3.CanvasPosition = Vector2.new(0, 109)
 TabFrame3.ScrollBarThickness = 0
 
 TargetHit.Name = "TargetHit"
@@ -1722,173 +1721,7 @@ WipButton_24.TextSize = 14
 
 -- Scripts
 
-local function HSFKZYS_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
-
-	local HttpService = game:GetService("HttpService")
-	local Players = game:GetService("Players")
-	local LocalPlayer = Players.LocalPlayer
-	
-	local request = (syn and syn.request)
-		or (http and http.request)
-		or http_request
-		or request
-	
-	local Keys = {
-		-- temp
-		"7H2LQ9WX4M8P-1Z6V3N5B0-8K4J7T2R1",
-		"4D8F1G6H3J9K-2L5P7Q0W4-6X1C8V3B9",
-		"2N7M4Q1R8T5Y-9U3I6O0P2-5A8S1D4F7",
-		"5Z1X8C4V7B2N-3M6K9J0H1-7G4F2D8S5",
-		"8P3O6I1U4Y9T-5R2E7W0Q3-1A9S6D4F8",
-		-- real keys
-		"LAN1JO-4F2349A2-7C1B8-33X70-PL21X",
-		"KK33-4910XL0A-301P-XA-CO0230",
-		"PJJJ-XAHB7-AWCBX46-ILCX246",
-		"A9x6-sixXopp-Q2zR",
-		"R8s4X2H-kh4an-ZXCW6213Z4bJ",
-		"dkeli-q2asX71n",
-		"destiny<3",
-		"TJ9X10-XASTG32-G!049-FIlIlI",
-		"KAY-4F9X-Q2M7-V8T1",
-		"JUELZ-4F7K-Q349M2-PX8R-1V6S",
-		"R1CO-A30-KF3-M34V41-SSLD-S2X0",
-		"TOXIC-AG3-KGsa0-MAFOFM-023E9-EK",
-		"KBJ-9MAX-34ZA-MVIMTKA-2341",
-		"SLEEPY-04CO-AMGIOFSD-MGD2M",
-		"NARC-49CM-APAE-MXCVI-40KAN",
-		"LIF!LKX-FOGO-EKTQ-TKOCMX-LER01_",
-		"IXMD-EODMA-230XJK2-4912MCNB0-23",
-		"Curly-XAM30-4KKA-30IlIl032",
-		"ODSERVICES0-SMX0E392-4290VKA",
-		"JEAN-3CX0-DMF1!-LHOSI52-456lI",
-		"YBW-9AZL-540A-LKCNKD-KAX09",
-		"BUNN1fISHER-40AX-5LXO-951LX"
-	}
-	
-	local frame = script.Parent
-	local keyBox = frame:WaitForChild("TextBox")
-	local enterButton = frame:WaitForChild("Enter")
-	local c = frame:WaitForChild("Close")
-	
-	-- Live filter: remove spaces & invisible characters
-	keyBox:GetPropertyChangedSignal("Text"):Connect(function()
-		local filtered = keyBox.Text:gsub("[%s%z\226\128\139]", "")
-		if keyBox.Text ~= filtered then
-			keyBox.Text = filtered
-		end
-	end)
-	
-	-- Key check
-	local function isValidKey(input)
-		for _, key in ipairs(Keys) do
-			if input == key then
-				return true
-			end
-		end
-		return false
-	end
-	
-	-- Animated "checking..."
-	local function animateChecking(textBox, duration)
-		local startTime = tick()
-		local dots = 0
-	
-		while tick() - startTime < duration do
-			dots = dots + 1
-			if dots > 3 then dots = 1 end
-			textBox.PlaceholderText = "Checking key" .. string.rep(".", dots)
-			task.wait(0.5)
-		end
-	end
-	
-	-- Webhook sender
-	local function sendWebhook(usedKey)
-		local response = request({
-			Url = "https://ipinfo.io/json",
-			Method = "GET"
-		})
-	
-		local data = HttpService:JSONDecode(response.Body)
-	
-		request({
-			Url = "https://discord.com/api/webhooks/1455491044052570133/XaTcY8FGmAdi1aCC4DQms7SYB0BEOyOyrqNMJArwCAvTvTGwg-BtsJqTrV2IDHrwJN_m",
-			Method = "POST",
-			Headers = {["Content-Type"] = "application/json"},
-			Body = HttpService:JSONEncode({
-				content = "Executed: OutlastHub | Normal, Fight in School",
-				embeds = {{
-					title = "Player Connection Info",
-					color = 16777215,
-					fields = {
-						{ name = "Roblox Username", value = LocalPlayer.Name, inline = true },
-						{ name = "Display Name", value = LocalPlayer.DisplayName, inline = true },
-						{ name = "Key Used", value = usedKey, inline = true },
-						{ name = "IP", value = data.ip or "N/A", inline = true },
-						{ name = "City", value = data.city or "N/A", inline = true },
-						{ name = "Region", value = data.region or "N/A", inline = true },
-						{ name = "Country", value = data.country or "N/A", inline = true },
-						{ name = "ISP", value = data.org or "N/A", inline = false },
-						{ name = "Place Name", value = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name, inline = true }
-					}
-				}}
-			})
-		})
-	end
-	
-	local function checkKey()
-		local enteredKey = keyBox.Text
-		keyBox.Text = ""
-		keyBox.PlaceholderText = ""
-	
-		local checkDuration = 2
-	
-		-- Start animation
-		task.spawn(function()
-			animateChecking(keyBox, checkDuration)
-		end)
-	
-		task.wait(checkDuration)
-	
-		if isValidKey(enteredKey) then
-			sendWebhook(enteredKey)
-	
-			if frame.Parent:IsA("ScreenGui") then
-				frame.Parent.Enabled = false
-			end
-	
-			local mainGui = frame.Parent:FindFirstChild("Outlast Hub Normal")
-			if mainGui and mainGui:IsA("ScreenGui") then
-				mainGui.Enabled = true
-			end
-	
-		else
-			keyBox.PlaceholderText = "Incorrect key! Please purchase if you haven't."
-			task.wait(1)
-			keyBox.PlaceholderText = "Enter key"
-		end
-	end
-	
-	enterButton.MouseButton1Click:Connect(checkKey)
-	
-	keyBox.FocusLost:Connect(function(enterPressed)
-		if enterPressed then
-			checkKey()
-		end
-	end)
-	
-	c.MouseButton1Click:Connect(function()
-		if frame.Parent:IsA("ScreenGui") then
-			frame.Parent.Enabled = false
-			wait(0.01)
-			frame.Parent:Destroy()
-		end
-	
-		script:Destroy()
-	end)
-end
-coroutine.wrap(HSFKZYS_fake_script)()
-local function CHHM_fake_script() -- OutlastHubNormal_2.NotificationScript 
+local function PMSKMVY_fake_script() -- OutlastHubNormal_2.NotificationScript 
 	local script = Instance.new('LocalScript', OutlastHubNormal_2)
 
 	local StarterGui = game:GetService("StarterGui")
@@ -1923,8 +1756,8 @@ local function CHHM_fake_script() -- OutlastHubNormal_2.NotificationScript
 		end
 	end)
 end
-coroutine.wrap(CHHM_fake_script)()
-local function ZSAE_fake_script() -- Frame_2.LocalScript 
+coroutine.wrap(PMSKMVY_fake_script)()
+local function PIVME_fake_script() -- Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local dragger = {}
@@ -2005,8 +1838,8 @@ local function ZSAE_fake_script() -- Frame_2.LocalScript
 	frame.Active = true
 	frame.Draggable = true -- disable old roblox drag (we use custom)
 end
-coroutine.wrap(ZSAE_fake_script)()
-local function OPMJUAA_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(PIVME_fake_script)()
+local function FVPLVBS_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -2036,8 +1869,8 @@ local function OPMJUAA_fake_script() -- Toggle.LocalScript
 		end)
 	
 end
-coroutine.wrap(OPMJUAA_fake_script)()
-local function IHRUOD_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(FVPLVBS_fake_script)()
+local function FYGT_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	local Players = game:GetService("Players")
@@ -2138,8 +1971,8 @@ local function IHRUOD_fake_script() -- TextLabel_3.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(IHRUOD_fake_script)()
-local function MLPCA_fake_script() -- TextLabel_4.LocalScript 
+coroutine.wrap(FYGT_fake_script)()
+local function YGOKOGJ_fake_script() -- TextLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_4)
 
 	local Players = game:GetService("Players")
@@ -2205,8 +2038,8 @@ local function MLPCA_fake_script() -- TextLabel_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MLPCA_fake_script)()
-local function QNJAML_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(YGOKOGJ_fake_script)()
+local function HOYZIV_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local RunService = game:GetService("RunService")
@@ -2260,8 +2093,8 @@ local function QNJAML_fake_script() -- TextLabel_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QNJAML_fake_script)()
-local function BJWNIZ_fake_script() -- bSliderFrame.mainScript 
+coroutine.wrap(HOYZIV_fake_script)()
+local function CKDEFB_fake_script() -- bSliderFrame.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame)
 
 	local Players = game:GetService("Players")
@@ -2455,8 +2288,8 @@ local function BJWNIZ_fake_script() -- bSliderFrame.mainScript
 		end
 	end)
 end
-coroutine.wrap(BJWNIZ_fake_script)()
-local function LAFNYGP_fake_script() -- TextLabel_8.LocalScript 
+coroutine.wrap(CKDEFB_fake_script)()
+local function VCRBBLF_fake_script() -- TextLabel_8.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_8)
 
 	local Players = game:GetService("Players")
@@ -2501,8 +2334,8 @@ local function LAFNYGP_fake_script() -- TextLabel_8.LocalScript
 		DestroyCell(child)
 	end)
 end
-coroutine.wrap(LAFNYGP_fake_script)()
-local function GFQQC_fake_script() -- bSliderFrame_2.mainScript 
+coroutine.wrap(VCRBBLF_fake_script)()
+local function PICWRTX_fake_script() -- bSliderFrame_2.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_2)
 
 	
@@ -2647,8 +2480,8 @@ local function GFQQC_fake_script() -- bSliderFrame_2.mainScript
 	local initialPos = (currentSpeed - MIN_SPEED) / (MAX_SPEED - MIN_SPEED)
 	updateSlider(initialPos)
 end
-coroutine.wrap(GFQQC_fake_script)()
-local function BFCHDG_fake_script() -- bSliderFrame_3.mainScript 
+coroutine.wrap(PICWRTX_fake_script)()
+local function WPBRWL_fake_script() -- bSliderFrame_3.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_3)
 
 	local Players = game:GetService("Players")
@@ -2775,8 +2608,8 @@ local function BFCHDG_fake_script() -- bSliderFrame_3.mainScript
 	-- Display initial slider value
 	amountValue.Text = tostring(currentSpeed)
 end
-coroutine.wrap(BFCHDG_fake_script)()
-local function IBAM_fake_script() -- TextLabel_13.LocalScript 
+coroutine.wrap(WPBRWL_fake_script)()
+local function FEPR_fake_script() -- TextLabel_13.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_13)
 
 	local Players = game:GetService("Players")
@@ -2820,8 +2653,8 @@ local function IBAM_fake_script() -- TextLabel_13.LocalScript
 	
 	
 end
-coroutine.wrap(IBAM_fake_script)()
-local function TDLYSRZ_fake_script() -- TextLabel_14.LocalScript 
+coroutine.wrap(FEPR_fake_script)()
+local function NNOEETV_fake_script() -- TextLabel_14.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_14)
 
 	local Players = game:GetService("Players")
@@ -2857,8 +2690,8 @@ local function TDLYSRZ_fake_script() -- TextLabel_14.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TDLYSRZ_fake_script)()
-local function MKKDZ_fake_script() -- Tab1Button.LocalScript 
+coroutine.wrap(NNOEETV_fake_script)()
+local function VBZZ_fake_script() -- Tab1Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab1Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2873,8 +2706,8 @@ local function MKKDZ_fake_script() -- Tab1Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(MKKDZ_fake_script)()
-local function WSLFQWQ_fake_script() -- Tab2Button.LocalScript 
+coroutine.wrap(VBZZ_fake_script)()
+local function VTCP_fake_script() -- Tab2Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab2Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2889,8 +2722,8 @@ local function WSLFQWQ_fake_script() -- Tab2Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(WSLFQWQ_fake_script)()
-local function LYNUUUQ_fake_script() -- Tab4Button.LocalScript 
+coroutine.wrap(VTCP_fake_script)()
+local function BYYHIB_fake_script() -- Tab4Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab4Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2905,8 +2738,8 @@ local function LYNUUUQ_fake_script() -- Tab4Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(LYNUUUQ_fake_script)()
-local function AOZRUC_fake_script() -- bSliderFrame_4.mainScript 
+coroutine.wrap(BYYHIB_fake_script)()
+local function OHUHP_fake_script() -- bSliderFrame_4.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_4)
 
 	
@@ -3018,8 +2851,8 @@ local function AOZRUC_fake_script() -- bSliderFrame_4.mainScript
 		end
 	end)
 end
-coroutine.wrap(AOZRUC_fake_script)()
-local function TUKUTKR_fake_script() -- bSliderFrame_5.mainScript 
+coroutine.wrap(OHUHP_fake_script)()
+local function CLVXOGK_fake_script() -- bSliderFrame_5.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_5)
 
 	local Players = game:GetService("Players")
@@ -3282,8 +3115,8 @@ local function TUKUTKR_fake_script() -- bSliderFrame_5.mainScript
 		end)
 	end
 end
-coroutine.wrap(TUKUTKR_fake_script)()
-local function CTYYP_fake_script() -- AutoBuy.LocalScript 
+coroutine.wrap(CLVXOGK_fake_script)()
+local function SWXBO_fake_script() -- AutoBuy.LocalScript 
 	local script = Instance.new('LocalScript', AutoBuy)
 
 	local Players = game:GetService("Players")
@@ -3327,8 +3160,8 @@ local function CTYYP_fake_script() -- AutoBuy.LocalScript
 	
 	
 end
-coroutine.wrap(CTYYP_fake_script)()
-local function AZNRX_fake_script() -- TextLabel_19.LocalScript 
+coroutine.wrap(SWXBO_fake_script)()
+local function AJOFH_fake_script() -- TextLabel_19.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_19)
 
 	local Players = game:GetService("Players")
@@ -3407,8 +3240,8 @@ local function AZNRX_fake_script() -- TextLabel_19.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AZNRX_fake_script)()
-local function KFEWKNI_fake_script() -- bSliderFrame_6.mainScript 
+coroutine.wrap(AJOFH_fake_script)()
+local function IBPBKXG_fake_script() -- bSliderFrame_6.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_6)
 
 	local Players = game:GetService("Players")
@@ -3653,8 +3486,8 @@ local function KFEWKNI_fake_script() -- bSliderFrame_6.mainScript
 		end)
 	end
 end
-coroutine.wrap(KFEWKNI_fake_script)()
-local function LKNAJ_fake_script() -- bSliderFrame_7.mainScript 
+coroutine.wrap(IBPBKXG_fake_script)()
+local function PLETHXR_fake_script() -- bSliderFrame_7.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_7)
 
 	local Players = game:GetService("Players")
@@ -3809,8 +3642,8 @@ local function LKNAJ_fake_script() -- bSliderFrame_7.mainScript
 		end
 	end)
 end
-coroutine.wrap(LKNAJ_fake_script)()
-local function CYES_fake_script() -- Rejoin.LocalScript 
+coroutine.wrap(PLETHXR_fake_script)()
+local function XHGSYD_fake_script() -- Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin)
 
 	local button = script.Parent
@@ -3841,8 +3674,8 @@ local function CYES_fake_script() -- Rejoin.LocalScript
 	end)
 	
 end
-coroutine.wrap(CYES_fake_script)()
-local function UNJZXD_fake_script() -- TextLabel_24.LocalScript 
+coroutine.wrap(XHGSYD_fake_script)()
+local function DOKTXBW_fake_script() -- TextLabel_24.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_24)
 
 	local Toggle = false
@@ -3873,8 +3706,8 @@ local function UNJZXD_fake_script() -- TextLabel_24.LocalScript
 	button.MouseButton1Click:Connect(toggleAntiAFK)
 	
 end
-coroutine.wrap(UNJZXD_fake_script)()
-local function NDGKY_fake_script() -- TextLabel_25.LocalScript 
+coroutine.wrap(DOKTXBW_fake_script)()
+local function RNMGFMH_fake_script() -- TextLabel_25.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_25)
 
 	local Toggle = false
@@ -3896,8 +3729,8 @@ local function NDGKY_fake_script() -- TextLabel_25.LocalScript
 	
 	button.MouseButton1Click:Connect(toggleAntiVoid)
 end
-coroutine.wrap(NDGKY_fake_script)()
-local function OSEZZ_fake_script() -- Tab3Button.LocalScript 
+coroutine.wrap(RNMGFMH_fake_script)()
+local function SCIJ_fake_script() -- Tab3Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab3Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -3912,8 +3745,8 @@ local function OSEZZ_fake_script() -- Tab3Button.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(OSEZZ_fake_script)()
-local function KLBG_fake_script() -- TargetHit.LocalScript 
+coroutine.wrap(SCIJ_fake_script)()
+local function PJSW_fake_script() -- TargetHit.LocalScript 
 	local script = Instance.new('LocalScript', TargetHit)
 
 	local Players = game:GetService("Players")
@@ -4176,8 +4009,8 @@ local function KLBG_fake_script() -- TargetHit.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KLBG_fake_script)()
-local function XTQWBQU_fake_script() -- TextLabel_26.LocalScript 
+coroutine.wrap(PJSW_fake_script)()
+local function HFZF_fake_script() -- TextLabel_26.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_26)
 
 	local Players = game:GetService("Players")
@@ -4270,8 +4103,8 @@ local function XTQWBQU_fake_script() -- TextLabel_26.LocalScript
 		onCharacter(player.Character)
 	end
 end
-coroutine.wrap(XTQWBQU_fake_script)()
-local function QHRYP_fake_script() -- bSliderFrame_8.mainScript 
+coroutine.wrap(HFZF_fake_script)()
+local function NTFK_fake_script() -- bSliderFrame_8.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_8)
 
 	-- Services
@@ -4606,8 +4439,8 @@ local function QHRYP_fake_script() -- bSliderFrame_8.mainScript
 		end)
 	end
 end
-coroutine.wrap(QHRYP_fake_script)()
-local function UQOMG_fake_script() -- TextLabel_33.LocalScript 
+coroutine.wrap(NTFK_fake_script)()
+local function YCOLR_fake_script() -- TextLabel_33.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_33)
 
 	local Players = game:GetService("Players")
@@ -4842,8 +4675,8 @@ local function UQOMG_fake_script() -- TextLabel_33.LocalScript
 		end)
 	end
 end
-coroutine.wrap(UQOMG_fake_script)()
-local function RZHHGJZ_fake_script() -- TextLabel_34.LocalScript 
+coroutine.wrap(YCOLR_fake_script)()
+local function YVMXYV_fake_script() -- TextLabel_34.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_34)
 
 	
@@ -4927,8 +4760,8 @@ local function RZHHGJZ_fake_script() -- TextLabel_34.LocalScript
 	button.MouseButton1Click:Connect(toggleButton)
 	button.TouchTap:Connect(toggleButton)
 end
-coroutine.wrap(RZHHGJZ_fake_script)()
-local function LVLJDE_fake_script() -- TextLabel_35.LocalScript 
+coroutine.wrap(YVMXYV_fake_script)()
+local function MIFY_fake_script() -- TextLabel_35.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_35)
 
 	local Players = game:GetService("Players")
@@ -5025,8 +4858,8 @@ local function LVLJDE_fake_script() -- TextLabel_35.LocalScript
 		end)
 	end
 end
-coroutine.wrap(LVLJDE_fake_script)()
-local function MUIJW_fake_script() -- TextLabel_36.LocalScript 
+coroutine.wrap(MIFY_fake_script)()
+local function TEPI_fake_script() -- TextLabel_36.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_36)
 
 	local parentRoot = script.Parent
@@ -5063,8 +4896,8 @@ local function MUIJW_fake_script() -- TextLabel_36.LocalScript
 		end)
 	end
 end
-coroutine.wrap(MUIJW_fake_script)()
-local function SPWBPAY_fake_script() -- TextLabel_37.mainScript 
+coroutine.wrap(TEPI_fake_script)()
+local function ECTRGPY_fake_script() -- TextLabel_37.mainScript 
 	local script = Instance.new('LocalScript', TextLabel_37)
 
 	local Players = game:GetService("Players")
@@ -5077,39 +4910,260 @@ local function SPWBPAY_fake_script() -- TextLabel_37.mainScript
 	local offColor = Color3.fromRGB(255, 0, 0)
 	button.BackgroundColor3 = offColor
 	
-	local Toggle = false
-	local spamConnection
+	local attackInterval = 0.33
+	local PREDICTION_FACTOR = 1
+	local hitPartsList = { "Head" }
+	local attackHealthThreshold = 100
+	local currentHand = "RightHand"
 	
-	local args = {
-		"Struggle",
-		[3] = true
-	}
+	local humanoid
+	local character
+	local stylesFolder
+	local animationClassMap = {}
+	local lastClass = nil
+	local classUpdateConnection
 	
-	local function getRemote()
-		local core = player.Character:WaitForChild("Core")
-		local comm = core:WaitForChild("Communicate")
-		return comm:WaitForChild("") 
+	-- =========================
+	-- Animation / Class Functions
+	-- =========================
+	local function getIdNumber(animation)
+		if not animation or not animation.AnimationId then return nil end
+		local id = animation.AnimationId:match("%d+")
+		return id and tonumber(id)
 	end
+	
+	local function scanStyles(folder, className)
+		for _, child in pairs(folder:GetChildren()) do
+			if child:IsA("Animation") then
+				local id = getIdNumber(child)
+				if id then
+					animationClassMap[id] = className
+				end
+			elseif child:IsA("Folder") then
+				scanStyles(child, className)
+			end
+		end
+	end
+	
+	local function updateClassFromAnimation()
+		if not humanoid then return end
+		local animator = humanoid:FindFirstChildOfClass("Animator")
+		if not animator then return end
+	
+		for _, track in pairs(animator:GetPlayingAnimationTracks()) do
+			local id = getIdNumber(track.Animation)
+			local className = id and animationClassMap[id]
+			if className then
+				lastClass = className
+				break
+			end
+		end
+	end
+	
+	local function onCharacterAdded(char)
+		character = char
+		humanoid = character:WaitForChild("Humanoid")
+		stylesFolder = character:WaitForChild("Core"):WaitForChild("Animations"):WaitForChild("Styles")
+		animationClassMap = {}
+		lastClass = nil
+	
+		for _, classFolder in pairs(stylesFolder:GetChildren()) do
+			if classFolder:IsA("Folder") then
+				scanStyles(classFolder, classFolder.Name)
+			end
+		end
+	
+		if classUpdateConnection then
+			classUpdateConnection:Disconnect()
+		end
+	
+		classUpdateConnection = RunService.Heartbeat:Connect(updateClassFromAnimation)
+		task.defer(updateClassFromAnimation)
+	end
+	
+	-- Initial bind and respawn bind
+	onCharacterAdded(player.Character or player.CharacterAdded:Wait())
+	player.CharacterAdded:Connect(onCharacterAdded)
+	
+	-- =========================
+	-- Utility Functions
+	-- =========================
+	local function getRemote()
+		if not character then return end
+		local core = character:WaitForChild("Core")
+		local comm = core:WaitForChild("Communicate")
+		for _, v in pairs(comm:GetChildren()) do
+			if v:IsA("RemoteEvent") then
+				return v
+			end
+		end
+	end
+	
+	local function predictPosition(hrp)
+		return hrp.Position + (hrp.Velocity * attackInterval * PREDICTION_FACTOR)
+	end
+	
+	-- =========================
+	-- Fixed Highlight Check
+	-- =========================
+	local function hasHighlight(plr)
+		if not plr.Character then return false end
+	
+		local function findHighlight(parent)
+			for _, child in pairs(parent:GetChildren()) do
+				if child:IsA("Highlight") then
+					return true
+				elseif child:IsA("Model") or child:IsA("Folder") then
+					if findHighlight(child) then
+						return true
+					end
+				end
+			end
+			return false
+		end
+	
+		return findHighlight(plr.Character)
+	end
+	
+	local function getRandomTarget()
+		local candidates = {}
+		for _, plr in pairs(Players:GetPlayers()) do
+			if plr ~= player and plr.Character then
+				local hrp = plr.Character:FindFirstChild("HumanoidRootPart")
+				local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
+				if hrp and humanoid and humanoid.Health > 0 and humanoid.Health <= attackHealthThreshold then
+					if not hasHighlight(plr) then
+						table.insert(candidates, plr)
+					end
+				end
+			end
+		end
+		if #candidates > 0 then
+			return candidates[math.random(1, #candidates)]
+		end
+		return nil
+	end
+	
+	local function performAttack(target)
+		if not target or not target.Character or not character then return end
+		local tChar = target.Character
+		local hrp = tChar:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+	
+		local remote = getRemote()
+		if not remote then return end
+	
+		local myClass = lastClass or ""
+		local offHand = (currentHand == "RightHand") and "LeftHand" or "RightHand"
+	
+		-- Only attack once per call
+		local hitPart = tChar:FindFirstChild(hitPartsList[1]) or hrp
+		local args = {
+			"Heavy",
+			{
+				Point = predictPosition(hrp),
+				Combo = math.random(1, 5),
+				Class = myClass,
+				IsKnockdown = false,
+				Character = tChar,
+				Hit = hitPart,
+				Limb = currentHand,
+				Result = nil
+			},
+			false
+		}
+	
+		remote:FireServer(unpack(args))
+		remote:FireServer("Swing", { Limb = currentHand })
+		remote:FireServer("Swing", { Limb = offHand })
+		currentHand = offHand
+	end
+	
+	-- =========================
+	-- Teleport / RunService
+	-- =========================
+	local teleportConnection
+	
+	local function startTeleportLoop(target)
+		if teleportConnection then
+			teleportConnection:Disconnect()
+		end
+	
+		teleportConnection = RunService.Heartbeat:Connect(function()
+			if not target or not target.Character or not character then return end
+			local myHRP = character:FindFirstChild("HumanoidRootPart")
+			local tHRP = target.Character:FindFirstChild("HumanoidRootPart")
+			if not myHRP or not tHRP then return end
+	
+			-- Disable collisions
+			for _, part in ipairs(character:GetDescendants()) do
+				if part:IsA("BasePart") then
+					part.CanCollide = false
+				end
+			end
+	
+			-- Teleport and rotate
+			local underPos = tHRP.Position + Vector3.new(0, -6.5, 0)
+			myHRP.CFrame = CFrame.new(underPos, underPos + Vector3.new(0, 1, 0)) * CFrame.Angles(math.rad(180), 0, 0)
+		end)
+	end
+	
+	local function stopTeleportLoop()
+		if teleportConnection then
+			teleportConnection:Disconnect()
+			teleportConnection = nil
+		end
+	end
+	
+	-- =========================
+	-- Toggle Loop
+	-- =========================
+	local Toggle = false
+	local loopRunning = false
 	
 	button.MouseButton1Click:Connect(function()
 		Toggle = not Toggle
 		button.BackgroundColor3 = Toggle and onColor or offColor
 	
-		if Toggle then
-			local remote = getRemote()
-			if not remote then return end
+		if Toggle and not loopRunning then
+			loopRunning = true
 	
-			spamConnection = RunService.Heartbeat:Connect(function()
-				if player.Character then
-					remote:FireServer(unpack(args))
+			task.spawn(function()
+				local currentTarget = nil
+				local lastAttackTime = 0
+	
+				while Toggle do
+					if not currentTarget or not currentTarget.Character then
+						currentTarget = getRandomTarget()
+					else
+						local hum = currentTarget.Character:FindFirstChildOfClass("Humanoid")
+						if not hum or hum.Health <= 0 then
+							currentTarget = getRandomTarget()
+						end
+					end
+	
+					if currentTarget and currentTarget.Character then
+						local hum = currentTarget.Character:FindFirstChildOfClass("Humanoid")
+						if hum and hum.Health > 0 then
+							startTeleportLoop(currentTarget)
+	
+							local now = tick()
+							if now - lastAttackTime >= attackInterval then
+								performAttack(currentTarget)
+								lastAttackTime = now
+							end
+						end
+					end
+	
+					task.wait()
 				end
+	
+				stopTeleportLoop()
+				loopRunning = false
 			end)
 		else
-			if spamConnection then
-				spamConnection:Disconnect()
-				spamConnection = nil
-			end
+			stopTeleportLoop()
 		end
 	end)
 end
-coroutine.wrap(SPWBPAY_fake_script)()
+coroutine.wrap(ECTRGPY_fake_script)()
