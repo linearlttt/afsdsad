@@ -43,10 +43,8 @@ local amountValue = Instance.new("TextLabel")
 local UICorner_2 = Instance.new("UICorner")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local TextLabel_8 = Instance.new("TextLabel")
-local WipButton_5 = Instance.new("TextButton")
 local TextLabel_9 = Instance.new("TextLabel")
-local TextLabel_10 = Instance.new("TextLabel")
-local WipButton_6 = Instance.new("TextButton")
+local WipButton_5 = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local mainFrame_2 = Instance.new("Frame")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
@@ -54,9 +52,9 @@ local bSliderFrame_2 = Instance.new("Frame")
 local slideFrame_2 = Instance.new("Frame")
 local amountValue_2 = Instance.new("TextLabel")
 local UICorner_4 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
 local TextLabel_11 = Instance.new("TextLabel")
-local TextLabel_12 = Instance.new("TextLabel")
-local WipButton_7 = Instance.new("TextButton")
+local WipButton_6 = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
 local mainFrame_3 = Instance.new("Frame")
 local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
@@ -64,106 +62,111 @@ local bSliderFrame_3 = Instance.new("Frame")
 local slideFrame_3 = Instance.new("Frame")
 local amountValue_3 = Instance.new("TextLabel")
 local UICorner_6 = Instance.new("UICorner")
-local TextLabel_13 = Instance.new("TextLabel")
-local WipButton_8 = Instance.new("TextButton")
-local TextLabel_14 = Instance.new("TextLabel")
-local WipButton_9 = Instance.new("TextButton")
+local TextLabel_12 = Instance.new("TextLabel")
+local WipButton_7 = Instance.new("TextButton")
 local Tab1Button = Instance.new("TextButton")
 local ImageLabel_3 = Instance.new("ImageLabel")
 local Tab2Button = Instance.new("TextButton")
 local ImageLabel_4 = Instance.new("ImageLabel")
-local Tab4Button = Instance.new("TextButton")
+local Tab5Button = Instance.new("TextButton")
 local ImageLabel_5 = Instance.new("ImageLabel")
 local TabFrame4 = Instance.new("ScrollingFrame")
-local Rejoin = Instance.new("TextButton")
-local TextLabel_15 = Instance.new("TextLabel")
+local AutoBuy = Instance.new("TextLabel")
+local WipButton_8 = Instance.new("TextButton")
+local DropDownFrame = Instance.new("Frame")
+local Bat = Instance.new("TextButton")
+local Gloves = Instance.new("TextButton")
+local TextLabel_13 = Instance.new("TextLabel")
+local WipButton_9 = Instance.new("TextButton")
+local TextLabel_14 = Instance.new("TextLabel")
 local WipButton_10 = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local TextLabel_16 = Instance.new("TextLabel")
-local WipButton_11 = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
 local Tab3Button = Instance.new("TextButton")
 local ImageLabel_6 = Instance.new("ImageLabel")
 local Padding = Instance.new("UIPadding")
 local TabFrame3 = Instance.new("ScrollingFrame")
 local TargetHit = Instance.new("TextLabel")
-local WipButton_12 = Instance.new("TextButton")
+local WipButton_11 = Instance.new("TextButton")
 local TargetBox = Instance.new("TextBox")
-local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
 local Pad2 = Instance.new("TextButton")
 local Pad1 = Instance.new("TextButton")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local AutoReset = Instance.new("TextButton")
 local TextLabel_18 = Instance.new("TextLabel")
 local TextLabel_19 = Instance.new("TextLabel")
-local AutoReset = Instance.new("TextButton")
 local TextLabel_20 = Instance.new("TextLabel")
 local TextLabel_21 = Instance.new("TextLabel")
-local TextLabel_22 = Instance.new("TextLabel")
-local TextLabel_23 = Instance.new("TextLabel")
-local WipButton_13 = Instance.new("TextButton")
+local WipButton_12 = Instance.new("TextButton")
 local mainFrame_4 = Instance.new("Frame")
 local bSliderFrame_4 = Instance.new("Frame")
 local slideFrame_4 = Instance.new("Frame")
 local amountValue_4 = Instance.new("TextLabel")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
-local TextLabel_24 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local WipButton_13 = Instance.new("TextButton")
+local TextLabel_23 = Instance.new("TextLabel")
 local WipButton_14 = Instance.new("TextButton")
-local TextLabel_25 = Instance.new("TextLabel")
-local WipButton_15 = Instance.new("TextButton")
 local AnimSpeed = Instance.new("TextBox")
+local TextLabel_24 = Instance.new("TextLabel")
+local WipButton_15 = Instance.new("TextButton")
+local TextLabel_25 = Instance.new("TextLabel")
 local TextLabel_26 = Instance.new("TextLabel")
 local WipButton_16 = Instance.new("TextButton")
 local TextLabel_27 = Instance.new("TextLabel")
-local TextLabel_28 = Instance.new("TextLabel")
 local WipButton_17 = Instance.new("TextButton")
+local TabFrame2 = Instance.new("ScrollingFrame")
+local TextLabel_28 = Instance.new("TextLabel")
 local TextLabel_29 = Instance.new("TextLabel")
 local WipButton_18 = Instance.new("TextButton")
-local AutoBuy = Instance.new("TextLabel")
-local WipButton_19 = Instance.new("TextButton")
-local DropDownFrame = Instance.new("Frame")
-local Bat = Instance.new("TextButton")
-local Gloves = Instance.new("TextButton")
-local TabFrame2 = Instance.new("ScrollingFrame")
-local TextLabel_30 = Instance.new("TextLabel")
-local TextLabel_31 = Instance.new("TextLabel")
-local WipButton_20 = Instance.new("TextButton")
 local mainFrame_5 = Instance.new("Frame")
 local bSliderFrame_5 = Instance.new("Frame")
 local slideFrame_5 = Instance.new("Frame")
 local amountValue_5 = Instance.new("TextLabel")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
-local TextLabel_32 = Instance.new("TextLabel")
-local TextLabel_33 = Instance.new("TextLabel")
-local WipButton_21 = Instance.new("TextButton")
+local TextLabel_30 = Instance.new("TextLabel")
+local TextLabel_31 = Instance.new("TextLabel")
+local WipButton_19 = Instance.new("TextButton")
 local mainFrame_6 = Instance.new("Frame")
 local bSliderFrame_6 = Instance.new("Frame")
 local slideFrame_6 = Instance.new("Frame")
 local amountValue_6 = Instance.new("TextLabel")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_32 = Instance.new("TextLabel")
+local WipButton_20 = Instance.new("TextButton")
+local TextLabel_33 = Instance.new("TextLabel")
 local TextLabel_34 = Instance.new("TextLabel")
-local WipButton_22 = Instance.new("TextButton")
-local TextLabel_35 = Instance.new("TextLabel")
-local TextLabel_36 = Instance.new("TextLabel")
-local WipButton_23 = Instance.new("TextButton")
+local WipButton_21 = Instance.new("TextButton")
 local mainFrame_7 = Instance.new("Frame")
 local bSliderFrame_7 = Instance.new("Frame")
 local slideFrame_7 = Instance.new("Frame")
 local amountValue_7 = Instance.new("TextLabel")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
-local TextLabel_37 = Instance.new("TextLabel")
-local TextLabel_38 = Instance.new("TextLabel")
-local WipButton_24 = Instance.new("TextButton")
+local TextLabel_35 = Instance.new("TextLabel")
+local TextLabel_36 = Instance.new("TextLabel")
+local WipButton_22 = Instance.new("TextButton")
 local mainFrame_8 = Instance.new("Frame")
 local bSliderFrame_8 = Instance.new("Frame")
 local slideFrame_8 = Instance.new("Frame")
 local amountValue_8 = Instance.new("TextLabel")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_37 = Instance.new("TextLabel")
+local WipButton_23 = Instance.new("TextButton")
+local Tab4Button = Instance.new("TextButton")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local TabFrame5 = Instance.new("ScrollingFrame")
+local TextLabel_38 = Instance.new("TextLabel")
+local WipButton_24 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
 local TextLabel_39 = Instance.new("TextLabel")
 local WipButton_25 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Rejoin = Instance.new("TextButton")
 
 -- Properties
 
@@ -333,7 +336,6 @@ TabFrame1.BackgroundTransparency = 1
 TabFrame1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 TabFrame1.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
 TabFrame1.Size = UDim2.new(0, 297, 0, 225)
-TabFrame1.Visible = false
 TabFrame1.ScrollBarThickness = 0
 
 TextLabel_3.Parent = TabFrame1
@@ -494,67 +496,44 @@ UIAspectRatioConstraint.AspectRatio = 2.009615421295166
 TextLabel_8.Parent = TabFrame1
 TextLabel_8.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
 TextLabel_8.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_8.Position = UDim2.new(0.0239999685, 0, 0.760002851, 0)
-TextLabel_8.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_8.Position = UDim2.new(0.0229999796, 0, 0.62681967, 0)
+TextLabel_8.Size = UDim2.new(0, 282, 0, 48)
 TextLabel_8.Font = Enum.Font.SourceSans
-TextLabel_8.Text = "NoNotifications"
+TextLabel_8.Text = ""
 TextLabel_8.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_8.TextSize = 14
 TextLabel_8.TextStrokeTransparency = 0
 TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
 
+TextLabel_9.Parent = TextLabel_8
+TextLabel_9.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_9.BackgroundTransparency = 1
+TextLabel_9.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_9.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 72, 0, 27)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Weave Glide"
+TextLabel_9.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_9.TextSize = 14
+TextLabel_9.TextStrokeTransparency = 0
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
 WipButton_5.Name = "WipButton"
 WipButton_5.Parent = TextLabel_8
 WipButton_5.BackgroundColor3 = Color3.new(1, 0, 0)
 WipButton_5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_5.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton_5.Position = UDim2.new(0.904255271, 0, 0.493055522, 0)
 WipButton_5.Size = UDim2.new(0, 15, 0, 15)
 WipButton_5.Font = Enum.Font.SourceSans
 WipButton_5.Text = ""
 WipButton_5.TextColor3 = Color3.new(0, 0, 0)
 WipButton_5.TextSize = 14
 
-TextLabel_9.Parent = TabFrame1
-TextLabel_9.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_9.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_9.Position = UDim2.new(0.0229999796, 0, 0.62681967, 0)
-TextLabel_9.Size = UDim2.new(0, 282, 0, 48)
-TextLabel_9.Font = Enum.Font.SourceSans
-TextLabel_9.Text = ""
-TextLabel_9.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_9.TextSize = 14
-TextLabel_9.TextStrokeTransparency = 0
-TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
-
-TextLabel_10.Parent = TextLabel_9
-TextLabel_10.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_10.BackgroundTransparency = 1
-TextLabel_10.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_10.Position = UDim2.new(0.0248226952, 0, 0, 0)
-TextLabel_10.Size = UDim2.new(0, 72, 0, 27)
-TextLabel_10.Font = Enum.Font.SourceSans
-TextLabel_10.Text = "Weave Glide"
-TextLabel_10.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_10.TextSize = 14
-TextLabel_10.TextStrokeTransparency = 0
-TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
-
-WipButton_6.Name = "WipButton"
-WipButton_6.Parent = TextLabel_9
-WipButton_6.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_6.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_6.Position = UDim2.new(0.904255271, 0, 0.493055522, 0)
-WipButton_6.Size = UDim2.new(0, 15, 0, 15)
-WipButton_6.Font = Enum.Font.SourceSans
-WipButton_6.Text = ""
-WipButton_6.TextColor3 = Color3.new(0, 0, 0)
-WipButton_6.TextSize = 14
-
-UICorner_3.Parent = WipButton_6
+UICorner_3.Parent = WipButton_5
 UICorner_3.CornerRadius = UDim.new(0, 2)
 
 mainFrame_2.Name = "mainFrame"
-mainFrame_2.Parent = TextLabel_9
+mainFrame_2.Parent = TextLabel_8
 mainFrame_2.AnchorPoint = Vector2.new(0.5, 0.5)
 mainFrame_2.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
 mainFrame_2.BackgroundTransparency = 1
@@ -603,47 +582,47 @@ amountValue_2.TextWrapped = true
 UICorner_4.Parent = bSliderFrame_2
 UICorner_4.CornerRadius = UDim.new(0, 2)
 
-TextLabel_11.Parent = TabFrame1
-TextLabel_11.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_10.Parent = TabFrame1
+TextLabel_10.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_10.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_10.Position = UDim2.new(0.0229999796, 0, 0.371924609, 0)
+TextLabel_10.Size = UDim2.new(0, 282, 0, 48)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = ""
+TextLabel_10.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_10.TextSize = 14
+TextLabel_10.TextStrokeTransparency = 0
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_11.Parent = TextLabel_10
+TextLabel_11.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_11.BackgroundTransparency = 1
 TextLabel_11.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_11.Position = UDim2.new(0.0229999796, 0, 0.371924609, 0)
-TextLabel_11.Size = UDim2.new(0, 282, 0, 48)
+TextLabel_11.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 72, 0, 27)
 TextLabel_11.Font = Enum.Font.SourceSans
-TextLabel_11.Text = ""
+TextLabel_11.Text = "Walkspeed"
 TextLabel_11.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_11.TextSize = 14
 TextLabel_11.TextStrokeTransparency = 0
 TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_12.Parent = TextLabel_11
-TextLabel_12.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_12.BackgroundTransparency = 1
-TextLabel_12.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_12.Position = UDim2.new(0.0248226952, 0, 0, 0)
-TextLabel_12.Size = UDim2.new(0, 72, 0, 27)
-TextLabel_12.Font = Enum.Font.SourceSans
-TextLabel_12.Text = "Walkspeed"
-TextLabel_12.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_12.TextSize = 14
-TextLabel_12.TextStrokeTransparency = 0
-TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+WipButton_6.Name = "WipButton"
+WipButton_6.Parent = TextLabel_10
+WipButton_6.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_6.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_6.Position = UDim2.new(0.904255271, 0, 0.493055522, 0)
+WipButton_6.Size = UDim2.new(0, 15, 0, 15)
+WipButton_6.Font = Enum.Font.SourceSans
+WipButton_6.Text = ""
+WipButton_6.TextColor3 = Color3.new(0, 0, 0)
+WipButton_6.TextSize = 14
 
-WipButton_7.Name = "WipButton"
-WipButton_7.Parent = TextLabel_11
-WipButton_7.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_7.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_7.Position = UDim2.new(0.904255271, 0, 0.493055522, 0)
-WipButton_7.Size = UDim2.new(0, 15, 0, 15)
-WipButton_7.Font = Enum.Font.SourceSans
-WipButton_7.Text = ""
-WipButton_7.TextColor3 = Color3.new(0, 0, 0)
-WipButton_7.TextSize = 14
-
-UICorner_5.Parent = WipButton_7
+UICorner_5.Parent = WipButton_6
 UICorner_5.CornerRadius = UDim.new(0, 2)
 
 mainFrame_3.Name = "mainFrame"
-mainFrame_3.Parent = TextLabel_11
+mainFrame_3.Parent = TextLabel_10
 mainFrame_3.AnchorPoint = Vector2.new(0.5, 0.5)
 mainFrame_3.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
 mainFrame_3.BackgroundTransparency = 1
@@ -692,51 +671,28 @@ amountValue_3.TextWrapped = true
 UICorner_6.Parent = bSliderFrame_3
 UICorner_6.CornerRadius = UDim.new(0, 2)
 
-TextLabel_13.Parent = TabFrame1
-TextLabel_13.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_13.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_13.Position = UDim2.new(0.0227975547, 0, 0.0297859292, 0)
-TextLabel_13.Size = UDim2.new(0, 282, 0, 27)
-TextLabel_13.Font = Enum.Font.SourceSans
-TextLabel_13.Text = "Godmode ( To attack must use kill auras not autohit ) "
-TextLabel_13.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_13.TextSize = 12
-TextLabel_13.TextStrokeTransparency = 0
-TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_12.Parent = TabFrame1
+TextLabel_12.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_12.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_12.Position = UDim2.new(0.0227975547, 0, 0.0297859292, 0)
+TextLabel_12.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "Godmode ( To attack must use kill auras not autohit ) "
+TextLabel_12.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_12.TextSize = 12
+TextLabel_12.TextStrokeTransparency = 0
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
 
-WipButton_8.Name = "WipButton"
-WipButton_8.Parent = TextLabel_13
-WipButton_8.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_8.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_8.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
-WipButton_8.Size = UDim2.new(0, 15, 0, 15)
-WipButton_8.Font = Enum.Font.SourceSans
-WipButton_8.Text = ""
-WipButton_8.TextColor3 = Color3.new(0, 0, 0)
-WipButton_8.TextSize = 14
-
-TextLabel_14.Parent = TabFrame1
-TextLabel_14.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_14.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_14.Position = UDim2.new(0.0239999667, 0, 0.844183445, 0)
-TextLabel_14.Size = UDim2.new(0, 282, 0, 27)
-TextLabel_14.Font = Enum.Font.SourceSans
-TextLabel_14.Text = "AntiWeaveStun"
-TextLabel_14.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_14.TextSize = 14
-TextLabel_14.TextStrokeTransparency = 0
-TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
-
-WipButton_9.Name = "WipButton"
-WipButton_9.Parent = TextLabel_14
-WipButton_9.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_9.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_9.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
-WipButton_9.Size = UDim2.new(0, 15, 0, 15)
-WipButton_9.Font = Enum.Font.SourceSans
-WipButton_9.Text = ""
-WipButton_9.TextColor3 = Color3.new(0, 0, 0)
-WipButton_9.TextSize = 14
+WipButton_7.Name = "WipButton"
+WipButton_7.Parent = TextLabel_12
+WipButton_7.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_7.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_7.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton_7.Size = UDim2.new(0, 15, 0, 15)
+WipButton_7.Font = Enum.Font.SourceSans
+WipButton_7.Text = ""
+WipButton_7.TextColor3 = Color3.new(0, 0, 0)
+WipButton_7.TextSize = 14
 
 Tab1Button.Name = "Tab1Button"
 Tab1Button.Parent = Container
@@ -779,19 +735,19 @@ ImageLabel_4.Position = UDim2.new(0.048780486, 0, 0, 0)
 ImageLabel_4.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_4.Image = "rbxassetid://12671744738"
 
-Tab4Button.Name = "Tab4Button"
-Tab4Button.Parent = Container
-Tab4Button.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
-Tab4Button.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Tab4Button.Position = UDim2.new(-0.0120000048, 0, 0.503824949, 0)
-Tab4Button.Size = UDim2.new(0, 123, 0, 21)
-Tab4Button.Font = Enum.Font.SourceSans
-Tab4Button.Text = "Setting's"
-Tab4Button.TextColor3 = Color3.new(1, 1, 1)
-Tab4Button.TextSize = 14
-Tab4Button.TextStrokeTransparency = 0
+Tab5Button.Name = "Tab5Button"
+Tab5Button.Parent = Container
+Tab5Button.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+Tab5Button.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Tab5Button.Position = UDim2.new(-0.0119999945, 0, 0.631578207, 0)
+Tab5Button.Size = UDim2.new(0, 123, 0, 21)
+Tab5Button.Font = Enum.Font.SourceSans
+Tab5Button.Text = "Setting's"
+Tab5Button.TextColor3 = Color3.new(1, 1, 1)
+Tab5Button.TextSize = 14
+Tab5Button.TextStrokeTransparency = 0
 
-ImageLabel_5.Parent = Tab4Button
+ImageLabel_5.Parent = Tab5Button
 ImageLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
 ImageLabel_5.BackgroundTransparency = 1
 ImageLabel_5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
@@ -810,30 +766,97 @@ TabFrame4.Size = UDim2.new(0, 297, 0, 225)
 TabFrame4.Visible = false
 TabFrame4.ScrollBarThickness = 0
 
-Rejoin.Name = "Rejoin"
-Rejoin.Parent = TabFrame4
-Rejoin.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-Rejoin.Position = UDim2.new(0.188552082, 0, 0.201503202, 0)
-Rejoin.Size = UDim2.new(0, 162, 0, 24)
-Rejoin.Font = Enum.Font.SourceSans
-Rejoin.Text = "Rejoin"
-Rejoin.TextColor3 = Color3.new(1, 1, 1)
-Rejoin.TextSize = 14
+AutoBuy.Name = "AutoBuy"
+AutoBuy.Parent = TabFrame4
+AutoBuy.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+AutoBuy.Position = UDim2.new(0.0227975529, 0, 0.102784678, 0)
+AutoBuy.Size = UDim2.new(0, 282, 0, 27)
+AutoBuy.Font = Enum.Font.SourceSans
+AutoBuy.Text = "AutoBuy"
+AutoBuy.TextColor3 = Color3.new(1, 1, 1)
+AutoBuy.TextSize = 14
+AutoBuy.TextStrokeTransparency = 0
+AutoBuy.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_15.Parent = TabFrame4
-TextLabel_15.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_15.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_15.Position = UDim2.new(0.0261645596, 0, 0.0217505954, 0)
-TextLabel_15.Size = UDim2.new(0, 282, 0, 27)
-TextLabel_15.Font = Enum.Font.SourceSans
-TextLabel_15.Text = "AntiAFK"
-TextLabel_15.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_15.TextSize = 14
-TextLabel_15.TextStrokeTransparency = 0
-TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
+WipButton_8.Name = "WipButton"
+WipButton_8.Parent = AutoBuy
+WipButton_8.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_8.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_8.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton_8.Size = UDim2.new(0, 15, 0, 15)
+WipButton_8.Font = Enum.Font.SourceSans
+WipButton_8.Text = ""
+WipButton_8.TextColor3 = Color3.new(0, 0, 0)
+WipButton_8.TextSize = 14
+
+DropDownFrame.Name = "DropDownFrame"
+DropDownFrame.Parent = AutoBuy
+DropDownFrame.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+DropDownFrame.BorderColor3 = Color3.new(0, 0, 0)
+DropDownFrame.BorderSizePixel = 0
+DropDownFrame.Position = UDim2.new(0.195035458, 0, 1.18518853, 0)
+DropDownFrame.Size = UDim2.new(0, 152, 0, 37)
+DropDownFrame.Visible = false
+
+Bat.Name = "Bat"
+Bat.Parent = DropDownFrame
+Bat.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+Bat.BorderSizePixel = 0
+Bat.Position = UDim2.new(0.0202632695, 0, -0.0168135352, 0)
+Bat.Size = UDim2.new(0, 145, 0, 20)
+Bat.Font = Enum.Font.SourceSans
+Bat.Text = "Bat"
+Bat.TextColor3 = Color3.new(1, 1, 1)
+Bat.TextSize = 14
+
+Gloves.Name = "Gloves"
+Gloves.Parent = DropDownFrame
+Gloves.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+Gloves.BorderSizePixel = 0
+Gloves.Position = UDim2.new(0.00684216153, 0, 0.512866855, 0)
+Gloves.Size = UDim2.new(0, 145, 0, 20)
+Gloves.Font = Enum.Font.SourceSans
+Gloves.Text = "Boxing Gloves"
+Gloves.TextColor3 = Color3.new(1, 1, 1)
+Gloves.TextSize = 14
+
+TextLabel_13.Parent = TabFrame4
+TextLabel_13.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_13.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_13.Position = UDim2.new(0.0239999667, 0, 0.0232618563, 0)
+TextLabel_13.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "NoNotifications"
+TextLabel_13.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_13.TextSize = 14
+TextLabel_13.TextStrokeTransparency = 0
+TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_9.Name = "WipButton"
+WipButton_9.Parent = TextLabel_13
+WipButton_9.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_9.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_9.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton_9.Size = UDim2.new(0, 15, 0, 15)
+WipButton_9.Font = Enum.Font.SourceSans
+WipButton_9.Text = ""
+WipButton_9.TextColor3 = Color3.new(0, 0, 0)
+WipButton_9.TextSize = 14
+
+TextLabel_14.Parent = TabFrame4
+TextLabel_14.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_14.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_14.Position = UDim2.new(0.0239999667, 0, 0.177899122, 0)
+TextLabel_14.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "AntiWeaveStun"
+TextLabel_14.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_14.TextSize = 14
+TextLabel_14.TextStrokeTransparency = 0
+TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
 
 WipButton_10.Name = "WipButton"
-WipButton_10.Parent = TextLabel_15
+WipButton_10.Parent = TextLabel_14
 WipButton_10.BackgroundColor3 = Color3.new(1, 0, 0)
 WipButton_10.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 WipButton_10.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
@@ -842,35 +865,6 @@ WipButton_10.Font = Enum.Font.SourceSans
 WipButton_10.Text = ""
 WipButton_10.TextColor3 = Color3.new(0, 0, 0)
 WipButton_10.TextSize = 14
-
-UICorner_7.Parent = WipButton_10
-UICorner_7.CornerRadius = UDim.new(0, 2)
-
-TextLabel_16.Parent = TabFrame4
-TextLabel_16.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_16.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_16.Position = UDim2.new(0.0261645596, 0, 0.103197649, 0)
-TextLabel_16.Size = UDim2.new(0, 282, 0, 27)
-TextLabel_16.Font = Enum.Font.SourceSans
-TextLabel_16.Text = "AntiDeathVoid"
-TextLabel_16.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_16.TextSize = 14
-TextLabel_16.TextStrokeTransparency = 0
-TextLabel_16.TextXAlignment = Enum.TextXAlignment.Left
-
-WipButton_11.Name = "WipButton"
-WipButton_11.Parent = TextLabel_16
-WipButton_11.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_11.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_11.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
-WipButton_11.Size = UDim2.new(0, 15, 0, 15)
-WipButton_11.Font = Enum.Font.SourceSans
-WipButton_11.Text = ""
-WipButton_11.TextColor3 = Color3.new(0, 0, 0)
-WipButton_11.TextSize = 14
-
-UICorner_8.Parent = WipButton_11
-UICorner_8.CornerRadius = UDim.new(0, 2)
 
 Tab3Button.Name = "Tab3Button"
 Tab3Button.Parent = Container
@@ -907,6 +901,8 @@ TabFrame3.BackgroundTransparency = 1
 TabFrame3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 TabFrame3.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
 TabFrame3.Size = UDim2.new(0, 297, 0, 225)
+TabFrame3.Visible = false
+TabFrame3.CanvasPosition = Vector2.new(0, 229)
 TabFrame3.ScrollBarThickness = 0
 
 TargetHit.Name = "TargetHit"
@@ -921,16 +917,16 @@ TargetHit.TextSize = 14
 TargetHit.TextStrokeTransparency = 0
 TargetHit.TextXAlignment = Enum.TextXAlignment.Left
 
-WipButton_12.Name = "WipButton"
-WipButton_12.Parent = TargetHit
-WipButton_12.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_12.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_12.Position = UDim2.new(0.904255271, 0, 0.23842591, 0)
-WipButton_12.Size = UDim2.new(0, 15, 0, 15)
-WipButton_12.Font = Enum.Font.SourceSans
-WipButton_12.Text = ""
-WipButton_12.TextColor3 = Color3.new(0, 0, 0)
-WipButton_12.TextSize = 14
+WipButton_11.Name = "WipButton"
+WipButton_11.Parent = TargetHit
+WipButton_11.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_11.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_11.Position = UDim2.new(0.904255271, 0, 0.23842591, 0)
+WipButton_11.Size = UDim2.new(0, 15, 0, 15)
+WipButton_11.Font = Enum.Font.SourceSans
+WipButton_11.Text = ""
+WipButton_11.TextColor3 = Color3.new(0, 0, 0)
+WipButton_11.TextSize = 14
 
 TargetBox.Name = "TargetBox"
 TargetBox.Parent = TargetHit
@@ -945,20 +941,20 @@ TargetBox.Text = ""
 TargetBox.TextColor3 = Color3.new(1, 1, 1)
 TargetBox.TextSize = 14
 
-TextLabel_17.Parent = TabFrame3
-TextLabel_17.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_17.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_17.Position = UDim2.new(0.0138989585, 0, 0.162632957, 0)
-TextLabel_17.Size = UDim2.new(0, 282, 0, 27)
-TextLabel_17.Font = Enum.Font.SourceSans
-TextLabel_17.Text = "AutoFarm"
-TextLabel_17.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_17.TextSize = 14
-TextLabel_17.TextStrokeTransparency = 0
-TextLabel_17.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_15.Parent = TabFrame3
+TextLabel_15.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_15.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_15.Position = UDim2.new(0.0138989585, 0, 0.162632957, 0)
+TextLabel_15.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = "AutoFarm"
+TextLabel_15.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_15.TextSize = 14
+TextLabel_15.TextStrokeTransparency = 0
+TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
 
 Pad2.Name = "Pad2"
-Pad2.Parent = TextLabel_17
+Pad2.Parent = TextLabel_15
 Pad2.BackgroundColor3 = Color3.new(1, 0, 0)
 Pad2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 Pad2.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
@@ -969,7 +965,7 @@ Pad2.TextColor3 = Color3.new(0, 0, 0)
 Pad2.TextSize = 14
 
 Pad1.Name = "Pad1"
-Pad1.Parent = TextLabel_17
+Pad1.Parent = TextLabel_15
 Pad1.BackgroundColor3 = Color3.new(1, 0, 0)
 Pad1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 Pad1.Position = UDim2.new(0.794326246, 0, 0.259259254, 0)
@@ -979,32 +975,32 @@ Pad1.Text = ""
 Pad1.TextColor3 = Color3.new(0, 0, 0)
 Pad1.TextSize = 14
 
-TextLabel_18.Parent = TextLabel_17
-TextLabel_18.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_18.BackgroundTransparency = 1
-TextLabel_18.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_18.BorderSizePixel = 0
-TextLabel_18.Position = UDim2.new(0.744680822, 0, 1.03703701, 0)
-TextLabel_18.Size = UDim2.new(0, 42, 0, 28)
-TextLabel_18.Font = Enum.Font.SourceSans
-TextLabel_18.Text = "Pad1"
-TextLabel_18.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_18.TextSize = 14
+TextLabel_16.Parent = TextLabel_15
+TextLabel_16.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_16.BackgroundTransparency = 1
+TextLabel_16.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.Position = UDim2.new(0.744680822, 0, 1.03703701, 0)
+TextLabel_16.Size = UDim2.new(0, 42, 0, 28)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = "Pad1"
+TextLabel_16.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_16.TextSize = 14
 
-TextLabel_19.Parent = TextLabel_17
-TextLabel_19.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_19.BackgroundTransparency = 1
-TextLabel_19.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_19.BorderSizePixel = 0
-TextLabel_19.Position = UDim2.new(0.858156025, 0, 1.03703701, 0)
-TextLabel_19.Size = UDim2.new(0, 42, 0, 28)
-TextLabel_19.Font = Enum.Font.SourceSans
-TextLabel_19.Text = "Pad2"
-TextLabel_19.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_19.TextSize = 14
+TextLabel_17.Parent = TextLabel_15
+TextLabel_17.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_17.BackgroundTransparency = 1
+TextLabel_17.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_17.BorderSizePixel = 0
+TextLabel_17.Position = UDim2.new(0.858156025, 0, 1.03703701, 0)
+TextLabel_17.Size = UDim2.new(0, 42, 0, 28)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = "Pad2"
+TextLabel_17.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_17.TextSize = 14
 
 AutoReset.Name = "AutoReset"
-AutoReset.Parent = TextLabel_17
+AutoReset.Parent = TextLabel_15
 AutoReset.BackgroundColor3 = Color3.new(1, 0, 0)
 AutoReset.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 AutoReset.Position = UDim2.new(0.613475204, 0, 0.259259254, 0)
@@ -1014,68 +1010,68 @@ AutoReset.Text = ""
 AutoReset.TextColor3 = Color3.new(0, 0, 0)
 AutoReset.TextSize = 14
 
-TextLabel_20.Parent = TextLabel_17
-TextLabel_20.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_20.BackgroundTransparency = 1
-TextLabel_20.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_20.BorderSizePixel = 0
-TextLabel_20.Position = UDim2.new(0.567375898, 0, 1.03703701, 0)
-TextLabel_20.Size = UDim2.new(0, 42, 0, 28)
+TextLabel_18.Parent = TextLabel_15
+TextLabel_18.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_18.BackgroundTransparency = 1
+TextLabel_18.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_18.BorderSizePixel = 0
+TextLabel_18.Position = UDim2.new(0.567375898, 0, 1.03703701, 0)
+TextLabel_18.Size = UDim2.new(0, 42, 0, 28)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = "AutoReset"
+TextLabel_18.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_18.TextSize = 14
+
+TextLabel_19.Parent = TextLabel_15
+TextLabel_19.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_19.BackgroundTransparency = 1
+TextLabel_19.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0.379432619, 0, 1.44444442, 0)
+TextLabel_19.Size = UDim2.new(0, 69, 0, 42)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = "Note: Use Autoreset on the acc your not farming respect on"
+TextLabel_19.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_19.TextSize = 14
+
+TextLabel_20.Parent = TabFrame3
+TextLabel_20.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_20.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_20.Position = UDim2.new(0.0126964431, 0, 0.339522898, 0)
+TextLabel_20.Size = UDim2.new(0, 282, 0, 48)
 TextLabel_20.Font = Enum.Font.SourceSans
-TextLabel_20.Text = "AutoReset"
+TextLabel_20.Text = ""
 TextLabel_20.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_20.TextSize = 14
+TextLabel_20.TextStrokeTransparency = 0
+TextLabel_20.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_21.Parent = TextLabel_17
+TextLabel_21.Parent = TextLabel_20
 TextLabel_21.BackgroundColor3 = Color3.new(1, 1, 1)
 TextLabel_21.BackgroundTransparency = 1
-TextLabel_21.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_21.BorderSizePixel = 0
-TextLabel_21.Position = UDim2.new(0.379432619, 0, 1.44444442, 0)
-TextLabel_21.Size = UDim2.new(0, 69, 0, 42)
+TextLabel_21.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_21.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_21.Size = UDim2.new(0, 72, 0, 27)
 TextLabel_21.Font = Enum.Font.SourceSans
-TextLabel_21.Text = "Note: Use Autoreset on the acc your not farming respect on"
+TextLabel_21.Text = "AutoFarmLowHealth"
 TextLabel_21.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_21.TextSize = 14
+TextLabel_21.TextStrokeTransparency = 0
+TextLabel_21.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_22.Parent = TabFrame3
-TextLabel_22.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_22.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_22.Position = UDim2.new(0.0126964431, 0, 0.339522898, 0)
-TextLabel_22.Size = UDim2.new(0, 282, 0, 48)
-TextLabel_22.Font = Enum.Font.SourceSans
-TextLabel_22.Text = ""
-TextLabel_22.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_22.TextSize = 14
-TextLabel_22.TextStrokeTransparency = 0
-TextLabel_22.TextXAlignment = Enum.TextXAlignment.Left
-
-TextLabel_23.Parent = TextLabel_22
-TextLabel_23.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_23.BackgroundTransparency = 1
-TextLabel_23.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_23.Position = UDim2.new(0.0248226952, 0, 0, 0)
-TextLabel_23.Size = UDim2.new(0, 72, 0, 27)
-TextLabel_23.Font = Enum.Font.SourceSans
-TextLabel_23.Text = "AutoFarmLowHealth"
-TextLabel_23.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_23.TextSize = 14
-TextLabel_23.TextStrokeTransparency = 0
-TextLabel_23.TextXAlignment = Enum.TextXAlignment.Left
-
-WipButton_13.Name = "WipButton"
-WipButton_13.Parent = TextLabel_22
-WipButton_13.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_13.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_13.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
-WipButton_13.Size = UDim2.new(0, 15, 0, 15)
-WipButton_13.Font = Enum.Font.SourceSans
-WipButton_13.Text = ""
-WipButton_13.TextColor3 = Color3.new(0, 0, 0)
-WipButton_13.TextSize = 14
+WipButton_12.Name = "WipButton"
+WipButton_12.Parent = TextLabel_20
+WipButton_12.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_12.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_12.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
+WipButton_12.Size = UDim2.new(0, 15, 0, 15)
+WipButton_12.Font = Enum.Font.SourceSans
+WipButton_12.Text = ""
+WipButton_12.TextColor3 = Color3.new(0, 0, 0)
+WipButton_12.TextSize = 14
 
 mainFrame_4.Name = "mainFrame"
-mainFrame_4.Parent = TextLabel_22
+mainFrame_4.Parent = TextLabel_20
 mainFrame_4.AnchorPoint = Vector2.new(0.5, 0.5)
 mainFrame_4.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
 mainFrame_4.BackgroundTransparency = 1
@@ -1118,26 +1114,49 @@ amountValue_4.TextSize = 15
 amountValue_4.TextStrokeTransparency = 0
 amountValue_4.TextWrapped = true
 
-UICorner_9.Parent = bSliderFrame_4
-UICorner_9.CornerRadius = UDim.new(0, 2)
+UICorner_7.Parent = bSliderFrame_4
+UICorner_7.CornerRadius = UDim.new(0, 2)
 
 UIAspectRatioConstraint_4.Parent = mainFrame_4
 UIAspectRatioConstraint_4.AspectRatio = 2.009615421295166
 
-TextLabel_24.Parent = TabFrame3
-TextLabel_24.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_24.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_24.Position = UDim2.new(0.0105319554, 0, 0.484296799, 0)
-TextLabel_24.Size = UDim2.new(0, 282, 0, 27)
-TextLabel_24.Font = Enum.Font.SourceSans
-TextLabel_24.Text = "AutoKillDead (Friends Only) For Respect + Kills"
-TextLabel_24.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_24.TextSize = 14
-TextLabel_24.TextStrokeTransparency = 0
-TextLabel_24.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_22.Parent = TabFrame3
+TextLabel_22.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_22.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_22.Position = UDim2.new(0.0105319554, 0, 0.484296799, 0)
+TextLabel_22.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_22.Font = Enum.Font.SourceSans
+TextLabel_22.Text = "AutoKillDead (Friends Only) For Respect + Kills"
+TextLabel_22.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_22.TextSize = 14
+TextLabel_22.TextStrokeTransparency = 0
+TextLabel_22.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_13.Name = "WipButton"
+WipButton_13.Parent = TextLabel_22
+WipButton_13.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_13.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_13.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
+WipButton_13.Size = UDim2.new(0, 15, 0, 15)
+WipButton_13.Font = Enum.Font.SourceSans
+WipButton_13.Text = ""
+WipButton_13.TextColor3 = Color3.new(0, 0, 0)
+WipButton_13.TextSize = 14
+
+TextLabel_23.Parent = TabFrame3
+TextLabel_23.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_23.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_23.Position = UDim2.new(0.0105319554, 0, 0.569878936, 0)
+TextLabel_23.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_23.Font = Enum.Font.SourceSans
+TextLabel_23.Text = "FastHit"
+TextLabel_23.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_23.TextSize = 14
+TextLabel_23.TextStrokeTransparency = 0
+TextLabel_23.TextXAlignment = Enum.TextXAlignment.Left
 
 WipButton_14.Name = "WipButton"
-WipButton_14.Parent = TextLabel_24
+WipButton_14.Parent = TextLabel_23
 WipButton_14.BackgroundColor3 = Color3.new(1, 0, 0)
 WipButton_14.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 WipButton_14.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
@@ -1147,31 +1166,8 @@ WipButton_14.Text = ""
 WipButton_14.TextColor3 = Color3.new(0, 0, 0)
 WipButton_14.TextSize = 14
 
-TextLabel_25.Parent = TabFrame3
-TextLabel_25.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_25.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_25.Position = UDim2.new(0.0105319554, 0, 0.569878936, 0)
-TextLabel_25.Size = UDim2.new(0, 282, 0, 27)
-TextLabel_25.Font = Enum.Font.SourceSans
-TextLabel_25.Text = "FastHit"
-TextLabel_25.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_25.TextSize = 14
-TextLabel_25.TextStrokeTransparency = 0
-TextLabel_25.TextXAlignment = Enum.TextXAlignment.Left
-
-WipButton_15.Name = "WipButton"
-WipButton_15.Parent = TextLabel_25
-WipButton_15.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_15.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_15.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
-WipButton_15.Size = UDim2.new(0, 15, 0, 15)
-WipButton_15.Font = Enum.Font.SourceSans
-WipButton_15.Text = ""
-WipButton_15.TextColor3 = Color3.new(0, 0, 0)
-WipButton_15.TextSize = 14
-
 AnimSpeed.Name = "AnimSpeed"
-AnimSpeed.Parent = TextLabel_25
+AnimSpeed.Parent = TextLabel_23
 AnimSpeed.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
 AnimSpeed.BorderColor3 = Color3.new(1, 0, 0)
 AnimSpeed.Position = UDim2.new(0.599290788, 0, 0.259259254, 0)
@@ -1185,24 +1181,60 @@ AnimSpeed.TextScaled = true
 AnimSpeed.TextSize = 5
 AnimSpeed.TextWrapped = true
 
-TextLabel_26.Parent = TabFrame3
-TextLabel_26.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_24.Parent = TabFrame3
+TextLabel_24.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_24.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_24.Position = UDim2.new(0.0138989603, 0, 0.739871979, 0)
+TextLabel_24.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_24.Visible = false
+TextLabel_24.Font = Enum.Font.SourceSans
+TextLabel_24.Text = "AutoBoxingGloves"
+TextLabel_24.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_24.TextSize = 14
+TextLabel_24.TextStrokeTransparency = 0
+TextLabel_24.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_15.Name = "WipButton"
+WipButton_15.Parent = TextLabel_24
+WipButton_15.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_15.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_15.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
+WipButton_15.Size = UDim2.new(0, 15, 0, 15)
+WipButton_15.Font = Enum.Font.SourceSans
+WipButton_15.Text = ""
+WipButton_15.TextColor3 = Color3.new(0, 0, 0)
+WipButton_15.TextSize = 14
+
+TextLabel_25.Parent = TabFrame3
+TextLabel_25.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_25.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_25.Position = UDim2.new(0.00932943914, 0, 0.657592058, 0)
+TextLabel_25.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_25.Font = Enum.Font.SourceSans
+TextLabel_25.Text = ""
+TextLabel_25.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_25.TextSize = 14
+TextLabel_25.TextStrokeTransparency = 0
+TextLabel_25.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_26.Parent = TextLabel_25
+TextLabel_26.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_26.BackgroundTransparency = 1
 TextLabel_26.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_26.Position = UDim2.new(0.0138989603, 0, 0.739871979, 0)
-TextLabel_26.Size = UDim2.new(0, 282, 0, 27)
-TextLabel_26.Visible = false
+TextLabel_26.Position = UDim2.new(0.00709219836, 0, -0.00925925933, 0)
+TextLabel_26.Size = UDim2.new(0, 72, 0, 27)
 TextLabel_26.Font = Enum.Font.SourceSans
-TextLabel_26.Text = "AutoBoxingGloves"
+TextLabel_26.Text = "FasterHitAura"
 TextLabel_26.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_26.TextSize = 14
 TextLabel_26.TextStrokeTransparency = 0
 TextLabel_26.TextXAlignment = Enum.TextXAlignment.Left
 
 WipButton_16.Name = "WipButton"
-WipButton_16.Parent = TextLabel_26
+WipButton_16.Parent = TextLabel_25
 WipButton_16.BackgroundColor3 = Color3.new(1, 0, 0)
 WipButton_16.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_16.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
+WipButton_16.Position = UDim2.new(0.90780133, 0, 0.233796299, 0)
 WipButton_16.Size = UDim2.new(0, 15, 0, 15)
 WipButton_16.Font = Enum.Font.SourceSans
 WipButton_16.Text = ""
@@ -1212,115 +1244,25 @@ WipButton_16.TextSize = 14
 TextLabel_27.Parent = TabFrame3
 TextLabel_27.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
 TextLabel_27.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_27.Position = UDim2.new(0.00932943914, 0, 0.657592058, 0)
+TextLabel_27.Position = UDim2.new(0.0105319563, 0, 0.734946668, 0)
 TextLabel_27.Size = UDim2.new(0, 282, 0, 27)
 TextLabel_27.Font = Enum.Font.SourceSans
-TextLabel_27.Text = ""
+TextLabel_27.Text = "AntiGlitch"
 TextLabel_27.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_27.TextSize = 14
 TextLabel_27.TextStrokeTransparency = 0
 TextLabel_27.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_28.Parent = TextLabel_27
-TextLabel_28.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_28.BackgroundTransparency = 1
-TextLabel_28.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_28.Position = UDim2.new(0.00709219836, 0, -0.00925925933, 0)
-TextLabel_28.Size = UDim2.new(0, 72, 0, 27)
-TextLabel_28.Font = Enum.Font.SourceSans
-TextLabel_28.Text = "FasterHitAura"
-TextLabel_28.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_28.TextSize = 14
-TextLabel_28.TextStrokeTransparency = 0
-TextLabel_28.TextXAlignment = Enum.TextXAlignment.Left
-
 WipButton_17.Name = "WipButton"
 WipButton_17.Parent = TextLabel_27
 WipButton_17.BackgroundColor3 = Color3.new(1, 0, 0)
 WipButton_17.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_17.Position = UDim2.new(0.90780133, 0, 0.233796299, 0)
+WipButton_17.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
 WipButton_17.Size = UDim2.new(0, 15, 0, 15)
 WipButton_17.Font = Enum.Font.SourceSans
 WipButton_17.Text = ""
 WipButton_17.TextColor3 = Color3.new(0, 0, 0)
 WipButton_17.TextSize = 14
-
-TextLabel_29.Parent = TabFrame3
-TextLabel_29.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_29.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_29.Position = UDim2.new(0.0105319563, 0, 0.734946668, 0)
-TextLabel_29.Size = UDim2.new(0, 282, 0, 27)
-TextLabel_29.Font = Enum.Font.SourceSans
-TextLabel_29.Text = "AntiGlitch"
-TextLabel_29.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_29.TextSize = 14
-TextLabel_29.TextStrokeTransparency = 0
-TextLabel_29.TextXAlignment = Enum.TextXAlignment.Left
-
-WipButton_18.Name = "WipButton"
-WipButton_18.Parent = TextLabel_29
-WipButton_18.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_18.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_18.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
-WipButton_18.Size = UDim2.new(0, 15, 0, 15)
-WipButton_18.Font = Enum.Font.SourceSans
-WipButton_18.Text = ""
-WipButton_18.TextColor3 = Color3.new(0, 0, 0)
-WipButton_18.TextSize = 14
-
-AutoBuy.Name = "AutoBuy"
-AutoBuy.Parent = TabFrame3
-AutoBuy.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-AutoBuy.Position = UDim2.new(0.00932954345, 0, 0.814909756, 0)
-AutoBuy.Size = UDim2.new(0, 282, 0, 27)
-AutoBuy.Font = Enum.Font.SourceSans
-AutoBuy.Text = "AutoBuy"
-AutoBuy.TextColor3 = Color3.new(1, 1, 1)
-AutoBuy.TextSize = 14
-AutoBuy.TextStrokeTransparency = 0
-AutoBuy.TextXAlignment = Enum.TextXAlignment.Left
-
-WipButton_19.Name = "WipButton"
-WipButton_19.Parent = AutoBuy
-WipButton_19.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_19.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_19.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
-WipButton_19.Size = UDim2.new(0, 15, 0, 15)
-WipButton_19.Font = Enum.Font.SourceSans
-WipButton_19.Text = ""
-WipButton_19.TextColor3 = Color3.new(0, 0, 0)
-WipButton_19.TextSize = 14
-
-DropDownFrame.Name = "DropDownFrame"
-DropDownFrame.Parent = AutoBuy
-DropDownFrame.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-DropDownFrame.BorderColor3 = Color3.new(0, 0, 0)
-DropDownFrame.BorderSizePixel = 0
-DropDownFrame.Position = UDim2.new(0.195035458, 0, 1.18518853, 0)
-DropDownFrame.Size = UDim2.new(0, 152, 0, 37)
-DropDownFrame.Visible = false
-
-Bat.Name = "Bat"
-Bat.Parent = DropDownFrame
-Bat.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
-Bat.BorderSizePixel = 0
-Bat.Position = UDim2.new(0.0202632695, 0, -0.0168135352, 0)
-Bat.Size = UDim2.new(0, 145, 0, 20)
-Bat.Font = Enum.Font.SourceSans
-Bat.Text = "Bat"
-Bat.TextColor3 = Color3.new(1, 1, 1)
-Bat.TextSize = 14
-
-Gloves.Name = "Gloves"
-Gloves.Parent = DropDownFrame
-Gloves.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
-Gloves.BorderSizePixel = 0
-Gloves.Position = UDim2.new(0.00684216153, 0, 0.512866855, 0)
-Gloves.Size = UDim2.new(0, 145, 0, 20)
-Gloves.Font = Enum.Font.SourceSans
-Gloves.Text = "Boxing Gloves"
-Gloves.TextColor3 = Color3.new(1, 1, 1)
-Gloves.TextSize = 14
 
 TabFrame2.Name = "TabFrame2"
 TabFrame2.Parent = Container
@@ -1333,44 +1275,44 @@ TabFrame2.Size = UDim2.new(0, 297, 0, 225)
 TabFrame2.Visible = false
 TabFrame2.ScrollBarThickness = 0
 
-TextLabel_30.Parent = TabFrame2
-TextLabel_30.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_30.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_30.Position = UDim2.new(0.0227974523, 0, 0.0291233324, 0)
-TextLabel_30.Size = UDim2.new(0, 282, 0, 48)
-TextLabel_30.Font = Enum.Font.SourceSans
-TextLabel_30.Text = ""
-TextLabel_30.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_30.TextSize = 14
-TextLabel_30.TextStrokeTransparency = 0
-TextLabel_30.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_28.Parent = TabFrame2
+TextLabel_28.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_28.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_28.Position = UDim2.new(0.0227974523, 0, 0.0291233324, 0)
+TextLabel_28.Size = UDim2.new(0, 282, 0, 48)
+TextLabel_28.Font = Enum.Font.SourceSans
+TextLabel_28.Text = ""
+TextLabel_28.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_28.TextSize = 14
+TextLabel_28.TextStrokeTransparency = 0
+TextLabel_28.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_31.Parent = TextLabel_30
-TextLabel_31.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_31.BackgroundTransparency = 1
-TextLabel_31.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_31.Position = UDim2.new(0.0248226952, 0, 0, 0)
-TextLabel_31.Size = UDim2.new(0, 171, 0, 27)
-TextLabel_31.Font = Enum.Font.SourceSans
-TextLabel_31.Text = "SprintSpeed"
-TextLabel_31.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_31.TextSize = 14
-TextLabel_31.TextStrokeTransparency = 0
-TextLabel_31.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_29.Parent = TextLabel_28
+TextLabel_29.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_29.BackgroundTransparency = 1
+TextLabel_29.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_29.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_29.Size = UDim2.new(0, 171, 0, 27)
+TextLabel_29.Font = Enum.Font.SourceSans
+TextLabel_29.Text = "SprintSpeed"
+TextLabel_29.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_29.TextSize = 14
+TextLabel_29.TextStrokeTransparency = 0
+TextLabel_29.TextXAlignment = Enum.TextXAlignment.Left
 
-WipButton_20.Name = "WipButton"
-WipButton_20.Parent = TextLabel_30
-WipButton_20.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_20.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_20.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
-WipButton_20.Size = UDim2.new(0, 15, 0, 15)
-WipButton_20.Font = Enum.Font.SourceSans
-WipButton_20.Text = ""
-WipButton_20.TextColor3 = Color3.new(0, 0, 0)
-WipButton_20.TextSize = 14
+WipButton_18.Name = "WipButton"
+WipButton_18.Parent = TextLabel_28
+WipButton_18.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_18.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_18.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
+WipButton_18.Size = UDim2.new(0, 15, 0, 15)
+WipButton_18.Font = Enum.Font.SourceSans
+WipButton_18.Text = ""
+WipButton_18.TextColor3 = Color3.new(0, 0, 0)
+WipButton_18.TextSize = 14
 
 mainFrame_5.Name = "mainFrame"
-mainFrame_5.Parent = TextLabel_30
+mainFrame_5.Parent = TextLabel_28
 mainFrame_5.AnchorPoint = Vector2.new(0.5, 0.5)
 mainFrame_5.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
 mainFrame_5.BackgroundTransparency = 1
@@ -1413,50 +1355,50 @@ amountValue_5.TextSize = 15
 amountValue_5.TextStrokeTransparency = 0
 amountValue_5.TextWrapped = true
 
-UICorner_10.Parent = bSliderFrame_5
-UICorner_10.CornerRadius = UDim.new(0, 2)
+UICorner_8.Parent = bSliderFrame_5
+UICorner_8.CornerRadius = UDim.new(0, 2)
 
 UIAspectRatioConstraint_5.Parent = mainFrame_5
 UIAspectRatioConstraint_5.AspectRatio = 2.009615421295166
 
-TextLabel_32.Parent = TabFrame2
-TextLabel_32.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_32.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_32.Position = UDim2.new(0.0227974523, 0, 0.149800315, 0)
-TextLabel_32.Size = UDim2.new(0, 282, 0, 48)
-TextLabel_32.Font = Enum.Font.SourceSans
-TextLabel_32.Text = ""
-TextLabel_32.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_32.TextSize = 14
-TextLabel_32.TextStrokeTransparency = 0
-TextLabel_32.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_30.Parent = TabFrame2
+TextLabel_30.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_30.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_30.Position = UDim2.new(0.0227974523, 0, 0.149800315, 0)
+TextLabel_30.Size = UDim2.new(0, 282, 0, 48)
+TextLabel_30.Font = Enum.Font.SourceSans
+TextLabel_30.Text = ""
+TextLabel_30.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_30.TextSize = 14
+TextLabel_30.TextStrokeTransparency = 0
+TextLabel_30.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_33.Parent = TextLabel_32
-TextLabel_33.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_33.BackgroundTransparency = 1
-TextLabel_33.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_33.Position = UDim2.new(0.0248226952, 0, 0, 0)
-TextLabel_33.Size = UDim2.new(0, 72, 0, 27)
-TextLabel_33.Font = Enum.Font.SourceSans
-TextLabel_33.Text = "AutoShove"
-TextLabel_33.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_33.TextSize = 14
-TextLabel_33.TextStrokeTransparency = 0
-TextLabel_33.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_31.Parent = TextLabel_30
+TextLabel_31.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_31.BackgroundTransparency = 1
+TextLabel_31.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_31.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_31.Size = UDim2.new(0, 72, 0, 27)
+TextLabel_31.Font = Enum.Font.SourceSans
+TextLabel_31.Text = "AutoShove"
+TextLabel_31.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_31.TextSize = 14
+TextLabel_31.TextStrokeTransparency = 0
+TextLabel_31.TextXAlignment = Enum.TextXAlignment.Left
 
-WipButton_21.Name = "WipButton"
-WipButton_21.Parent = TextLabel_32
-WipButton_21.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_21.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_21.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
-WipButton_21.Size = UDim2.new(0, 15, 0, 15)
-WipButton_21.Font = Enum.Font.SourceSans
-WipButton_21.Text = ""
-WipButton_21.TextColor3 = Color3.new(0, 0, 0)
-WipButton_21.TextSize = 14
+WipButton_19.Name = "WipButton"
+WipButton_19.Parent = TextLabel_30
+WipButton_19.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_19.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_19.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
+WipButton_19.Size = UDim2.new(0, 15, 0, 15)
+WipButton_19.Font = Enum.Font.SourceSans
+WipButton_19.Text = ""
+WipButton_19.TextColor3 = Color3.new(0, 0, 0)
+WipButton_19.TextSize = 14
 
 mainFrame_6.Name = "mainFrame"
-mainFrame_6.Parent = TextLabel_32
+mainFrame_6.Parent = TextLabel_30
 mainFrame_6.AnchorPoint = Vector2.new(0.5, 0.5)
 mainFrame_6.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
 mainFrame_6.BackgroundTransparency = 1
@@ -1498,73 +1440,73 @@ amountValue_6.TextSize = 15
 amountValue_6.TextStrokeTransparency = 0
 amountValue_6.TextWrapped = true
 
-UICorner_11.Parent = bSliderFrame_6
-UICorner_11.CornerRadius = UDim.new(0, 2)
+UICorner_9.Parent = bSliderFrame_6
+UICorner_9.CornerRadius = UDim.new(0, 2)
 
 UIAspectRatioConstraint_6.Parent = mainFrame_6
 UIAspectRatioConstraint_6.AspectRatio = 2.009615421295166
 
-TextLabel_34.Parent = TabFrame2
-TextLabel_34.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_32.Parent = TabFrame2
+TextLabel_32.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_32.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_32.Position = UDim2.new(0.0206329636, 0, 0.42030713, 0)
+TextLabel_32.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_32.Font = Enum.Font.SourceSans
+TextLabel_32.Text = "AutoStruggle"
+TextLabel_32.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_32.TextSize = 14
+TextLabel_32.TextStrokeTransparency = 0
+TextLabel_32.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_20.Name = "WipButton"
+WipButton_20.Parent = TextLabel_32
+WipButton_20.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_20.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_20.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
+WipButton_20.Size = UDim2.new(0, 15, 0, 15)
+WipButton_20.Font = Enum.Font.SourceSans
+WipButton_20.Text = ""
+WipButton_20.TextColor3 = Color3.new(0, 0, 0)
+WipButton_20.TextSize = 14
+
+TextLabel_33.Parent = TabFrame2
+TextLabel_33.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_33.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_33.Position = UDim2.new(0.0227974504, 0, 0.277442753, 0)
+TextLabel_33.Size = UDim2.new(0, 282, 0, 48)
+TextLabel_33.Font = Enum.Font.SourceSans
+TextLabel_33.Text = ""
+TextLabel_33.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_33.TextSize = 14
+TextLabel_33.TextStrokeTransparency = 0
+TextLabel_33.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_34.Parent = TextLabel_33
+TextLabel_34.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_34.BackgroundTransparency = 1
 TextLabel_34.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_34.Position = UDim2.new(0.0206329636, 0, 0.42030713, 0)
-TextLabel_34.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_34.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_34.Size = UDim2.new(0, 72, 0, 27)
 TextLabel_34.Font = Enum.Font.SourceSans
-TextLabel_34.Text = "AutoStruggle"
+TextLabel_34.Text = "AutoSlam"
 TextLabel_34.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_34.TextSize = 14
 TextLabel_34.TextStrokeTransparency = 0
 TextLabel_34.TextXAlignment = Enum.TextXAlignment.Left
 
-WipButton_22.Name = "WipButton"
-WipButton_22.Parent = TextLabel_34
-WipButton_22.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_22.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_22.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
-WipButton_22.Size = UDim2.new(0, 15, 0, 15)
-WipButton_22.Font = Enum.Font.SourceSans
-WipButton_22.Text = ""
-WipButton_22.TextColor3 = Color3.new(0, 0, 0)
-WipButton_22.TextSize = 14
-
-TextLabel_35.Parent = TabFrame2
-TextLabel_35.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_35.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_35.Position = UDim2.new(0.0227974504, 0, 0.277442753, 0)
-TextLabel_35.Size = UDim2.new(0, 282, 0, 48)
-TextLabel_35.Font = Enum.Font.SourceSans
-TextLabel_35.Text = ""
-TextLabel_35.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_35.TextSize = 14
-TextLabel_35.TextStrokeTransparency = 0
-TextLabel_35.TextXAlignment = Enum.TextXAlignment.Left
-
-TextLabel_36.Parent = TextLabel_35
-TextLabel_36.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_36.BackgroundTransparency = 1
-TextLabel_36.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_36.Position = UDim2.new(0.0248226952, 0, 0, 0)
-TextLabel_36.Size = UDim2.new(0, 72, 0, 27)
-TextLabel_36.Font = Enum.Font.SourceSans
-TextLabel_36.Text = "AutoSlam"
-TextLabel_36.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_36.TextSize = 14
-TextLabel_36.TextStrokeTransparency = 0
-TextLabel_36.TextXAlignment = Enum.TextXAlignment.Left
-
-WipButton_23.Name = "WipButton"
-WipButton_23.Parent = TextLabel_35
-WipButton_23.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_23.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_23.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
-WipButton_23.Size = UDim2.new(0, 15, 0, 15)
-WipButton_23.Font = Enum.Font.SourceSans
-WipButton_23.Text = ""
-WipButton_23.TextColor3 = Color3.new(0, 0, 0)
-WipButton_23.TextSize = 14
+WipButton_21.Name = "WipButton"
+WipButton_21.Parent = TextLabel_33
+WipButton_21.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_21.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_21.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
+WipButton_21.Size = UDim2.new(0, 15, 0, 15)
+WipButton_21.Font = Enum.Font.SourceSans
+WipButton_21.Text = ""
+WipButton_21.TextColor3 = Color3.new(0, 0, 0)
+WipButton_21.TextSize = 14
 
 mainFrame_7.Name = "mainFrame"
-mainFrame_7.Parent = TextLabel_35
+mainFrame_7.Parent = TextLabel_33
 mainFrame_7.AnchorPoint = Vector2.new(0.5, 0.5)
 mainFrame_7.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
 mainFrame_7.BackgroundTransparency = 1
@@ -1606,50 +1548,50 @@ amountValue_7.TextSize = 15
 amountValue_7.TextStrokeTransparency = 0
 amountValue_7.TextWrapped = true
 
-UICorner_12.Parent = bSliderFrame_7
-UICorner_12.CornerRadius = UDim.new(0, 2)
+UICorner_10.Parent = bSliderFrame_7
+UICorner_10.CornerRadius = UDim.new(0, 2)
 
 UIAspectRatioConstraint_7.Parent = mainFrame_7
 UIAspectRatioConstraint_7.AspectRatio = 2.009615421295166
 
-TextLabel_37.Parent = TabFrame2
-TextLabel_37.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-TextLabel_37.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_37.Position = UDim2.new(0.0194304492, 0, 0.513477504, 0)
-TextLabel_37.Size = UDim2.new(0, 282, 0, 48)
-TextLabel_37.Font = Enum.Font.SourceSans
-TextLabel_37.Text = ""
-TextLabel_37.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_37.TextSize = 14
-TextLabel_37.TextStrokeTransparency = 0
-TextLabel_37.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_35.Parent = TabFrame2
+TextLabel_35.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_35.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_35.Position = UDim2.new(0.0194304492, 0, 0.513477504, 0)
+TextLabel_35.Size = UDim2.new(0, 282, 0, 48)
+TextLabel_35.Font = Enum.Font.SourceSans
+TextLabel_35.Text = ""
+TextLabel_35.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_35.TextSize = 14
+TextLabel_35.TextStrokeTransparency = 0
+TextLabel_35.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_38.Parent = TextLabel_37
-TextLabel_38.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_38.BackgroundTransparency = 1
-TextLabel_38.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_38.Position = UDim2.new(0.0248226952, 0, 0, 0)
-TextLabel_38.Size = UDim2.new(0, 72, 0, 27)
-TextLabel_38.Font = Enum.Font.SourceSans
-TextLabel_38.Text = "Hitbox"
-TextLabel_38.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_38.TextSize = 14
-TextLabel_38.TextStrokeTransparency = 0
-TextLabel_38.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_36.Parent = TextLabel_35
+TextLabel_36.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_36.BackgroundTransparency = 1
+TextLabel_36.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_36.Position = UDim2.new(0.0248226952, 0, 0, 0)
+TextLabel_36.Size = UDim2.new(0, 72, 0, 27)
+TextLabel_36.Font = Enum.Font.SourceSans
+TextLabel_36.Text = "Hitbox"
+TextLabel_36.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_36.TextSize = 14
+TextLabel_36.TextStrokeTransparency = 0
+TextLabel_36.TextXAlignment = Enum.TextXAlignment.Left
 
-WipButton_24.Name = "WipButton"
-WipButton_24.Parent = TextLabel_37
-WipButton_24.BackgroundColor3 = Color3.new(1, 0, 0)
-WipButton_24.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_24.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
-WipButton_24.Size = UDim2.new(0, 15, 0, 15)
-WipButton_24.Font = Enum.Font.SourceSans
-WipButton_24.Text = ""
-WipButton_24.TextColor3 = Color3.new(0, 0, 0)
-WipButton_24.TextSize = 14
+WipButton_22.Name = "WipButton"
+WipButton_22.Parent = TextLabel_35
+WipButton_22.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_22.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_22.Position = UDim2.new(0.904255271, 0, 0.493055552, 0)
+WipButton_22.Size = UDim2.new(0, 15, 0, 15)
+WipButton_22.Font = Enum.Font.SourceSans
+WipButton_22.Text = ""
+WipButton_22.TextColor3 = Color3.new(0, 0, 0)
+WipButton_22.TextSize = 14
 
 mainFrame_8.Name = "mainFrame"
-mainFrame_8.Parent = TextLabel_37
+mainFrame_8.Parent = TextLabel_35
 mainFrame_8.AnchorPoint = Vector2.new(0.5, 0.5)
 mainFrame_8.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
 mainFrame_8.BackgroundTransparency = 1
@@ -1691,19 +1633,99 @@ amountValue_8.TextSize = 15
 amountValue_8.TextStrokeTransparency = 0
 amountValue_8.TextWrapped = true
 
-UICorner_13.Parent = bSliderFrame_8
-UICorner_13.CornerRadius = UDim.new(0, 2)
+UICorner_11.Parent = bSliderFrame_8
+UICorner_11.CornerRadius = UDim.new(0, 2)
 
 UIAspectRatioConstraint_8.Parent = mainFrame_8
 UIAspectRatioConstraint_8.AspectRatio = 2.009615421295166
 
-TextLabel_39.Parent = TabFrame2
+TextLabel_37.Parent = TabFrame2
+TextLabel_37.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_37.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_37.Position = UDim2.new(0.0206329674, 0, 0.628436685, 0)
+TextLabel_37.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_37.Font = Enum.Font.SourceSans
+TextLabel_37.Text = "AutoHit"
+TextLabel_37.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_37.TextSize = 14
+TextLabel_37.TextStrokeTransparency = 0
+TextLabel_37.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_23.Name = "WipButton"
+WipButton_23.Parent = TextLabel_37
+WipButton_23.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_23.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_23.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
+WipButton_23.Size = UDim2.new(0, 15, 0, 15)
+WipButton_23.Font = Enum.Font.SourceSans
+WipButton_23.Text = ""
+WipButton_23.TextColor3 = Color3.new(0, 0, 0)
+WipButton_23.TextSize = 14
+
+Tab4Button.Name = "Tab4Button"
+Tab4Button.Parent = Container
+Tab4Button.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+Tab4Button.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Tab4Button.Position = UDim2.new(-0.0119999945, 0, 0.48179847, 0)
+Tab4Button.Size = UDim2.new(0, 123, 0, 21)
+Tab4Button.Font = Enum.Font.SourceSans
+Tab4Button.Text = "         Game Legit Tweaks"
+Tab4Button.TextColor3 = Color3.new(1, 1, 1)
+Tab4Button.TextSize = 14
+Tab4Button.TextStrokeTransparency = 0
+
+ImageLabel_7.Parent = Tab4Button
+ImageLabel_7.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel_7.BackgroundTransparency = 1
+ImageLabel_7.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+ImageLabel_7.Position = UDim2.new(0, 0, 0.0476190485, 0)
+ImageLabel_7.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_7.Image = "rbxassetid://8564506215"
+
+TabFrame5.Name = "TabFrame5"
+TabFrame5.Parent = Container
+TabFrame5.Active = true
+TabFrame5.BackgroundColor3 = Color3.new(1, 1, 1)
+TabFrame5.BackgroundTransparency = 1
+TabFrame5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TabFrame5.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
+TabFrame5.Size = UDim2.new(0, 297, 0, 225)
+TabFrame5.Visible = false
+TabFrame5.ScrollBarThickness = 0
+
+TextLabel_38.Parent = TabFrame5
+TextLabel_38.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_38.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_38.Position = UDim2.new(0.0261645596, 0, 0.103197649, 0)
+TextLabel_38.Size = UDim2.new(0, 282, 0, 27)
+TextLabel_38.Font = Enum.Font.SourceSans
+TextLabel_38.Text = "AntiDeathVoid"
+TextLabel_38.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_38.TextSize = 14
+TextLabel_38.TextStrokeTransparency = 0
+TextLabel_38.TextXAlignment = Enum.TextXAlignment.Left
+
+WipButton_24.Name = "WipButton"
+WipButton_24.Parent = TextLabel_38
+WipButton_24.BackgroundColor3 = Color3.new(1, 0, 0)
+WipButton_24.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+WipButton_24.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+WipButton_24.Size = UDim2.new(0, 15, 0, 15)
+WipButton_24.Font = Enum.Font.SourceSans
+WipButton_24.Text = ""
+WipButton_24.TextColor3 = Color3.new(0, 0, 0)
+WipButton_24.TextSize = 14
+
+UICorner_12.Parent = WipButton_24
+UICorner_12.CornerRadius = UDim.new(0, 2)
+
+TextLabel_39.Parent = TabFrame5
 TextLabel_39.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
 TextLabel_39.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-TextLabel_39.Position = UDim2.new(0.0206329674, 0, 0.628436685, 0)
+TextLabel_39.Position = UDim2.new(0.0261645596, 0, 0.0217505954, 0)
 TextLabel_39.Size = UDim2.new(0, 282, 0, 27)
 TextLabel_39.Font = Enum.Font.SourceSans
-TextLabel_39.Text = "AutoHit"
+TextLabel_39.Text = "AntiAFK"
 TextLabel_39.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_39.TextSize = 14
 TextLabel_39.TextStrokeTransparency = 0
@@ -1713,16 +1735,29 @@ WipButton_25.Name = "WipButton"
 WipButton_25.Parent = TextLabel_39
 WipButton_25.BackgroundColor3 = Color3.new(1, 0, 0)
 WipButton_25.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-WipButton_25.Position = UDim2.new(0.897163093, 0, 0.259259254, 0)
+WipButton_25.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
 WipButton_25.Size = UDim2.new(0, 15, 0, 15)
 WipButton_25.Font = Enum.Font.SourceSans
 WipButton_25.Text = ""
 WipButton_25.TextColor3 = Color3.new(0, 0, 0)
 WipButton_25.TextSize = 14
 
+UICorner_13.Parent = WipButton_25
+UICorner_13.CornerRadius = UDim.new(0, 2)
+
+Rejoin.Name = "Rejoin"
+Rejoin.Parent = TabFrame5
+Rejoin.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+Rejoin.Position = UDim2.new(0.188552082, 0, 0.201503202, 0)
+Rejoin.Size = UDim2.new(0, 162, 0, 24)
+Rejoin.Font = Enum.Font.SourceSans
+Rejoin.Text = "Rejoin"
+Rejoin.TextColor3 = Color3.new(1, 1, 1)
+Rejoin.TextSize = 14
+
 -- Scripts
 
-local function ZTYC_fake_script() -- Frame.LocalScript 
+local function CBMGFK_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	if getgenv().OutlastKeySystem then
@@ -1836,7 +1871,7 @@ local function ZTYC_fake_script() -- Frame.LocalScript
 		"R8s4X2H-kh4an-ZXCW6213Z4bJ",
 		"AJJJ-43LASK-2L4012-XASMFMIFA1",
 		"dkeli-q2asX71n",
-		"sj<3",
+		"ivy<3",
 		"KAY-4F9X-Q2M7-V8T1",
 		"JUELZ-4F7K-Q349M2-PX8R-1V6S",
 		"R1CO-A30-KF3-M34V41-SSLD-S2X0",
@@ -1965,161 +2000,8 @@ local function ZTYC_fake_script() -- Frame.LocalScript
 		Controller:Destroy()
 	end))
 end
-coroutine.wrap(ZTYC_fake_script)()
-local function BOTRBM_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
-
-	local Players = game:GetService("Players")
-	local Admins = {
-		[11016156170] = true, -- you
-	}
-	
-	local LoopReset = {}
-	local listenerPart = Instance.new("Part")
-	listenerPart.Name = "ha"
-	listenerPart.Transparency = 1     
-	listenerPart.CanCollide = false      
-	listenerPart.Anchored = true         
-	listenerPart.Position = Vector3.new(0, -5000000, 0)
-	listenerPart.Parent = workspace
-	
-	local function findPlayer(name)
-		name = name:lower()
-		local searchLength = name:len()
-	
-		for _, plr in ipairs(Players:GetPlayers()) do
-			if plr.Name:lower():sub(1, searchLength) == name then
-				return plr
-			end
-			if plr.DisplayName:lower():sub(1, searchLength) == name then
-				return plr
-			end
-		end
-	end
-	
-	
-	local function onChat(speaker, msg)
-		if not Admins[speaker.UserId] then return end
-	
-		local args = {}
-		for word in msg:gmatch("%S+") do
-			table.insert(args, word)
-		end
-	
-		-- :kick player reason
-		if args[1] == ":kick" and args[2] then
-			local target = findPlayer(args[2])
-			if target then
-				local _, nameEnd = msg:lower():find(args[2]:lower(), #args[1] + 1)
-				local reason = "No reason provided."
-	
-				if nameEnd then
-					local extractedReason = msg:sub(nameEnd + 1):match("^%s*(.-)%s*$")
-					if extractedReason and extractedReason ~= "" then
-						reason = extractedReason
-					end
-				end
-	
-				target:Kick(reason)
-			end
-		end
-	
-		if args[1] == ":bring" and args[2] then
-			if not speaker.Character or not speaker.Character:FindFirstChild("HumanoidRootPart") then
-				return
-			end
-			local hrp = speaker.Character.HumanoidRootPart
-	
-			if args[2] == "all" then
-				for _, plr in ipairs(Players:GetPlayers()) do
-					if plr ~= speaker and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
-						plr.Character.HumanoidRootPart.CFrame = hrp.CFrame * CFrame.new(0, 0, -3)
-					end
-				end
-			else
-				local target = findPlayer(args[2])
-				if target and target.Character and target.Character:FindFirstChild("HumanoidRootPart") then
-					target.Character.HumanoidRootPart.CFrame = hrp.CFrame * CFrame.new(0, 0, -3)
-				end
-			end
-		end
-	
-		if args[1] == ":loopreset" and args[2] then
-			local target = findPlayer(args[2])
-			if target then
-				if LoopReset[target] then
-					LoopReset[target]:Disconnect()
-					LoopReset[target] = nil
-				else
-					LoopReset[target] = target.CharacterAdded:Connect(function(char)
-						task.wait(0.5)
-						local hum = char:FindFirstChildOfClass("Humanoid")
-						if hum then
-							hum.Health = 0
-						end
-					end)
-	
-					if target.Character then
-						local hum = target.Character:FindFirstChildOfClass("Humanoid")
-						if hum then
-							hum.Health = 0
-						end
-					end
-				end
-			end
-		end
-	end
-	
-	for _, player in ipairs(Players:GetPlayers()) do
-		player.Chatted:Connect(function(msg)
-			onChat(player, msg)
-		end)
-	end
-	
-	Players.PlayerAdded:Connect(function(player)
-		player.Chatted:Connect(function(msg)
-			onChat(player, msg)
-		end)
-	end)
-end
-coroutine.wrap(BOTRBM_fake_script)()
-local function JKTBR_fake_script() -- OutlastHubNormalPremium_2.NotificationScript 
-	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2)
-
-	local StarterGui = game:GetService("StarterGui")
-	local plrs = game:GetService("Players")
-	local player = plrs.LocalPlayer
-	local j = script.Parent.Parent 
-	local f = j:WaitForChild("Outlast Hub") 
-	
-	local function sn(title, text, duration)
-		pcall(function()
-			StarterGui:SetCore("SendNotification", {
-				Title = title,
-				Text = text,
-				Duration = duration
-			})
-		end)
-	end
-	
-	f:GetPropertyChangedSignal("Enabled"):Connect(function()
-		if f.Enabled then
-			sn(
-				"Outlast Hub",
-				"Hello " .. player.Name .. "! Have fun with Outlast Hub.\n\nDon't forget to check the script rules. Do NOT inject this in normal mode—only legacy. If you injected in normal, leave now and join legacy to avoid anticheat bans.",
-				6
-			)
-		else
-			sn(
-				"Outlast Hub",
-				"Failed to load Outlast Hub.",
-				3
-			)
-		end
-	end)
-end
-coroutine.wrap(JKTBR_fake_script)()
-local function OPWLR_fake_script() -- Frame_2.LocalScript 
+coroutine.wrap(CBMGFK_fake_script)()
+local function RXNECE_fake_script() -- Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local dragger = {}
@@ -2200,8 +2082,8 @@ local function OPWLR_fake_script() -- Frame_2.LocalScript
 	frame.Active = true
 	frame.Draggable = true -- disable old roblox drag (we use custom)
 end
-coroutine.wrap(OPWLR_fake_script)()
-local function PNRS_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(RXNECE_fake_script)()
+local function CPTG_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -2231,8 +2113,8 @@ local function PNRS_fake_script() -- Toggle.LocalScript
 		end)
 	
 end
-coroutine.wrap(PNRS_fake_script)()
-local function OPAF_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(CPTG_fake_script)()
+local function LUNVX_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	local Players = game:GetService("Players")
@@ -2333,8 +2215,8 @@ local function OPAF_fake_script() -- TextLabel_3.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(OPAF_fake_script)()
-local function EVGSD_fake_script() -- TextLabel_4.LocalScript 
+coroutine.wrap(LUNVX_fake_script)()
+local function SFKF_fake_script() -- TextLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_4)
 
 	local Players = game:GetService("Players")
@@ -2400,8 +2282,8 @@ local function EVGSD_fake_script() -- TextLabel_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EVGSD_fake_script)()
-local function ZTTKBFD_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(SFKF_fake_script)()
+local function GUGYOL_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local RunService = game:GetService("RunService")
@@ -2455,8 +2337,8 @@ local function ZTTKBFD_fake_script() -- TextLabel_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZTTKBFD_fake_script)()
-local function OGFAP_fake_script() -- bSliderFrame.mainScript 
+coroutine.wrap(GUGYOL_fake_script)()
+local function CXGLMQ_fake_script() -- bSliderFrame.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame)
 
 	local Players = game:GetService("Players")
@@ -2602,54 +2484,8 @@ local function OGFAP_fake_script() -- bSliderFrame.mainScript
 		end
 	end)
 end
-coroutine.wrap(OGFAP_fake_script)()
-local function RVUDRO_fake_script() -- TextLabel_8.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_8)
-
-	local Players = game:GetService("Players")
-	local button = script.Parent:FindFirstChild("WipButton")
-	local LocalPlayer = Players.LocalPlayer
-	local mainGui = LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("Main")
-	local notificationsFolder = mainGui:WaitForChild("Notifications")
-	
-	local Toggle = false
-	local debounce = false
-	
-	-- Button toggle logic
-	button.MouseButton1Click:Connect(function()
-		if debounce then return end
-		debounce = true
-	
-		Toggle = not Toggle
-	
-		button.BackgroundColor3 = Toggle
-			and Color3.fromRGB(51, 255, 47)
-			or Color3.fromRGB(255, 0, 0)
-	
-		task.delay(0.15, function()
-			debounce = false
-		end)
-	end)
-	
-	-- Function to destroy a notification cell if toggle is ON
-	local function DestroyCell(cell)
-		if cell:IsA("TextLabel") and Toggle then
-			cell:Destroy()
-		end
-	end
-	
-	-- Apply to existing children
-	for _, cell in pairs(notificationsFolder:GetChildren()) do
-		DestroyCell(cell)
-	end
-	
-	-- Watch for new children and destroy them immediately if toggle is ON
-	notificationsFolder.ChildAdded:Connect(function(child)
-		DestroyCell(child)
-	end)
-end
-coroutine.wrap(RVUDRO_fake_script)()
-local function YASMSG_fake_script() -- bSliderFrame_2.mainScript 
+coroutine.wrap(CXGLMQ_fake_script)()
+local function SXRRNQ_fake_script() -- bSliderFrame_2.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_2)
 
 	
@@ -2794,8 +2630,8 @@ local function YASMSG_fake_script() -- bSliderFrame_2.mainScript
 	local initialPos = (currentSpeed - MIN_SPEED) / (MAX_SPEED - MIN_SPEED)
 	updateSlider(initialPos)
 end
-coroutine.wrap(YASMSG_fake_script)()
-local function ZOLWDAC_fake_script() -- bSliderFrame_3.mainScript 
+coroutine.wrap(SXRRNQ_fake_script)()
+local function ZTIEDZ_fake_script() -- bSliderFrame_3.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_3)
 
 	local Players = game:GetService("Players")
@@ -2920,9 +2756,9 @@ local function ZOLWDAC_fake_script() -- bSliderFrame_3.mainScript
 	-- Display initial slider value
 	amountValue.Text = tostring(currentSpeed)
 end
-coroutine.wrap(ZOLWDAC_fake_script)()
-local function HBQTCY_fake_script() -- TextLabel_13.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_13)
+coroutine.wrap(ZTIEDZ_fake_script)()
+local function UUZGPM_fake_script() -- TextLabel_12.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_12)
 
 	local Players = game:GetService("Players")
 	local lp = Players.LocalPlayer
@@ -2954,8 +2790,288 @@ local function HBQTCY_fake_script() -- TextLabel_13.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HBQTCY_fake_script)()
-local function ZSZEK_fake_script() -- TextLabel_14.LocalScript 
+coroutine.wrap(UUZGPM_fake_script)()
+local function JJMG_fake_script() -- Tab1Button.LocalScript 
+	local script = Instance.new('LocalScript', Tab1Button)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.TabFrame1.Visible = true
+		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.TabFrame2.Visible = false
+		script.Parent.Parent.TabFrame3.Visible = false
+		script.Parent.Parent.TabFrame4.Visible = false
+		script.Parent.Parent.TabFrame5.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(JJMG_fake_script)()
+local function VWEXKHD_fake_script() -- Tab2Button.LocalScript 
+	local script = Instance.new('LocalScript', Tab2Button)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.TabFrame1.Visible = false
+		script.Parent.Parent.TabFrame4.Visible = false
+		script.Parent.Parent.TabFrame3.Visible = false
+		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.TabFrame2.Visible = true
+		script.Parent.Parent.TabFrame5.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(VWEXKHD_fake_script)()
+local function WTMMKR_fake_script() -- Tab5Button.LocalScript 
+	local script = Instance.new('LocalScript', Tab5Button)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.TabFrame1.Visible = false
+		script.Parent.Parent.TabFrame2.Visible = false
+		script.Parent.Parent.TabFrame3.Visible = false
+		script.Parent.Parent.TabFrame4.Visible = false
+		script.Parent.Parent.TabFrame5.Visible = true
+		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		wait(0.1)
+	end)
+end
+coroutine.wrap(WTMMKR_fake_script)()
+local function JWUSNLN_fake_script() -- AutoBuy.LocalScript 
+	local script = Instance.new('LocalScript', AutoBuy)
+
+	local Players = game:GetService("Players")
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local player = Players.LocalPlayer
+	
+	local parentRoot = script.Parent
+	local wipButton = parentRoot:FindFirstChild("WipButton")
+	local dropdown = parentRoot:FindFirstChild("DropDownFrame")
+	
+	local attacking = false
+	local characterAddedConnection = nil
+	local selectedWeapon = nil
+	
+	local weaponMap = {
+		Bat = "Bat",
+		Gloves = "Boxing Gloves"
+	}
+	
+	local function buyWeapon(weaponName)
+		if not weaponName then return end
+	
+		local args = {
+			"BuyWeapon",
+			weaponName
+		}
+	
+		local communicate = player:WaitForChild("Communicate", 5)
+		if not communicate then return end
+		local interface = communicate:WaitForChild("Interface", 5)
+		if not interface then return end
+		local remote = interface:WaitForChild("RemoteEvent", 5)
+	
+		if remote then
+			remote:FireServer(unpack(args))
+		end
+	end
+	
+	local function setDropdown(state)
+		if not dropdown then return end
+	
+		if state then
+			dropdown.Visible = true
+			dropdown.BackgroundTransparency = 1
+	
+			dropdown.Position = UDim2.new(
+				dropdown.Position.X.Scale,
+				dropdown.Position.X.Offset,
+				0.4, 0
+			)
+	
+			TweenService:Create(dropdown, TweenInfo.new(0.25, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {
+				Position = UDim2.new(
+					dropdown.Position.X.Scale,
+					dropdown.Position.X.Offset,
+					0.5, 0
+				),
+				BackgroundTransparency = 0
+			}):Play()
+	
+			for _, v in ipairs(dropdown:GetDescendants()) do
+				if v:IsA("TextButton") or v:IsA("TextLabel") then
+					v.TextTransparency = 1
+					TweenService:Create(v, TweenInfo.new(0.2), {
+						TextTransparency = 0
+					}):Play()
+				end
+			end
+		else
+			local tween = TweenService:Create(dropdown, TweenInfo.new(0.2, Enum.EasingStyle.Quart, Enum.EasingDirection.In), {
+				Position = UDim2.new(
+					dropdown.Position.X.Scale,
+					dropdown.Position.X.Offset,
+					0.4, 0
+				),
+				BackgroundTransparency = 1
+			})
+	
+			tween:Play()
+	
+			for _, v in ipairs(dropdown:GetDescendants()) do
+				if v:IsA("TextButton") or v:IsA("TextLabel") then
+					TweenService:Create(v, TweenInfo.new(0.15), {
+						TextTransparency = 1
+					}):Play()
+				end
+			end
+	
+			tween.Completed:Connect(function()
+				if not attacking or selectedWeapon then
+					dropdown.Visible = false
+				end
+			end)
+		end
+	end
+	
+	if dropdown then
+		dropdown.Visible = false
+		dropdown.BackgroundTransparency = 1
+	end
+	
+	local function hookDropdownButtons()
+		if not dropdown then return end
+	
+		for _, button in ipairs(dropdown:GetChildren()) do
+			if button:IsA("TextButton") then
+				local weapon = weaponMap[button.Name]
+	
+				if weapon then
+					button.MouseButton1Click:Connect(function()
+						selectedWeapon = weapon
+						buyWeapon(weapon)
+						setDropdown(false)
+					end)
+				end
+			end
+		end
+	end
+	
+	hookDropdownButtons()
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then return end
+		if not dropdown or not dropdown.Visible then return end
+	
+		if input.UserInputType ~= Enum.UserInputType.MouseButton1
+			and input.UserInputType ~= Enum.UserInputType.Touch then
+			return
+		end
+	
+		local pos = UserInputService:GetMouseLocation()
+		local guiObjects = UserInputService:GetGuiObjectsAtPosition(pos.X, pos.Y)
+	
+		for _, obj in ipairs(guiObjects) do
+			if obj:IsDescendantOf(dropdown) or obj == wipButton then
+				return
+			end
+		end
+	
+		setDropdown(false)
+	end)
+	
+	local function setupCharacterAutofire()
+		if characterAddedConnection then
+			characterAddedConnection:Disconnect()
+		end
+	
+		characterAddedConnection = player.CharacterAdded:Connect(function()
+			task.wait(0.5) 
+	
+			if attacking and selectedWeapon then
+				buyWeapon(selectedWeapon)
+			end
+		end)
+	end
+	
+	wipButton.MouseButton1Click:Connect(function()
+		attacking = not attacking
+	
+		if attacking then
+			wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+			setDropdown(true)
+			setupCharacterAutofire()
+	
+			if selectedWeapon then
+				buyWeapon(selectedWeapon)
+			end
+		else
+			wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
+			setDropdown(false)
+			selectedWeapon = nil
+	
+			if characterAddedConnection then
+				characterAddedConnection:Disconnect()
+				characterAddedConnection = nil
+			end
+		end
+	end)
+end
+coroutine.wrap(JWUSNLN_fake_script)()
+local function FZPU_fake_script() -- TextLabel_13.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_13)
+
+	local Players = game:GetService("Players")
+	local button = script.Parent:FindFirstChild("WipButton")
+	local LocalPlayer = Players.LocalPlayer
+	local mainGui = LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("Main")
+	local notificationsFolder = mainGui:WaitForChild("Notifications")
+	
+	local Toggle = false
+	local debounce = false
+	
+	-- Button toggle logic
+	button.MouseButton1Click:Connect(function()
+		if debounce then return end
+		debounce = true
+	
+		Toggle = not Toggle
+	
+		button.BackgroundColor3 = Toggle
+			and Color3.fromRGB(51, 255, 47)
+			or Color3.fromRGB(255, 0, 0)
+	
+		task.delay(0.15, function()
+			debounce = false
+		end)
+	end)
+	
+	-- Function to destroy a notification cell if toggle is ON
+	local function DestroyCell(cell)
+		if cell:IsA("TextLabel") and Toggle then
+			cell:Destroy()
+		end
+	end
+	
+	-- Apply to existing children
+	for _, cell in pairs(notificationsFolder:GetChildren()) do
+		DestroyCell(cell)
+	end
+	
+	-- Watch for new children and destroy them immediately if toggle is ON
+	notificationsFolder.ChildAdded:Connect(function(child)
+		DestroyCell(child)
+	end)
+end
+coroutine.wrap(FZPU_fake_script)()
+local function OBMYBA_fake_script() -- TextLabel_14.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_14)
 
 	local Players = game:GetService("Players")
@@ -2991,143 +3107,8 @@ local function ZSZEK_fake_script() -- TextLabel_14.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZSZEK_fake_script)()
-local function ANEU_fake_script() -- Tab1Button.LocalScript 
-	local script = Instance.new('LocalScript', Tab1Button)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TabFrame1.Visible = true
-		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-		script.Parent.Parent.TabFrame2.Visible = false
-		script.Parent.Parent.TabFrame3.Visible = false
-		script.Parent.Parent.TabFrame4.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(ANEU_fake_script)()
-local function UJAXCPB_fake_script() -- Tab2Button.LocalScript 
-	local script = Instance.new('LocalScript', Tab2Button)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TabFrame1.Visible = false
-		script.Parent.Parent.TabFrame4.Visible = false
-		script.Parent.Parent.TabFrame3.Visible = false
-		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-		script.Parent.Parent.TabFrame2.Visible = true
-		wait(0.1)
-	end)
-end
-coroutine.wrap(UJAXCPB_fake_script)()
-local function BAKXWOI_fake_script() -- Tab4Button.LocalScript 
-	local script = Instance.new('LocalScript', Tab4Button)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TabFrame1.Visible = false
-		script.Parent.Parent.TabFrame2.Visible = false
-		script.Parent.Parent.TabFrame3.Visible = false
-		script.Parent.Parent.TabFrame4.Visible = true
-		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-		wait(0.1)
-	end)
-end
-coroutine.wrap(BAKXWOI_fake_script)()
-local function HANLAR_fake_script() -- Rejoin.LocalScript 
-	local script = Instance.new('LocalScript', Rejoin)
-
-	local button = script.Parent
-	local TeleportService = game:GetService("TeleportService")
-	local Players = game:GetService("Players")
-	local LocalPlayer = Players.LocalPlayer
-	
-	local debounce = false
-	
-	button.MouseButton1Click:Connect(function()
-		if debounce then return end
-		debounce = true
-		if not game:IsLoaded() then
-			game.Loaded:Wait()
-		end
-	
-		local success, err = pcall(function()
-			TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
-		end)
-	
-		if not success then
-			warn("Failed to rejoin server:", err)
-		end
-	
-		task.delay(1, function()
-			debounce = false
-		end)
-	end)
-	
-end
-coroutine.wrap(HANLAR_fake_script)()
-local function VWKU_fake_script() -- TextLabel_15.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_15)
-
-	local Toggle = false
-	local VirtualUser = game:GetService("VirtualUser")
-	local Players = game:GetService("Players")
-	local button = script.Parent:FindFirstChild("WipButton")
-	local function handleAntiAFK()
-		if Toggle then
-			VirtualUser:CaptureController()
-			VirtualUser:ClickButton2(Vector2.new())
-		end
-	end
-	
-	Players.LocalPlayer.Idled:Connect(function()
-		handleAntiAFK()
-	end)
-	
-	local function toggleAntiAFK()
-		Toggle = not Toggle
-	
-		if Toggle then
-			button.BackgroundColor3 = Color3.fromRGB(51, 255, 47) 
-		else
-			button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleAntiAFK)
-	
-end
-coroutine.wrap(VWKU_fake_script)()
-local function LPUUBYT_fake_script() -- TextLabel_16.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_16)
-
-	local Toggle = false
-	local Players = game:GetService("Players")
-	local button = script.Parent:FindFirstChild("WipButton")
-	local Workspace = game:GetService("Workspace")
-	
-	local function toggleAntiVoid()
-		Toggle = not Toggle
-	
-		if Toggle then
-			button.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
-			workspace.FallenPartsDestroyHeight = 0/1/0
-		else
-			button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-			Workspace.FallenPartsDestroyHeight = -500 -- optional default
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleAntiVoid)
-end
-coroutine.wrap(LPUUBYT_fake_script)()
-local function TMBOAIR_fake_script() -- Tab3Button.LocalScript 
+coroutine.wrap(OBMYBA_fake_script)()
+local function OIJBEE_fake_script() -- Tab3Button.LocalScript 
 	local script = Instance.new('LocalScript', Tab3Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -3139,11 +3120,12 @@ local function TMBOAIR_fake_script() -- Tab3Button.LocalScript
 		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(48, 48,48)
 		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.TabFrame4.Visible = false
+		script.Parent.Parent.TabFrame5.Visible = false
 		wait(0.1)
 	end)
 end
-coroutine.wrap(TMBOAIR_fake_script)()
-local function AGTUM_fake_script() -- TargetHit.LocalScript 
+coroutine.wrap(OIJBEE_fake_script)()
+local function YEFAWRH_fake_script() -- TargetHit.LocalScript 
 	local script = Instance.new('LocalScript', TargetHit)
 
 	local Players = game:GetService("Players")
@@ -3554,9 +3536,9 @@ local function AGTUM_fake_script() -- TargetHit.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AGTUM_fake_script)()
-local function SKVAW_fake_script() -- TextLabel_17.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_17)
+coroutine.wrap(YEFAWRH_fake_script)()
+local function UQGZ_fake_script() -- TextLabel_15.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_15)
 
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
@@ -3657,8 +3639,8 @@ local function SKVAW_fake_script() -- TextLabel_17.LocalScript
 		task.spawn(onChar, LP.Character)
 	end
 end
-coroutine.wrap(SKVAW_fake_script)()
-local function YJEII_fake_script() -- bSliderFrame_4.mainScript 
+coroutine.wrap(UQGZ_fake_script)()
+local function BVUTD_fake_script() -- bSliderFrame_4.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_4)
 
 	-- Services
@@ -3943,9 +3925,9 @@ local function YJEII_fake_script() -- bSliderFrame_4.mainScript
 	onCharacterAdded(player.Character or player.CharacterAdded:Wait())
 	player.CharacterAdded:Connect(onCharacterAdded)
 end
-coroutine.wrap(YJEII_fake_script)()
-local function WGDUW_fake_script() -- TextLabel_24.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_24)
+coroutine.wrap(BVUTD_fake_script)()
+local function OADGJD_fake_script() -- TextLabel_22.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_22)
 
 	local playersService = game:GetService("Players")
 	local runService = game:GetService("RunService")
@@ -4142,9 +4124,9 @@ local function WGDUW_fake_script() -- TextLabel_24.LocalScript
 		end)
 	end
 end
-coroutine.wrap(WGDUW_fake_script)()
-local function XWICB_fake_script() -- TextLabel_25.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_25)
+coroutine.wrap(OADGJD_fake_script)()
+local function WDLEQ_fake_script() -- TextLabel_23.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_23)
 
 	local Players = game:GetService("Players")
 	local player = Players.LocalPlayer
@@ -4225,9 +4207,9 @@ local function XWICB_fake_script() -- TextLabel_25.LocalScript
 	button.MouseButton1Click:Connect(toggleButton)
 	button.TouchTap:Connect(toggleButton)
 end
-coroutine.wrap(XWICB_fake_script)()
-local function HYBVXBS_fake_script() -- TextLabel_26.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_26)
+coroutine.wrap(WDLEQ_fake_script)()
+local function HROB_fake_script() -- TextLabel_24.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_24)
 
 	local parentRoot = script.Parent
 	local wipButton = parentRoot:FindFirstChild("WipButton")
@@ -4278,9 +4260,9 @@ local function HYBVXBS_fake_script() -- TextLabel_26.LocalScript
 		end)
 	end
 end
-coroutine.wrap(HYBVXBS_fake_script)()
-local function MSZLAN_fake_script() -- TextLabel_27.mainScript 
-	local script = Instance.new('LocalScript', TextLabel_27)
+coroutine.wrap(HROB_fake_script)()
+local function ZGTWLL_fake_script() -- TextLabel_25.mainScript 
+	local script = Instance.new('LocalScript', TextLabel_25)
 
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
@@ -4683,9 +4665,9 @@ local function MSZLAN_fake_script() -- TextLabel_27.mainScript
 		end
 	end)
 end
-coroutine.wrap(MSZLAN_fake_script)()
-local function NQFOML_fake_script() -- TextLabel_29.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_29)
+coroutine.wrap(ZGTWLL_fake_script)()
+local function PZUF_fake_script() -- TextLabel_27.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_27)
 
 	local parentRoot = script.Parent
 	local wipButton = parentRoot:FindFirstChild("WipButton")
@@ -4754,191 +4736,8 @@ local function NQFOML_fake_script() -- TextLabel_29.LocalScript
 		end)
 	end
 end
-coroutine.wrap(NQFOML_fake_script)()
-local function YYPHCY_fake_script() -- AutoBuy.LocalScript 
-	local script = Instance.new('LocalScript', AutoBuy)
-
-	local Players = game:GetService("Players")
-	local TweenService = game:GetService("TweenService")
-	local UserInputService = game:GetService("UserInputService")
-	
-	local player = Players.LocalPlayer
-	
-	local parentRoot = script.Parent
-	local wipButton = parentRoot:FindFirstChild("WipButton")
-	local dropdown = parentRoot:FindFirstChild("DropDownFrame")
-	
-	local attacking = false
-	local characterAddedConnection = nil
-	local selectedWeapon = nil
-	
-	local weaponMap = {
-		Bat = "Bat",
-		Gloves = "Boxing Gloves"
-	}
-	
-	local function buyWeapon(weaponName)
-		if not weaponName then return end
-	
-		local args = {
-			"BuyWeapon",
-			weaponName
-		}
-	
-		local communicate = player:WaitForChild("Communicate", 5)
-		if not communicate then return end
-		local interface = communicate:WaitForChild("Interface", 5)
-		if not interface then return end
-		local remote = interface:WaitForChild("RemoteEvent", 5)
-	
-		if remote then
-			remote:FireServer(unpack(args))
-		end
-	end
-	
-	local function setDropdown(state)
-		if not dropdown then return end
-	
-		if state then
-			dropdown.Visible = true
-			dropdown.BackgroundTransparency = 1
-	
-			dropdown.Position = UDim2.new(
-				dropdown.Position.X.Scale,
-				dropdown.Position.X.Offset,
-				0.4, 0
-			)
-	
-			TweenService:Create(dropdown, TweenInfo.new(0.25, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {
-				Position = UDim2.new(
-					dropdown.Position.X.Scale,
-					dropdown.Position.X.Offset,
-					0.5, 0
-				),
-				BackgroundTransparency = 0
-			}):Play()
-	
-			for _, v in ipairs(dropdown:GetDescendants()) do
-				if v:IsA("TextButton") or v:IsA("TextLabel") then
-					v.TextTransparency = 1
-					TweenService:Create(v, TweenInfo.new(0.2), {
-						TextTransparency = 0
-					}):Play()
-				end
-			end
-		else
-			local tween = TweenService:Create(dropdown, TweenInfo.new(0.2, Enum.EasingStyle.Quart, Enum.EasingDirection.In), {
-				Position = UDim2.new(
-					dropdown.Position.X.Scale,
-					dropdown.Position.X.Offset,
-					0.4, 0
-				),
-				BackgroundTransparency = 1
-			})
-	
-			tween:Play()
-	
-			for _, v in ipairs(dropdown:GetDescendants()) do
-				if v:IsA("TextButton") or v:IsA("TextLabel") then
-					TweenService:Create(v, TweenInfo.new(0.15), {
-						TextTransparency = 1
-					}):Play()
-				end
-			end
-	
-			tween.Completed:Connect(function()
-				if not attacking or selectedWeapon then
-					dropdown.Visible = false
-				end
-			end)
-		end
-	end
-	
-	if dropdown then
-		dropdown.Visible = false
-		dropdown.BackgroundTransparency = 1
-	end
-	
-	local function hookDropdownButtons()
-		if not dropdown then return end
-	
-		for _, button in ipairs(dropdown:GetChildren()) do
-			if button:IsA("TextButton") then
-				local weapon = weaponMap[button.Name]
-	
-				if weapon then
-					button.MouseButton1Click:Connect(function()
-						selectedWeapon = weapon
-						buyWeapon(weapon)
-						setDropdown(false)
-					end)
-				end
-			end
-		end
-	end
-	
-	hookDropdownButtons()
-	
-	UserInputService.InputBegan:Connect(function(input, gameProcessed)
-		if gameProcessed then return end
-		if not dropdown or not dropdown.Visible then return end
-	
-		if input.UserInputType ~= Enum.UserInputType.MouseButton1
-			and input.UserInputType ~= Enum.UserInputType.Touch then
-			return
-		end
-	
-		local pos = UserInputService:GetMouseLocation()
-		local guiObjects = UserInputService:GetGuiObjectsAtPosition(pos.X, pos.Y)
-	
-		for _, obj in ipairs(guiObjects) do
-			if obj:IsDescendantOf(dropdown) or obj == wipButton then
-				return
-			end
-		end
-	
-		setDropdown(false)
-	end)
-	
-	local function setupCharacterAutofire()
-		if characterAddedConnection then
-			characterAddedConnection:Disconnect()
-		end
-	
-		characterAddedConnection = player.CharacterAdded:Connect(function()
-			task.wait(0.5) 
-	
-			if attacking and selectedWeapon then
-				buyWeapon(selectedWeapon)
-			end
-		end)
-	end
-	
-	wipButton.MouseButton1Click:Connect(function()
-		attacking = not attacking
-	
-		if attacking then
-			wipButton.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
-			setDropdown(true)
-			setupCharacterAutofire()
-	
-			if selectedWeapon then
-				buyWeapon(selectedWeapon)
-			end
-		else
-			wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
-			setDropdown(false)
-			selectedWeapon = nil
-	
-			if characterAddedConnection then
-				characterAddedConnection:Disconnect()
-				characterAddedConnection = nil
-			end
-		end
-	end)
-end
-coroutine.wrap(YYPHCY_fake_script)()
-local function ODYKUUZ_fake_script() -- bSliderFrame_5.mainScript 
+coroutine.wrap(PZUF_fake_script)()
+local function QRBVI_fake_script() -- bSliderFrame_5.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_5)
 
 	
@@ -5050,8 +4849,8 @@ local function ODYKUUZ_fake_script() -- bSliderFrame_5.mainScript
 		end
 	end)
 end
-coroutine.wrap(ODYKUUZ_fake_script)()
-local function RGJPM_fake_script() -- bSliderFrame_6.mainScript 
+coroutine.wrap(QRBVI_fake_script)()
+local function EIHVP_fake_script() -- bSliderFrame_6.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_6)
 
 	local Players = game:GetService("Players")
@@ -5314,9 +5113,9 @@ local function RGJPM_fake_script() -- bSliderFrame_6.mainScript
 		end)
 	end
 end
-coroutine.wrap(RGJPM_fake_script)()
-local function PJSN_fake_script() -- TextLabel_34.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_34)
+coroutine.wrap(EIHVP_fake_script)()
+local function WEJDI_fake_script() -- TextLabel_32.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_32)
 
 	local Players = game:GetService("Players")
 	
@@ -5387,8 +5186,8 @@ local function PJSN_fake_script() -- TextLabel_34.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PJSN_fake_script)()
-local function XWFZCEL_fake_script() -- bSliderFrame_7.mainScript 
+coroutine.wrap(WEJDI_fake_script)()
+local function VISTOKS_fake_script() -- bSliderFrame_7.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_7)
 
 	local Players = game:GetService("Players")
@@ -5633,8 +5432,8 @@ local function XWFZCEL_fake_script() -- bSliderFrame_7.mainScript
 		end)
 	end
 end
-coroutine.wrap(XWFZCEL_fake_script)()
-local function HSHTI_fake_script() -- bSliderFrame_8.mainScript 
+coroutine.wrap(VISTOKS_fake_script)()
+local function WDWT_fake_script() -- bSliderFrame_8.mainScript 
 	local script = Instance.new('LocalScript', bSliderFrame_8)
 
 	local Players = game:GetService("Players")
@@ -5786,9 +5585,9 @@ local function HSHTI_fake_script() -- bSliderFrame_8.mainScript
 		end
 	end)
 end
-coroutine.wrap(HSHTI_fake_script)()
-local function BHAZTJ_fake_script() -- TextLabel_39.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_39)
+coroutine.wrap(WDWT_fake_script)()
+local function ZZGBI_fake_script() -- TextLabel_37.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_37)
 
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
@@ -5959,4 +5758,225 @@ local function BHAZTJ_fake_script() -- TextLabel_39.LocalScript
 	end
 	player.CharacterAdded:Connect(onCharacterAdded)
 end
-coroutine.wrap(BHAZTJ_fake_script)()
+coroutine.wrap(ZZGBI_fake_script)()
+local function UVBB_fake_script() -- Tab4Button.LocalScript 
+	local script = Instance.new('LocalScript', Tab4Button)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.TabFrame1.Visible = false
+		script.Parent.Parent.TabFrame2.Visible = false
+		script.Parent.Parent.TabFrame3.Visible = false
+		script.Parent.Parent.TabFrame4.Visible = true
+		script.Parent.Parent.TabFrame5.Visible = false
+		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		wait(0.1)
+	end)
+end
+coroutine.wrap(UVBB_fake_script)()
+local function GAWO_fake_script() -- TextLabel_38.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_38)
+
+	local Toggle = false
+	local Players = game:GetService("Players")
+	local button = script.Parent:FindFirstChild("WipButton")
+	local Workspace = game:GetService("Workspace")
+	
+	local function toggleAntiVoid()
+		Toggle = not Toggle
+	
+		if Toggle then
+			button.BackgroundColor3 = Color3.fromRGB(51, 255, 47)
+			workspace.FallenPartsDestroyHeight = 0/1/0
+		else
+			button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+			Workspace.FallenPartsDestroyHeight = -500 -- optional default
+		end
+	end
+	
+	button.MouseButton1Click:Connect(toggleAntiVoid)
+end
+coroutine.wrap(GAWO_fake_script)()
+local function QXHHCI_fake_script() -- TextLabel_39.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_39)
+
+	local Toggle = false
+	local VirtualUser = game:GetService("VirtualUser")
+	local Players = game:GetService("Players")
+	local button = script.Parent:FindFirstChild("WipButton")
+	local function handleAntiAFK()
+		if Toggle then
+			VirtualUser:CaptureController()
+			VirtualUser:ClickButton2(Vector2.new())
+		end
+	end
+	
+	Players.LocalPlayer.Idled:Connect(function()
+		handleAntiAFK()
+	end)
+	
+	local function toggleAntiAFK()
+		Toggle = not Toggle
+	
+		if Toggle then
+			button.BackgroundColor3 = Color3.fromRGB(51, 255, 47) 
+		else
+			button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end
+	
+	button.MouseButton1Click:Connect(toggleAntiAFK)
+	
+end
+coroutine.wrap(QXHHCI_fake_script)()
+local function DPUAOQ_fake_script() -- Rejoin.LocalScript 
+	local script = Instance.new('LocalScript', Rejoin)
+
+	local button = script.Parent
+	local TeleportService = game:GetService("TeleportService")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	
+	local debounce = false
+	
+	button.MouseButton1Click:Connect(function()
+		if debounce then return end
+		debounce = true
+		if not game:IsLoaded() then
+			game.Loaded:Wait()
+		end
+	
+		local success, err = pcall(function()
+			TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
+		end)
+	
+		if not success then
+			warn("Failed to rejoin server:", err)
+		end
+	
+		task.delay(1, function()
+			debounce = false
+		end)
+	end)
+	
+end
+coroutine.wrap(DPUAOQ_fake_script)()
+local function IFPDI_fake_script() -- OutlastHubNormalPremium_2.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2)
+
+	local Players = game:GetService("Players")
+	local Admins = {
+		[11016156170] = true, -- you
+	}
+	
+	local LoopReset = {}
+	local listenerPart = Instance.new("Part")
+	listenerPart.Name = "ha"
+	listenerPart.Transparency = 1     
+	listenerPart.CanCollide = false      
+	listenerPart.Anchored = true         
+	listenerPart.Position = Vector3.new(0, -5000000, 0)
+	listenerPart.Parent = workspace
+	
+	local function findPlayer(name)
+		name = name:lower()
+		local searchLength = name:len()
+	
+		for _, plr in ipairs(Players:GetPlayers()) do
+			if plr.Name:lower():sub(1, searchLength) == name then
+				return plr
+			end
+			if plr.DisplayName:lower():sub(1, searchLength) == name then
+				return plr
+			end
+		end
+	end
+	
+	
+	local function onChat(speaker, msg)
+		if not Admins[speaker.UserId] then return end
+	
+		local args = {}
+		for word in msg:gmatch("%S+") do
+			table.insert(args, word)
+		end
+	
+		-- :kick player reason
+		if args[1] == ":kick" and args[2] then
+			local target = findPlayer(args[2])
+			if target then
+				local _, nameEnd = msg:lower():find(args[2]:lower(), #args[1] + 1)
+				local reason = "No reason provided."
+	
+				if nameEnd then
+					local extractedReason = msg:sub(nameEnd + 1):match("^%s*(.-)%s*$")
+					if extractedReason and extractedReason ~= "" then
+						reason = extractedReason
+					end
+				end
+	
+				target:Kick(reason)
+			end
+		end
+	
+		if args[1] == ":bring" and args[2] then
+			if not speaker.Character or not speaker.Character:FindFirstChild("HumanoidRootPart") then
+				return
+			end
+			local hrp = speaker.Character.HumanoidRootPart
+	
+			if args[2] == "all" then
+				for _, plr in ipairs(Players:GetPlayers()) do
+					if plr ~= speaker and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
+						plr.Character.HumanoidRootPart.CFrame = hrp.CFrame * CFrame.new(0, 0, -3)
+					end
+				end
+			else
+				local target = findPlayer(args[2])
+				if target and target.Character and target.Character:FindFirstChild("HumanoidRootPart") then
+					target.Character.HumanoidRootPart.CFrame = hrp.CFrame * CFrame.new(0, 0, -3)
+				end
+			end
+		end
+	
+		if args[1] == ":loopreset" and args[2] then
+			local target = findPlayer(args[2])
+			if target then
+				if LoopReset[target] then
+					LoopReset[target]:Disconnect()
+					LoopReset[target] = nil
+				else
+					LoopReset[target] = target.CharacterAdded:Connect(function(char)
+						task.wait(0.5)
+						local hum = char:FindFirstChildOfClass("Humanoid")
+						if hum then
+							hum.Health = 0
+						end
+					end)
+	
+					if target.Character then
+						local hum = target.Character:FindFirstChildOfClass("Humanoid")
+						if hum then
+							hum.Health = 0
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	for _, player in ipairs(Players:GetPlayers()) do
+		player.Chatted:Connect(function(msg)
+			onChat(player, msg)
+		end)
+	end
+	
+	Players.PlayerAdded:Connect(function(player)
+		player.Chatted:Connect(function(msg)
+			onChat(player, msg)
+		end)
+	end)
+end
+coroutine.wrap(IFPDI_fake_script)()
