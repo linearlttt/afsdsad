@@ -230,32 +230,37 @@ local OutlastHubNormalPremium_2 = {
 	UIStroke_69 = Instance.new("UIStroke"),
 	WipButton_24 = Instance.new("TextButton"),
 	UIStroke_70 = Instance.new("UIStroke"),
-	Tab4Button = Instance.new("TextButton"),
+	MouseClickTouchPlayertoKill = Instance.new("TextLabel"),
 	UIStroke_71 = Instance.new("UIStroke"),
+	WipButton_25 = Instance.new("TextButton"),
+	UIStroke_72 = Instance.new("UIStroke"),
+	UICorner_14 = Instance.new("UICorner"),
+	Tab4Button = Instance.new("TextButton"),
+	UIStroke_73 = Instance.new("UIStroke"),
 	ImageLabel_7 = Instance.new("ImageLabel"),
 	TabFrame5 = Instance.new("ScrollingFrame"),
 	TextLabel_39 = Instance.new("TextLabel"),
-	WipButton_25 = Instance.new("TextButton"),
-	UICorner_14 = Instance.new("UICorner"),
-	UIStroke_72 = Instance.new("UIStroke"),
-	UIStroke_73 = Instance.new("UIStroke"),
-	TextLabel_40 = Instance.new("TextLabel"),
 	WipButton_26 = Instance.new("TextButton"),
 	UICorner_15 = Instance.new("UICorner"),
 	UIStroke_74 = Instance.new("UIStroke"),
 	UIStroke_75 = Instance.new("UIStroke"),
-	Rejoin = Instance.new("TextButton"),
-	UIStroke_76 = Instance.new("UIStroke"),
-	TextLabel_41 = Instance.new("TextLabel"),
+	TextLabel_40 = Instance.new("TextLabel"),
 	WipButton_27 = Instance.new("TextButton"),
 	UICorner_16 = Instance.new("UICorner"),
+	UIStroke_76 = Instance.new("UIStroke"),
 	UIStroke_77 = Instance.new("UIStroke"),
+	Rejoin = Instance.new("TextButton"),
 	UIStroke_78 = Instance.new("UIStroke"),
-	TextLabel_42 = Instance.new("TextLabel"),
+	TextLabel_41 = Instance.new("TextLabel"),
 	WipButton_28 = Instance.new("TextButton"),
 	UICorner_17 = Instance.new("UICorner"),
 	UIStroke_79 = Instance.new("UIStroke"),
 	UIStroke_80 = Instance.new("UIStroke"),
+	TextLabel_42 = Instance.new("TextLabel"),
+	WipButton_29 = Instance.new("TextButton"),
+	UICorner_18 = Instance.new("UICorner"),
+	UIStroke_81 = Instance.new("UIStroke"),
+	UIStroke_82 = Instance.new("UIStroke"),
 }
 
 --Properties:
@@ -2114,7 +2119,7 @@ OutlastHubNormalPremium_2.Ignoreknocked.Name = "Ignoreknocked"
 OutlastHubNormalPremium_2.Ignoreknocked.Parent = OutlastHubNormalPremium_2.TextLabel_36
 OutlastHubNormalPremium_2.Ignoreknocked.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 OutlastHubNormalPremium_2.Ignoreknocked.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OutlastHubNormalPremium_2.Ignoreknocked.Position = UDim2.new(0.00963652041, 0, 1.12495291, 0)
+OutlastHubNormalPremium_2.Ignoreknocked.Position = UDim2.new(0.00254432182, 0, 1.14578629, 0)
 OutlastHubNormalPremium_2.Ignoreknocked.Size = UDim2.new(0, 282, 0, 27)
 OutlastHubNormalPremium_2.Ignoreknocked.Font = Enum.Font.SourceSans
 OutlastHubNormalPremium_2.Ignoreknocked.Text = "Ignore Knocked ( For Hitbox )"
@@ -2177,6 +2182,42 @@ OutlastHubNormalPremium_2.UIStroke_70.Color = Color3.fromRGB(84, 86, 86)
 OutlastHubNormalPremium_2.UIStroke_70.Thickness = 1.399999976158142
 OutlastHubNormalPremium_2.UIStroke_70.Parent = OutlastHubNormalPremium_2.WipButton_24
 
+OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.Name = "MouseClick / Touch Player to Kill"
+OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.Parent = OutlastHubNormalPremium_2.TabFrame2
+OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.Position = UDim2.new(0.0186513755, 0, 0.80313015, 0)
+OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.Size = UDim2.new(0, 282, 0, 27)
+OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.Font = Enum.Font.SourceSans
+OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.Text = "MouseClick / Touch Player to Kill"
+OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.TextColor3 = Color3.fromRGB(255, 255, 255)
+OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.TextSize = 14.000
+OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.TextStrokeTransparency = 0.000
+OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.TextXAlignment = Enum.TextXAlignment.Left
+
+OutlastHubNormalPremium_2.UIStroke_71.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+OutlastHubNormalPremium_2.UIStroke_71.Color = Color3.fromRGB(84, 86, 86)
+OutlastHubNormalPremium_2.UIStroke_71.Thickness = 1.7999999523162842
+OutlastHubNormalPremium_2.UIStroke_71.Parent = OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill
+
+OutlastHubNormalPremium_2.WipButton_25.Name = "WipButton"
+OutlastHubNormalPremium_2.WipButton_25.Parent = OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill
+OutlastHubNormalPremium_2.WipButton_25.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+OutlastHubNormalPremium_2.WipButton_25.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OutlastHubNormalPremium_2.WipButton_25.Position = UDim2.new(0.904255271, 0, 0.23842591, 0)
+OutlastHubNormalPremium_2.WipButton_25.Size = UDim2.new(0, 15, 0, 15)
+OutlastHubNormalPremium_2.WipButton_25.Font = Enum.Font.SourceSans
+OutlastHubNormalPremium_2.WipButton_25.Text = ""
+OutlastHubNormalPremium_2.WipButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutlastHubNormalPremium_2.WipButton_25.TextSize = 14.000
+
+OutlastHubNormalPremium_2.UIStroke_72.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+OutlastHubNormalPremium_2.UIStroke_72.Color = Color3.fromRGB(84, 86, 86)
+OutlastHubNormalPremium_2.UIStroke_72.Thickness = 1.399999976158142
+OutlastHubNormalPremium_2.UIStroke_72.Parent = OutlastHubNormalPremium_2.WipButton_25
+
+OutlastHubNormalPremium_2.UICorner_14.CornerRadius = UDim.new(0, 2)
+OutlastHubNormalPremium_2.UICorner_14.Parent = OutlastHubNormalPremium_2.WipButton_25
+
 OutlastHubNormalPremium_2.Tab4Button.Name = "Tab4Button"
 OutlastHubNormalPremium_2.Tab4Button.Parent = OutlastHubNormalPremium_2.Container
 OutlastHubNormalPremium_2.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
@@ -2189,10 +2230,10 @@ OutlastHubNormalPremium_2.Tab4Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 OutlastHubNormalPremium_2.Tab4Button.TextSize = 14.000
 OutlastHubNormalPremium_2.Tab4Button.TextStrokeTransparency = 0.000
 
-OutlastHubNormalPremium_2.UIStroke_71.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-OutlastHubNormalPremium_2.UIStroke_71.Color = Color3.fromRGB(84, 86, 86)
-OutlastHubNormalPremium_2.UIStroke_71.Thickness = 1.7999999523162842
-OutlastHubNormalPremium_2.UIStroke_71.Parent = OutlastHubNormalPremium_2.Tab4Button
+OutlastHubNormalPremium_2.UIStroke_73.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+OutlastHubNormalPremium_2.UIStroke_73.Color = Color3.fromRGB(84, 86, 86)
+OutlastHubNormalPremium_2.UIStroke_73.Thickness = 1.7999999523162842
+OutlastHubNormalPremium_2.UIStroke_73.Parent = OutlastHubNormalPremium_2.Tab4Button
 
 OutlastHubNormalPremium_2.ImageLabel_7.Parent = OutlastHubNormalPremium_2.Tab4Button
 OutlastHubNormalPremium_2.ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -2226,44 +2267,8 @@ OutlastHubNormalPremium_2.TextLabel_39.TextSize = 14.000
 OutlastHubNormalPremium_2.TextLabel_39.TextStrokeTransparency = 0.000
 OutlastHubNormalPremium_2.TextLabel_39.TextXAlignment = Enum.TextXAlignment.Left
 
-OutlastHubNormalPremium_2.WipButton_25.Name = "WipButton"
-OutlastHubNormalPremium_2.WipButton_25.Parent = OutlastHubNormalPremium_2.TextLabel_39
-OutlastHubNormalPremium_2.WipButton_25.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-OutlastHubNormalPremium_2.WipButton_25.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OutlastHubNormalPremium_2.WipButton_25.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
-OutlastHubNormalPremium_2.WipButton_25.Size = UDim2.new(0, 15, 0, 15)
-OutlastHubNormalPremium_2.WipButton_25.Font = Enum.Font.SourceSans
-OutlastHubNormalPremium_2.WipButton_25.Text = ""
-OutlastHubNormalPremium_2.WipButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
-OutlastHubNormalPremium_2.WipButton_25.TextSize = 14.000
-
-OutlastHubNormalPremium_2.UICorner_14.CornerRadius = UDim.new(0, 2)
-OutlastHubNormalPremium_2.UICorner_14.Parent = OutlastHubNormalPremium_2.WipButton_25
-
-OutlastHubNormalPremium_2.UIStroke_72.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-OutlastHubNormalPremium_2.UIStroke_72.Color = Color3.fromRGB(84, 86, 86)
-OutlastHubNormalPremium_2.UIStroke_72.Thickness = 1.399999976158142
-OutlastHubNormalPremium_2.UIStroke_72.Parent = OutlastHubNormalPremium_2.WipButton_25
-
-OutlastHubNormalPremium_2.UIStroke_73.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-OutlastHubNormalPremium_2.UIStroke_73.Color = Color3.fromRGB(84, 86, 86)
-OutlastHubNormalPremium_2.UIStroke_73.Thickness = 1.7999999523162842
-OutlastHubNormalPremium_2.UIStroke_73.Parent = OutlastHubNormalPremium_2.TextLabel_39
-
-OutlastHubNormalPremium_2.TextLabel_40.Parent = OutlastHubNormalPremium_2.TabFrame5
-OutlastHubNormalPremium_2.TextLabel_40.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-OutlastHubNormalPremium_2.TextLabel_40.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OutlastHubNormalPremium_2.TextLabel_40.Position = UDim2.new(0.0261645596, 0, 0.0217505954, 0)
-OutlastHubNormalPremium_2.TextLabel_40.Size = UDim2.new(0, 282, 0, 27)
-OutlastHubNormalPremium_2.TextLabel_40.Font = Enum.Font.SourceSans
-OutlastHubNormalPremium_2.TextLabel_40.Text = "AntiAFK"
-OutlastHubNormalPremium_2.TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
-OutlastHubNormalPremium_2.TextLabel_40.TextSize = 14.000
-OutlastHubNormalPremium_2.TextLabel_40.TextStrokeTransparency = 0.000
-OutlastHubNormalPremium_2.TextLabel_40.TextXAlignment = Enum.TextXAlignment.Left
-
 OutlastHubNormalPremium_2.WipButton_26.Name = "WipButton"
-OutlastHubNormalPremium_2.WipButton_26.Parent = OutlastHubNormalPremium_2.TextLabel_40
+OutlastHubNormalPremium_2.WipButton_26.Parent = OutlastHubNormalPremium_2.TextLabel_39
 OutlastHubNormalPremium_2.WipButton_26.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 OutlastHubNormalPremium_2.WipButton_26.BorderColor3 = Color3.fromRGB(27, 42, 53)
 OutlastHubNormalPremium_2.WipButton_26.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
@@ -2284,7 +2289,43 @@ OutlastHubNormalPremium_2.UIStroke_74.Parent = OutlastHubNormalPremium_2.WipButt
 OutlastHubNormalPremium_2.UIStroke_75.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 OutlastHubNormalPremium_2.UIStroke_75.Color = Color3.fromRGB(84, 86, 86)
 OutlastHubNormalPremium_2.UIStroke_75.Thickness = 1.7999999523162842
-OutlastHubNormalPremium_2.UIStroke_75.Parent = OutlastHubNormalPremium_2.TextLabel_40
+OutlastHubNormalPremium_2.UIStroke_75.Parent = OutlastHubNormalPremium_2.TextLabel_39
+
+OutlastHubNormalPremium_2.TextLabel_40.Parent = OutlastHubNormalPremium_2.TabFrame5
+OutlastHubNormalPremium_2.TextLabel_40.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+OutlastHubNormalPremium_2.TextLabel_40.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OutlastHubNormalPremium_2.TextLabel_40.Position = UDim2.new(0.0261645596, 0, 0.0217505954, 0)
+OutlastHubNormalPremium_2.TextLabel_40.Size = UDim2.new(0, 282, 0, 27)
+OutlastHubNormalPremium_2.TextLabel_40.Font = Enum.Font.SourceSans
+OutlastHubNormalPremium_2.TextLabel_40.Text = "AntiAFK"
+OutlastHubNormalPremium_2.TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+OutlastHubNormalPremium_2.TextLabel_40.TextSize = 14.000
+OutlastHubNormalPremium_2.TextLabel_40.TextStrokeTransparency = 0.000
+OutlastHubNormalPremium_2.TextLabel_40.TextXAlignment = Enum.TextXAlignment.Left
+
+OutlastHubNormalPremium_2.WipButton_27.Name = "WipButton"
+OutlastHubNormalPremium_2.WipButton_27.Parent = OutlastHubNormalPremium_2.TextLabel_40
+OutlastHubNormalPremium_2.WipButton_27.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+OutlastHubNormalPremium_2.WipButton_27.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OutlastHubNormalPremium_2.WipButton_27.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+OutlastHubNormalPremium_2.WipButton_27.Size = UDim2.new(0, 15, 0, 15)
+OutlastHubNormalPremium_2.WipButton_27.Font = Enum.Font.SourceSans
+OutlastHubNormalPremium_2.WipButton_27.Text = ""
+OutlastHubNormalPremium_2.WipButton_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutlastHubNormalPremium_2.WipButton_27.TextSize = 14.000
+
+OutlastHubNormalPremium_2.UICorner_16.CornerRadius = UDim.new(0, 2)
+OutlastHubNormalPremium_2.UICorner_16.Parent = OutlastHubNormalPremium_2.WipButton_27
+
+OutlastHubNormalPremium_2.UIStroke_76.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+OutlastHubNormalPremium_2.UIStroke_76.Color = Color3.fromRGB(84, 86, 86)
+OutlastHubNormalPremium_2.UIStroke_76.Thickness = 1.399999976158142
+OutlastHubNormalPremium_2.UIStroke_76.Parent = OutlastHubNormalPremium_2.WipButton_27
+
+OutlastHubNormalPremium_2.UIStroke_77.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+OutlastHubNormalPremium_2.UIStroke_77.Color = Color3.fromRGB(84, 86, 86)
+OutlastHubNormalPremium_2.UIStroke_77.Thickness = 1.7999999523162842
+OutlastHubNormalPremium_2.UIStroke_77.Parent = OutlastHubNormalPremium_2.TextLabel_40
 
 OutlastHubNormalPremium_2.Rejoin.Name = "Rejoin"
 OutlastHubNormalPremium_2.Rejoin.Parent = OutlastHubNormalPremium_2.TabFrame5
@@ -2296,10 +2337,10 @@ OutlastHubNormalPremium_2.Rejoin.Text = "Rejoin"
 OutlastHubNormalPremium_2.Rejoin.TextColor3 = Color3.fromRGB(255, 255, 255)
 OutlastHubNormalPremium_2.Rejoin.TextSize = 14.000
 
-OutlastHubNormalPremium_2.UIStroke_76.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-OutlastHubNormalPremium_2.UIStroke_76.Color = Color3.fromRGB(84, 86, 86)
-OutlastHubNormalPremium_2.UIStroke_76.Thickness = 1.7999999523162842
-OutlastHubNormalPremium_2.UIStroke_76.Parent = OutlastHubNormalPremium_2.Rejoin
+OutlastHubNormalPremium_2.UIStroke_78.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+OutlastHubNormalPremium_2.UIStroke_78.Color = Color3.fromRGB(84, 86, 86)
+OutlastHubNormalPremium_2.UIStroke_78.Thickness = 1.7999999523162842
+OutlastHubNormalPremium_2.UIStroke_78.Parent = OutlastHubNormalPremium_2.Rejoin
 
 OutlastHubNormalPremium_2.TextLabel_41.Parent = OutlastHubNormalPremium_2.TabFrame5
 OutlastHubNormalPremium_2.TextLabel_41.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -2313,44 +2354,8 @@ OutlastHubNormalPremium_2.TextLabel_41.TextSize = 14.000
 OutlastHubNormalPremium_2.TextLabel_41.TextStrokeTransparency = 0.000
 OutlastHubNormalPremium_2.TextLabel_41.TextXAlignment = Enum.TextXAlignment.Left
 
-OutlastHubNormalPremium_2.WipButton_27.Name = "WipButton"
-OutlastHubNormalPremium_2.WipButton_27.Parent = OutlastHubNormalPremium_2.TextLabel_41
-OutlastHubNormalPremium_2.WipButton_27.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-OutlastHubNormalPremium_2.WipButton_27.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OutlastHubNormalPremium_2.WipButton_27.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
-OutlastHubNormalPremium_2.WipButton_27.Size = UDim2.new(0, 15, 0, 15)
-OutlastHubNormalPremium_2.WipButton_27.Font = Enum.Font.SourceSans
-OutlastHubNormalPremium_2.WipButton_27.Text = ""
-OutlastHubNormalPremium_2.WipButton_27.TextColor3 = Color3.fromRGB(0, 0, 0)
-OutlastHubNormalPremium_2.WipButton_27.TextSize = 14.000
-
-OutlastHubNormalPremium_2.UICorner_16.CornerRadius = UDim.new(0, 2)
-OutlastHubNormalPremium_2.UICorner_16.Parent = OutlastHubNormalPremium_2.WipButton_27
-
-OutlastHubNormalPremium_2.UIStroke_77.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-OutlastHubNormalPremium_2.UIStroke_77.Color = Color3.fromRGB(84, 86, 86)
-OutlastHubNormalPremium_2.UIStroke_77.Thickness = 1.399999976158142
-OutlastHubNormalPremium_2.UIStroke_77.Parent = OutlastHubNormalPremium_2.WipButton_27
-
-OutlastHubNormalPremium_2.UIStroke_78.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-OutlastHubNormalPremium_2.UIStroke_78.Color = Color3.fromRGB(84, 86, 86)
-OutlastHubNormalPremium_2.UIStroke_78.Thickness = 1.7999999523162842
-OutlastHubNormalPremium_2.UIStroke_78.Parent = OutlastHubNormalPremium_2.TextLabel_41
-
-OutlastHubNormalPremium_2.TextLabel_42.Parent = OutlastHubNormalPremium_2.TabFrame5
-OutlastHubNormalPremium_2.TextLabel_42.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-OutlastHubNormalPremium_2.TextLabel_42.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OutlastHubNormalPremium_2.TextLabel_42.Position = UDim2.new(0.0261645596, 0, 0.240681782, 0)
-OutlastHubNormalPremium_2.TextLabel_42.Size = UDim2.new(0, 282, 0, 27)
-OutlastHubNormalPremium_2.TextLabel_42.Font = Enum.Font.SourceSans
-OutlastHubNormalPremium_2.TextLabel_42.Text = "DisableThrowables"
-OutlastHubNormalPremium_2.TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
-OutlastHubNormalPremium_2.TextLabel_42.TextSize = 14.000
-OutlastHubNormalPremium_2.TextLabel_42.TextStrokeTransparency = 0.000
-OutlastHubNormalPremium_2.TextLabel_42.TextXAlignment = Enum.TextXAlignment.Left
-
 OutlastHubNormalPremium_2.WipButton_28.Name = "WipButton"
-OutlastHubNormalPremium_2.WipButton_28.Parent = OutlastHubNormalPremium_2.TextLabel_42
+OutlastHubNormalPremium_2.WipButton_28.Parent = OutlastHubNormalPremium_2.TextLabel_41
 OutlastHubNormalPremium_2.WipButton_28.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 OutlastHubNormalPremium_2.WipButton_28.BorderColor3 = Color3.fromRGB(27, 42, 53)
 OutlastHubNormalPremium_2.WipButton_28.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
@@ -2371,11 +2376,47 @@ OutlastHubNormalPremium_2.UIStroke_79.Parent = OutlastHubNormalPremium_2.WipButt
 OutlastHubNormalPremium_2.UIStroke_80.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 OutlastHubNormalPremium_2.UIStroke_80.Color = Color3.fromRGB(84, 86, 86)
 OutlastHubNormalPremium_2.UIStroke_80.Thickness = 1.7999999523162842
-OutlastHubNormalPremium_2.UIStroke_80.Parent = OutlastHubNormalPremium_2.TextLabel_42
+OutlastHubNormalPremium_2.UIStroke_80.Parent = OutlastHubNormalPremium_2.TextLabel_41
+
+OutlastHubNormalPremium_2.TextLabel_42.Parent = OutlastHubNormalPremium_2.TabFrame5
+OutlastHubNormalPremium_2.TextLabel_42.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+OutlastHubNormalPremium_2.TextLabel_42.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OutlastHubNormalPremium_2.TextLabel_42.Position = UDim2.new(0.0261645596, 0, 0.240681782, 0)
+OutlastHubNormalPremium_2.TextLabel_42.Size = UDim2.new(0, 282, 0, 27)
+OutlastHubNormalPremium_2.TextLabel_42.Font = Enum.Font.SourceSans
+OutlastHubNormalPremium_2.TextLabel_42.Text = "DisableThrowables"
+OutlastHubNormalPremium_2.TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+OutlastHubNormalPremium_2.TextLabel_42.TextSize = 14.000
+OutlastHubNormalPremium_2.TextLabel_42.TextStrokeTransparency = 0.000
+OutlastHubNormalPremium_2.TextLabel_42.TextXAlignment = Enum.TextXAlignment.Left
+
+OutlastHubNormalPremium_2.WipButton_29.Name = "WipButton"
+OutlastHubNormalPremium_2.WipButton_29.Parent = OutlastHubNormalPremium_2.TextLabel_42
+OutlastHubNormalPremium_2.WipButton_29.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+OutlastHubNormalPremium_2.WipButton_29.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OutlastHubNormalPremium_2.WipButton_29.Position = UDim2.new(0.90780139, 0, 0.222222224, 0)
+OutlastHubNormalPremium_2.WipButton_29.Size = UDim2.new(0, 15, 0, 15)
+OutlastHubNormalPremium_2.WipButton_29.Font = Enum.Font.SourceSans
+OutlastHubNormalPremium_2.WipButton_29.Text = ""
+OutlastHubNormalPremium_2.WipButton_29.TextColor3 = Color3.fromRGB(0, 0, 0)
+OutlastHubNormalPremium_2.WipButton_29.TextSize = 14.000
+
+OutlastHubNormalPremium_2.UICorner_18.CornerRadius = UDim.new(0, 2)
+OutlastHubNormalPremium_2.UICorner_18.Parent = OutlastHubNormalPremium_2.WipButton_29
+
+OutlastHubNormalPremium_2.UIStroke_81.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+OutlastHubNormalPremium_2.UIStroke_81.Color = Color3.fromRGB(84, 86, 86)
+OutlastHubNormalPremium_2.UIStroke_81.Thickness = 1.399999976158142
+OutlastHubNormalPremium_2.UIStroke_81.Parent = OutlastHubNormalPremium_2.WipButton_29
+
+OutlastHubNormalPremium_2.UIStroke_82.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+OutlastHubNormalPremium_2.UIStroke_82.Color = Color3.fromRGB(84, 86, 86)
+OutlastHubNormalPremium_2.UIStroke_82.Thickness = 1.7999999523162842
+OutlastHubNormalPremium_2.UIStroke_82.Parent = OutlastHubNormalPremium_2.TextLabel_42
 
 -- Scripts:
 
-local function JPFC_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScript 
+local function MDLMN_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Frame)
 
 	if getgenv().OutlastKeySystem then
@@ -2618,8 +2659,8 @@ local function JPFC_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScript
 		Controller:Destroy()
 	end))
 end
-coroutine.wrap(JPFC_fake_script)()
-local function AHGYH_fake_script() -- OutlastHubNormalPremium_2.OutlastHubNormalPremium_2.LocalScript 
+coroutine.wrap(MDLMN_fake_script)()
+local function IBBQCD_fake_script() -- OutlastHubNormalPremium_2.OutlastHubNormalPremium_2.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.OutlastHubNormalPremium_2)
 
 	-- Ensure the game is loaded before running setup
@@ -2765,8 +2806,8 @@ local function AHGYH_fake_script() -- OutlastHubNormalPremium_2.OutlastHubNormal
 		end)
 	end)
 end
-coroutine.wrap(AHGYH_fake_script)()
-local function NANQUY_fake_script() -- OutlastHubNormalPremium_2.Frame_2.LocalScript 
+coroutine.wrap(IBBQCD_fake_script)()
+local function BRTN_fake_script() -- OutlastHubNormalPremium_2.Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Frame_2)
 
 	local dragger = {}
@@ -2847,8 +2888,8 @@ local function NANQUY_fake_script() -- OutlastHubNormalPremium_2.Frame_2.LocalSc
 	frame.Active = true
 	frame.Draggable = true -- disable old roblox drag (we use custom)
 end
-coroutine.wrap(NANQUY_fake_script)()
-local function RZKQ_fake_script() -- OutlastHubNormalPremium_2.Toggle.LocalScript 
+coroutine.wrap(BRTN_fake_script)()
+local function ACYRR_fake_script() -- OutlastHubNormalPremium_2.Toggle.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -2878,8 +2919,8 @@ local function RZKQ_fake_script() -- OutlastHubNormalPremium_2.Toggle.LocalScrip
 		end)
 	
 end
-coroutine.wrap(RZKQ_fake_script)()
-local function LDWN_fake_script() -- OutlastHubNormalPremium_2.TextLabel_3.LocalScript 
+coroutine.wrap(ACYRR_fake_script)()
+local function HPNAZGK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_3)
 
 	local Players = game:GetService("Players")
@@ -2974,8 +3015,8 @@ local function LDWN_fake_script() -- OutlastHubNormalPremium_2.TextLabel_3.Local
 		end)
 	end)
 end
-coroutine.wrap(LDWN_fake_script)()
-local function SWMOXM_fake_script() -- OutlastHubNormalPremium_2.TextLabel_4.LocalScript 
+coroutine.wrap(HPNAZGK_fake_script)()
+local function JDMXW_fake_script() -- OutlastHubNormalPremium_2.TextLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_4)
 
 	local Players = game:GetService("Players")
@@ -3041,8 +3082,8 @@ local function SWMOXM_fake_script() -- OutlastHubNormalPremium_2.TextLabel_4.Loc
 		end
 	end)
 end
-coroutine.wrap(SWMOXM_fake_script)()
-local function ZOSXPT_fake_script() -- OutlastHubNormalPremium_2.TextLabel_5.LocalScript 
+coroutine.wrap(JDMXW_fake_script)()
+local function WXGDWU_fake_script() -- OutlastHubNormalPremium_2.TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_5)
 
 	local RunService = game:GetService("RunService")
@@ -3096,8 +3137,8 @@ local function ZOSXPT_fake_script() -- OutlastHubNormalPremium_2.TextLabel_5.Loc
 		end
 	end)
 end
-coroutine.wrap(ZOSXPT_fake_script)()
-local function QCDJ_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame.mainScript 
+coroutine.wrap(WXGDWU_fake_script)()
+local function FQWOPIG_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame)
 
 	
@@ -3242,8 +3283,8 @@ local function QCDJ_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame.main
 	local initialPos = (currentSpeed - MIN_SPEED) / (MAX_SPEED - MIN_SPEED)
 	updateSlider(initialPos)
 end
-coroutine.wrap(QCDJ_fake_script)()
-local function BDZWL_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_2.mainScript 
+coroutine.wrap(FQWOPIG_fake_script)()
+local function SNLKT_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_2.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_2)
 
 	local Players = game:GetService("Players")
@@ -3368,8 +3409,8 @@ local function BDZWL_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_2.m
 	-- Display initial slider value
 	amountValue.Text = tostring(currentSpeed)
 end
-coroutine.wrap(BDZWL_fake_script)()
-local function UDZTY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_10.LocalScript 
+coroutine.wrap(SNLKT_fake_script)()
+local function YENYI_fake_script() -- OutlastHubNormalPremium_2.TextLabel_10.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_10)
 
 	local Players = game:GetService("Players")
@@ -3402,8 +3443,8 @@ local function UDZTY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_10.Loc
 		end
 	end)
 end
-coroutine.wrap(UDZTY_fake_script)()
-local function KXYVIM_fake_script() -- OutlastHubNormalPremium_2.TextLabel_11.LocalScript 
+coroutine.wrap(YENYI_fake_script)()
+local function ZPMTKUU_fake_script() -- OutlastHubNormalPremium_2.TextLabel_11.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_11)
 
 	local Players = game:GetService("Players")
@@ -3478,8 +3519,8 @@ local function KXYVIM_fake_script() -- OutlastHubNormalPremium_2.TextLabel_11.Lo
 		end)
 	end)
 end
-coroutine.wrap(KXYVIM_fake_script)()
-local function FKXKAYU_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_3.mainScript 
+coroutine.wrap(ZPMTKUU_fake_script)()
+local function DZWWND_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_3.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_3)
 
 	local Players = game:GetService("Players")
@@ -3675,8 +3716,8 @@ local function FKXKAYU_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_3
 		end
 	end)
 end
-coroutine.wrap(FKXKAYU_fake_script)()
-local function AXJGUM_fake_script() -- OutlastHubNormalPremium_2.Tab1Button.LocalScript 
+coroutine.wrap(DZWWND_fake_script)()
+local function KWQNOX_fake_script() -- OutlastHubNormalPremium_2.Tab1Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab1Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -3692,8 +3733,8 @@ local function AXJGUM_fake_script() -- OutlastHubNormalPremium_2.Tab1Button.Loca
 		wait(0.1)
 	end)
 end
-coroutine.wrap(AXJGUM_fake_script)()
-local function RLXRJWZ_fake_script() -- OutlastHubNormalPremium_2.Tab2Button.LocalScript 
+coroutine.wrap(KWQNOX_fake_script)()
+local function PTJJJ_fake_script() -- OutlastHubNormalPremium_2.Tab2Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab2Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -3709,8 +3750,8 @@ local function RLXRJWZ_fake_script() -- OutlastHubNormalPremium_2.Tab2Button.Loc
 		wait(0.1)
 	end)
 end
-coroutine.wrap(RLXRJWZ_fake_script)()
-local function MJQP_fake_script() -- OutlastHubNormalPremium_2.Tab5Button.LocalScript 
+coroutine.wrap(PTJJJ_fake_script)()
+local function PRAU_fake_script() -- OutlastHubNormalPremium_2.Tab5Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab5Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -3726,8 +3767,8 @@ local function MJQP_fake_script() -- OutlastHubNormalPremium_2.Tab5Button.LocalS
 		wait(0.1)
 	end)
 end
-coroutine.wrap(MJQP_fake_script)()
-local function ODPQVR_fake_script() -- OutlastHubNormalPremium_2.TextLabel_14.LocalScript 
+coroutine.wrap(PRAU_fake_script)()
+local function XKTNMVI_fake_script() -- OutlastHubNormalPremium_2.TextLabel_14.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_14)
 
 	local Players = game:GetService("Players")
@@ -3763,8 +3804,8 @@ local function ODPQVR_fake_script() -- OutlastHubNormalPremium_2.TextLabel_14.Lo
 		end
 	end)
 end
-coroutine.wrap(ODPQVR_fake_script)()
-local function RSAGMPS_fake_script() -- OutlastHubNormalPremium_2.TextLabel_15.LocalScript 
+coroutine.wrap(XKTNMVI_fake_script)()
+local function RULGB_fake_script() -- OutlastHubNormalPremium_2.TextLabel_15.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_15)
 
 	local Players = game:GetService("Players")
@@ -3809,8 +3850,8 @@ local function RSAGMPS_fake_script() -- OutlastHubNormalPremium_2.TextLabel_15.L
 		DestroyCell(child)
 	end)
 end
-coroutine.wrap(RSAGMPS_fake_script)()
-local function UQQOSB_fake_script() -- OutlastHubNormalPremium_2.AutoBuy.LocalScript 
+coroutine.wrap(RULGB_fake_script)()
+local function VOLLP_fake_script() -- OutlastHubNormalPremium_2.AutoBuy.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoBuy)
 
 	local Players = game:GetService("Players")
@@ -3992,8 +4033,8 @@ local function UQQOSB_fake_script() -- OutlastHubNormalPremium_2.AutoBuy.LocalSc
 		end
 	end)
 end
-coroutine.wrap(UQQOSB_fake_script)()
-local function YWYOAF_fake_script() -- OutlastHubNormalPremium_2.Tab3Button.LocalScript 
+coroutine.wrap(VOLLP_fake_script)()
+local function VUQJN_fake_script() -- OutlastHubNormalPremium_2.Tab3Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab3Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -4009,8 +4050,8 @@ local function YWYOAF_fake_script() -- OutlastHubNormalPremium_2.Tab3Button.Loca
 		wait(0.1)
 	end)
 end
-coroutine.wrap(YWYOAF_fake_script)()
-local function KXZUS_fake_script() -- OutlastHubNormalPremium_2.TargetHit.LocalScript 
+coroutine.wrap(VUQJN_fake_script)()
+local function WETNJ_fake_script() -- OutlastHubNormalPremium_2.TargetHit.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TargetHit)
 
 	local Players = game:GetService("Players")
@@ -4414,8 +4455,8 @@ local function KXZUS_fake_script() -- OutlastHubNormalPremium_2.TargetHit.LocalS
 		end
 	end)
 end
-coroutine.wrap(KXZUS_fake_script)()
-local function TVALFUN_fake_script() -- OutlastHubNormalPremium_2.TextLabel_16.LocalScript 
+coroutine.wrap(WETNJ_fake_script)()
+local function SFCUXU_fake_script() -- OutlastHubNormalPremium_2.TextLabel_16.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_16)
 
 	local Players = game:GetService("Players")
@@ -4532,8 +4573,8 @@ local function TVALFUN_fake_script() -- OutlastHubNormalPremium_2.TextLabel_16.L
 		onChar(LP.Character)
 	end
 end
-coroutine.wrap(TVALFUN_fake_script)()
-local function OWVVZ_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_4.mainScript 
+coroutine.wrap(SFCUXU_fake_script)()
+local function UZLQFQ_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_4.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_4)
 
 	-- Services
@@ -4818,8 +4859,8 @@ local function OWVVZ_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_4.m
 	onCharacterAdded(player.Character or player.CharacterAdded:Wait())
 	player.CharacterAdded:Connect(onCharacterAdded)
 end
-coroutine.wrap(OWVVZ_fake_script)()
-local function DGJU_fake_script() -- OutlastHubNormalPremium_2.TextLabel_23.LocalScript 
+coroutine.wrap(UZLQFQ_fake_script)()
+local function KQYYAS_fake_script() -- OutlastHubNormalPremium_2.TextLabel_23.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_23)
 
 	local playersService = game:GetService("Players")
@@ -5014,8 +5055,8 @@ local function DGJU_fake_script() -- OutlastHubNormalPremium_2.TextLabel_23.Loca
 		end)
 	end
 end
-coroutine.wrap(DGJU_fake_script)()
-local function KCZDBIH_fake_script() -- OutlastHubNormalPremium_2.TextLabel_24.LocalScript 
+coroutine.wrap(KQYYAS_fake_script)()
+local function BFYHWEQ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_24.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_24)
 
 	local Players = game:GetService("Players")
@@ -5097,8 +5138,8 @@ local function KCZDBIH_fake_script() -- OutlastHubNormalPremium_2.TextLabel_24.L
 	button.MouseButton1Click:Connect(toggleButton)
 	button.TouchTap:Connect(toggleButton)
 end
-coroutine.wrap(KCZDBIH_fake_script)()
-local function QIHHMQO_fake_script() -- OutlastHubNormalPremium_2.TextLabel_25.LocalScript 
+coroutine.wrap(BFYHWEQ_fake_script)()
+local function KOXZ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_25.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_25)
 
 	local parentRoot = script.Parent
@@ -5150,8 +5191,8 @@ local function QIHHMQO_fake_script() -- OutlastHubNormalPremium_2.TextLabel_25.L
 		end)
 	end
 end
-coroutine.wrap(QIHHMQO_fake_script)()
-local function AJDUBWZ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_26.mainScript 
+coroutine.wrap(KOXZ_fake_script)()
+local function CGXDD_fake_script() -- OutlastHubNormalPremium_2.TextLabel_26.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_26)
 
 	local Players = game:GetService("Players")
@@ -5546,8 +5587,8 @@ local function AJDUBWZ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_26.m
 		end
 	end)
 end
-coroutine.wrap(AJDUBWZ_fake_script)()
-local function RTZB_fake_script() -- OutlastHubNormalPremium_2.TextLabel_28.LocalScript 
+coroutine.wrap(CGXDD_fake_script)()
+local function VNGO_fake_script() -- OutlastHubNormalPremium_2.TextLabel_28.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_28)
 
 	local parentRoot = script.Parent
@@ -5617,8 +5658,8 @@ local function RTZB_fake_script() -- OutlastHubNormalPremium_2.TextLabel_28.Loca
 		end)
 	end
 end
-coroutine.wrap(RTZB_fake_script)()
-local function JWVM_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_5.mainScript 
+coroutine.wrap(VNGO_fake_script)()
+local function JOUZKUY_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_5.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_5)
 
 	
@@ -5730,8 +5771,8 @@ local function JWVM_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_5.ma
 		end
 	end)
 end
-coroutine.wrap(JWVM_fake_script)()
-local function MCWZQOU_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_6.mainScript 
+coroutine.wrap(JOUZKUY_fake_script)()
+local function SOZCHD_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_6.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_6)
 
 	local Players = game:GetService("Players")
@@ -5994,11 +6035,13 @@ local function MCWZQOU_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_6
 		end)
 	end
 end
-coroutine.wrap(MCWZQOU_fake_script)()
-local function HESWQK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_33.LocalScript 
+coroutine.wrap(SOZCHD_fake_script)()
+local function SOFQ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_33.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_33)
 
 	local Players = game:GetService("Players")
+	local VirtualInputManager = game:GetService("VirtualInputManager")
+	local UserInputService = game:GetService("UserInputService")
 	
 	local player = Players.LocalPlayer
 	local button = script.Parent:WaitForChild("WipButton")
@@ -6032,6 +6075,39 @@ local function HESWQK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_33.Lo
 		return liveChar:FindFirstChild("StruggleStrength")
 	end
 	
+	-- LOOP: Continuously presses G or taps when "Occupied" is in your character
+	task.spawn(function()
+		while true do
+			local character = player.Character
+			local occupied = character and character:FindFirstChild("Occupied") 
+	
+			if occupied then
+				-- PC / KEYBOARD SPAM
+				if UserInputService.KeyboardEnabled then
+					VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.G, false, game)
+					VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.G, false, game)
+	
+					-- MOBILE / TOUCH SPAM
+				elseif UserInputService.TouchEnabled then
+					local camera = workspace.CurrentCamera
+					-- Safety check: Make sure the camera and its ViewportSize exist
+					if camera and camera.ViewportSize then
+						local viewportSize = camera.ViewportSize
+						local tapX = viewportSize.X / 2
+						local tapY = viewportSize.Y / 2
+	
+						VirtualInputManager:SendTouchEvent(0, Enum.UserInputState.Begin, tapX, tapY)
+						VirtualInputManager:SendTouchEvent(0, Enum.UserInputState.End, tapX, tapY)
+					end
+				end
+	
+				task.wait() 
+			else
+				task.wait(0.1) 
+			end
+		end
+	end)
+	
 	button.MouseButton1Click:Connect(function()
 		Toggle = not Toggle
 		button.BackgroundColor3 = Toggle and onColor or offColor
@@ -6047,7 +6123,6 @@ local function HESWQK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_33.Lo
 					local strength = getStruggleStrength(character)
 	
 					if strength and strength.Value >= 10 then
-						-- prevent constant re-firing every frame
 						if not lastFired then
 							local remote = getRemote(character)
 							if remote then
@@ -6067,8 +6142,8 @@ local function HESWQK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_33.Lo
 		end
 	end)
 end
-coroutine.wrap(HESWQK_fake_script)()
-local function LKQHHF_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_7.mainScript 
+coroutine.wrap(SOFQ_fake_script)()
+local function YIVP_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_7.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_7)
 
 	local Players = game:GetService("Players")
@@ -6273,8 +6348,8 @@ local function LKQHHF_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_7.
 		end)
 	end
 end
-coroutine.wrap(LKQHHF_fake_script)()
-local function CSHQKA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_8.mainScript 
+coroutine.wrap(YIVP_fake_script)()
+local function HLKEVVC_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_8.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_8)
 
 	local Players = game:GetService("Players")
@@ -6466,8 +6541,8 @@ local function CSHQKA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_8.
 		end
 	end)
 end
-coroutine.wrap(CSHQKA_fake_script)()
-local function AFZHY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_38.LocalScript 
+coroutine.wrap(HLKEVVC_fake_script)()
+local function RPIPQS_fake_script() -- OutlastHubNormalPremium_2.TextLabel_38.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_38)
 
 	local Players = game:GetService("Players")
@@ -6806,8 +6881,305 @@ local function AFZHY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_38.Loc
 	
 	player.CharacterAdded:Connect(onCharacterAdded) 
 end
-coroutine.wrap(AFZHY_fake_script)()
-local function QVZHUA_fake_script() -- OutlastHubNormalPremium_2.Tab4Button.LocalScript 
+coroutine.wrap(RPIPQS_fake_script)()
+local function HRWLAS_fake_script() -- OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill)
+
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local UIS = game:GetService("UserInputService")
+	local Workspace = game:GetService("Workspace")
+	
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local camera = Workspace.CurrentCamera 
+	
+	-- UI Elements (Keeping the master toggle button)
+	local parentRoot = script.Parent
+	local wipButton = parentRoot:FindFirstChild("WipButton") 
+	
+	-- Tuning Config
+	local attackDelay = 0.17
+	local SPEED_THRESHOLD = 5 
+	local FORWARD_OFFSET = 5    
+	local BLATANT_PREDICTION_FACTOR = 1.5
+	
+	-- System States
+	local wipEnabled = false -- Controlled by WipButton
+	local attacking = false
+	local currentTarget = nil
+	local currentClass = nil
+	local moveConnection = nil
+	local animConnection = nil 
+	local originalCFrame = nil 
+	
+	-- Combat Stats
+	local leaderstats = player:WaitForChild("leaderstats", 5)
+	local classValue = leaderstats and leaderstats:WaitForChild("Class", 5)
+	
+	local function updateCurrentClass()
+		if classValue then
+			currentClass = classValue.Value
+		end
+	end
+	
+	local ignoreIDs = { [11016156170] = true }
+	
+	-- CAMERA HANDLERS
+	local function resetCamera()
+		camera.CameraSubject = player.Character:FindFirstChildOfClass("Humanoid") or player.Character
+		camera.CameraType = Enum.CameraType.Custom
+	end
+	
+	local function viewTarget(target)
+		if target and target.Character then
+			local tHum = target.Character:FindFirstChildOfClass("Humanoid")
+			if tHum then camera.CameraSubject = tHum end
+		else
+			resetCamera()
+		end
+	end
+	
+	-- CHARACTER WORKSPACE ENFORCER
+	local function handleCharacterParenting(char)
+		if not char then return end
+		task.wait()
+		local liveFolder = Workspace:FindFirstChild("Live")
+		if liveFolder and char:IsDescendantOf(liveFolder) then char.Parent = Workspace end
+		if char.Parent ~= Workspace then char.Parent = Workspace end
+	end
+	
+	Workspace.DescendantAdded:Connect(function(desc)
+		if desc == character then handleCharacterParenting(character) end
+	end)
+	handleCharacterParenting(character)
+	
+	local function getRemote()
+		local core = character and character:FindFirstChild("Core")
+		local comm = core and core:FindFirstChild("Communicate")
+		if not comm then return nil end
+		for _, v in pairs(comm:GetChildren()) do
+			if v:IsA("RemoteEvent") then return v end
+		end
+	end
+	
+	-- ATTACK LOGIC
+	local function attack(target)
+		updateCurrentClass()
+		local remote = getRemote()
+		if not remote or not target or not target.Character then return end
+	
+		local tChar = target.Character
+		local torsoPart = tChar:FindFirstChild("UpperTorso") or tChar:FindFirstChild("Torso")
+		if not torsoPart then return end
+	
+		local hitPart = tChar:FindFirstChild("Head") or torsoPart
+		local args = {
+			"Heavy",
+			{
+				Point = torsoPart.Position,
+				Combo = math.random(1, 5),
+				Class = currentClass,
+				IsKnockdown = false,
+				Character = tChar,
+				Hit = hitPart,
+				Limb = "LeftHand",
+				Result = nil
+			},
+			false
+		}
+		remote:FireServer(unpack(args))
+		remote:FireServer("Swing", { Limb = "LeftHand" })
+	end
+	
+	-- TELEPORT RESET MECHANIC
+	local function returnToOriginalPosition()
+		resetCamera() 
+		local myHRP = character and character:FindFirstChild("HumanoidRootPart")
+		if myHRP and originalCFrame then
+			myHRP.CFrame = originalCFrame
+			myHRP.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+			myHRP.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+			if humanoid then humanoid:ChangeState(Enum.HumanoidStateType.GettingUp) end
+		end
+		originalCFrame = nil 
+	end
+	
+	-- ANIMATION OVERRIDES
+	local function stopAllAnimations()
+		local animator = humanoid and humanoid:FindFirstChildOfClass("Animator")
+		if animator then
+			for _, track in ipairs(animator:GetPlayingAnimationTracks()) do track:Stop(0) end
+		end
+	end
+	
+	local function startAnimationSuppressor()
+		if animConnection then return end
+		stopAllAnimations() 
+		local animator = humanoid:WaitForChild("Animator", 3)
+		if animator then
+			animConnection = animator.AnimationPlayed:Connect(function(track)
+				if attacking then track:Stop(0) end
+			end)
+		end
+	end
+	
+	local function stopAnimationSuppressor()
+		if animConnection then
+			animConnection:Disconnect()
+			animConnection = nil
+		end
+	end
+	
+	-- UI VISUALS
+	local function updateButtonVisuals()
+		if wipButton then
+			wipButton.BackgroundColor3 = wipEnabled and Color3.fromRGB(51, 255, 47) or Color3.fromRGB(255, 11, 0)
+		end
+	end
+	
+	local function shutDownEverything()
+		attacking = false
+		currentTarget = nil
+		if moveConnection then
+			moveConnection:Disconnect()
+			moveConnection = nil
+		end
+		stopAnimationSuppressor()
+		returnToOriginalPosition()
+		resetCamera() 
+	end
+	
+	local function startLoop()
+		if not wipEnabled or not currentTarget then return end
+		attacking = true
+		startAnimationSuppressor()
+	
+		-- Movement Loop
+		moveConnection = RunService.Heartbeat:Connect(function()
+			local myHRP = character and character:FindFirstChild("HumanoidRootPart")
+	
+			-- Target/Master Switch Validation Check
+			if not wipEnabled or not currentTarget or not currentTarget.Parent or not currentTarget.Character then
+				shutDownEverything()
+				return
+			end
+	
+			local tChar = currentTarget.Character
+			local tHum = tChar:FindFirstChildOfClass("Humanoid")
+			local tTorso = tChar:FindFirstChild("UpperTorso") or tChar:FindFirstChild("Torso")
+	
+			if not tHum or tHum.Health <= 0 or not tTorso then
+				shutDownEverything()
+				return
+			end
+	
+			if myHRP then
+				if not originalCFrame then
+					originalCFrame = myHRP.CFrame
+				end
+	
+				local rawVelocity = tTorso.AssemblyLinearVelocity
+				local targetSpeed = rawVelocity.Magnitude
+				local targetVelocity = rawVelocity
+	
+				if targetSpeed > 120 then
+					targetVelocity = Vector3.new(0, 0, 0)
+					targetSpeed = 0
+				end
+	
+				-- Hidden positioning calculations
+				local basePosition = tTorso.Position
+				if targetSpeed > SPEED_THRESHOLD then
+					basePosition = basePosition + (targetVelocity.Unit * FORWARD_OFFSET)
+				end
+	
+				local enforcedUndergroundY = tTorso.Position.Y - 7
+				local finalUnderPos = Vector3.new(basePosition.X, enforcedUndergroundY, basePosition.Z)
+				local calculatedCFrame = CFrame.new(finalUnderPos) * CFrame.Angles(math.rad(90), 0, 0)
+	
+				myHRP.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+				myHRP.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+				myHRP.CFrame = calculatedCFrame
+				viewTarget(currentTarget)
+			end
+		end)
+	
+		-- Attack Loop
+		task.spawn(function()
+			while wipEnabled and attacking and currentTarget do
+				attack(currentTarget)
+				task.wait(attackDelay)
+			end
+		end)
+	end
+	
+	-- MASTER TOGGLE CLICK
+	if wipButton and wipButton:IsA("GuiButton") then
+		wipButton.BackgroundColor3 = Color3.fromRGB(255, 11, 0)
+		wipButton.MouseButton1Down:Connect(function()
+			wipEnabled = not wipEnabled
+			updateButtonVisuals()
+			if not wipEnabled then
+				shutDownEverything()
+			end
+		end)
+	end
+	
+	-- INPUT DETECTOR (TAP / CLICK TO TARGET)
+	local function onInputBegan(input, gameProcessed)
+		if gameProcessed or not wipEnabled then return end
+	
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			local position = input.Position
+			local ray = camera:ScreenPointToRay(position.X, position.Y)
+	
+			local raycastParams = RaycastParams.new()
+			raycastParams.FilterType = Enum.RaycastFilterType.Exclude
+			raycastParams.FilterDescendantsInstances = {character}
+	
+			local result = Workspace:Raycast(ray.Origin, ray.Direction * 1000, raycastParams)
+	
+			if result and result.Instance then
+				local hitModel = result.Instance:FindFirstAncestorOfClass("Model")
+				if hitModel then
+					local hitPlayer = Players:GetPlayerFromCharacter(hitModel)
+					if hitPlayer and hitPlayer ~= player and not ignoreIDs[hitPlayer.UserId] then
+						local hum = hitModel:FindFirstChildOfClass("Humanoid")
+						if hum and hum.Health > 0 then
+							-- Clean old lock if exists, then establish new lock
+							shutDownEverything()
+							task.wait(0.05)
+							currentTarget = hitPlayer
+							startLoop()
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	UIS.InputBegan:Connect(onInputBegan)
+	
+	-- CLEANUP EVENTS
+	Players.PlayerRemoving:Connect(function(leavingPlayer)
+		if currentTarget and leavingPlayer == currentTarget then
+			shutDownEverything()
+		end
+	end)
+	
+	player.CharacterAdded:Connect(function(char)
+		wipEnabled = false
+		shutDownEverything()
+		updateButtonVisuals()
+		character = char
+		humanoid = char:WaitForChild("Humanoid")
+		handleCharacterParenting(char)
+	end)
+end
+coroutine.wrap(HRWLAS_fake_script)()
+local function QERLC_fake_script() -- OutlastHubNormalPremium_2.Tab4Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab4Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -6823,8 +7195,8 @@ local function QVZHUA_fake_script() -- OutlastHubNormalPremium_2.Tab4Button.Loca
 		wait(0.1)
 	end)
 end
-coroutine.wrap(QVZHUA_fake_script)()
-local function VZNTF_fake_script() -- OutlastHubNormalPremium_2.TextLabel_39.LocalScript 
+coroutine.wrap(QERLC_fake_script)()
+local function SYUCJ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_39.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_39)
 
 	local Toggle = false
@@ -6846,8 +7218,8 @@ local function VZNTF_fake_script() -- OutlastHubNormalPremium_2.TextLabel_39.Loc
 	
 	button.MouseButton1Click:Connect(toggleAntiVoid)
 end
-coroutine.wrap(VZNTF_fake_script)()
-local function PGCVK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_40.LocalScript 
+coroutine.wrap(SYUCJ_fake_script)()
+local function MURIK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_40.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_40)
 
 	local Toggle = false
@@ -6878,8 +7250,8 @@ local function PGCVK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_40.Loc
 	button.MouseButton1Click:Connect(toggleAntiAFK)
 	
 end
-coroutine.wrap(PGCVK_fake_script)()
-local function TXOXY_fake_script() -- OutlastHubNormalPremium_2.Rejoin.LocalScript 
+coroutine.wrap(MURIK_fake_script)()
+local function RDFAL_fake_script() -- OutlastHubNormalPremium_2.Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Rejoin)
 
 	local button = script.Parent
@@ -6910,8 +7282,8 @@ local function TXOXY_fake_script() -- OutlastHubNormalPremium_2.Rejoin.LocalScri
 	end)
 	
 end
-coroutine.wrap(TXOXY_fake_script)()
-local function NZZZ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_41.LocalScript 
+coroutine.wrap(RDFAL_fake_script)()
+local function GDMDCQ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_41.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_41)
 
 	local Toggle = false
@@ -6958,8 +7330,8 @@ local function NZZZ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_41.Loca
 	
 	button.MouseButton1Click:Connect(h)
 end
-coroutine.wrap(NZZZ_fake_script)()
-local function SFUXO_fake_script() -- OutlastHubNormalPremium_2.TextLabel_42.LocalScript 
+coroutine.wrap(GDMDCQ_fake_script)()
+local function KKIY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_42.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_42)
 
 	local Toggle = false
@@ -7029,4 +7401,4 @@ local function SFUXO_fake_script() -- OutlastHubNormalPremium_2.TextLabel_42.Loc
 	
 	button.MouseButton1Click:Connect(h)
 end
-coroutine.wrap(SFUXO_fake_script)()
+coroutine.wrap(KKIY_fake_script)()
