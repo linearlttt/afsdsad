@@ -3091,7 +3091,6 @@ local function NLZMDZC_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScr
 	local Controller = {}
 	getgenv().OutlastKeySystem = Controller
 	
-	--// Services
 	local HttpService = game:GetService("HttpService")
 	local Players = game:GetService("Players")
 	local StarterGui = game:GetService("StarterGui")
@@ -3099,7 +3098,6 @@ local function NLZMDZC_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScr
 	local UserInputService = game:GetService("UserInputService")
 	
 	local LocalPlayer = Players.LocalPlayer
-	-- Make sure LocalPlayer actually exists before continuing
 	while not LocalPlayer do
 		task.wait(0.1)
 		LocalPlayer = Players.LocalPlayer
@@ -3110,10 +3108,8 @@ local function NLZMDZC_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScr
 		or http_request
 		or request
 	
-	--// Local Save Configuration
 	local FILENAME = "OutlastHub_Approved.txt"
 	
-	--// State
 	Controller.Connections = {}
 	Controller.Destroyed = false
 	
@@ -3137,7 +3133,7 @@ local function NLZMDZC_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScr
 		end
 	end
 	
-	--// Allowed PlaceIds
+
 	local allowedPlaceIds = {
 		17698425045,
 		86098085533596,
