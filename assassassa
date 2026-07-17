@@ -515,6 +515,7 @@ OutlastHubNormalPremium_2.TextLabel.Font = Enum.Font.Unknown
 OutlastHubNormalPremium_2.TextLabel.Text = "OUTLAST HUB NORMAL KEY SYSTEM"
 OutlastHubNormalPremium_2.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 OutlastHubNormalPremium_2.TextLabel.TextSize = 18.000
+OutlastHubNormalPremium_2.TextLabel.TextWrapped = true
 
 OutlastHubNormalPremium_2.ImageLabel.Parent = OutlastHubNormalPremium_2.Frame
 OutlastHubNormalPremium_2.ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -4547,7 +4548,7 @@ OutlastHubNormalPremium_2.ImageLabel_8.Image = "rbxassetid://84854819063665"
 
 -- Scripts:
 
-local function NUPLUI_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScript 
+local function WNSPQSH_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Frame)
 
 	if not game:IsLoaded() then
@@ -4849,8 +4850,8 @@ local function NUPLUI_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScri
 		Controller:Destroy()
 	end))
 end
-coroutine.wrap(NUPLUI_fake_script)()
-local function ZTPO_fake_script() -- OutlastHubNormalPremium_2.Frame_2.LocalScript 
+coroutine.wrap(WNSPQSH_fake_script)()
+local function WRLVTS_fake_script() -- OutlastHubNormalPremium_2.Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Frame_2)
 
 	local dragger = {}
@@ -4943,8 +4944,8 @@ local function ZTPO_fake_script() -- OutlastHubNormalPremium_2.Frame_2.LocalScri
 		end
 	end)
 end
-coroutine.wrap(ZTPO_fake_script)()
-local function EWVQM_fake_script() -- OutlastHubNormalPremium_2.Toggle.LocalScript 
+coroutine.wrap(WRLVTS_fake_script)()
+local function HRKGT_fake_script() -- OutlastHubNormalPremium_2.Toggle.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -4974,8 +4975,8 @@ local function EWVQM_fake_script() -- OutlastHubNormalPremium_2.Toggle.LocalScri
 		end)
 	
 end
-coroutine.wrap(EWVQM_fake_script)()
-local function LXJABMW_fake_script() -- OutlastHubNormalPremium_2.AntiFling.LocalScript 
+coroutine.wrap(HRKGT_fake_script)()
+local function WKTYUIH_fake_script() -- OutlastHubNormalPremium_2.AntiFling.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AntiFling)
 
 	local Players = game:GetService("Players")
@@ -5070,8 +5071,8 @@ local function LXJABMW_fake_script() -- OutlastHubNormalPremium_2.AntiFling.Loca
 		end)
 	end)
 end
-coroutine.wrap(LXJABMW_fake_script)()
-local function HBHCQGM_fake_script() -- OutlastHubNormalPremium_2.TextLabel_3.LocalScript 
+coroutine.wrap(WKTYUIH_fake_script)()
+local function IAXJXF_fake_script() -- OutlastHubNormalPremium_2.TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_3)
 
 	local Players = game:GetService("Players")
@@ -5137,8 +5138,8 @@ local function HBHCQGM_fake_script() -- OutlastHubNormalPremium_2.TextLabel_3.Lo
 		end
 	end)
 end
-coroutine.wrap(HBHCQGM_fake_script)()
-local function UQMW_fake_script() -- OutlastHubNormalPremium_2.TextLabel_4.LocalScript 
+coroutine.wrap(IAXJXF_fake_script)()
+local function HSMKOY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_4)
 
 	local RunService = game:GetService("RunService")
@@ -5189,8 +5190,8 @@ local function UQMW_fake_script() -- OutlastHubNormalPremium_2.TextLabel_4.Local
 		end
 	end)
 end
-coroutine.wrap(UQMW_fake_script)()
-local function URKLS_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame.mainScript 
+coroutine.wrap(HSMKOY_fake_script)()
+local function ZHZKAH_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame)
 
 	
@@ -5335,8 +5336,8 @@ local function URKLS_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame.mai
 	local initialPos = (currentSpeed - MIN_SPEED) / (MAX_SPEED - MIN_SPEED)
 	updateSlider(initialPos)
 end
-coroutine.wrap(URKLS_fake_script)()
-local function HVAJBIH_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_2.mainScript 
+coroutine.wrap(ZHZKAH_fake_script)()
+local function VPGO_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_2.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_2)
 
 	local Players = game:GetService("Players")
@@ -5461,8 +5462,8 @@ local function HVAJBIH_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_2
 	-- Display initial slider value
 	amountValue.Text = tostring(currentSpeed)
 end
-coroutine.wrap(HVAJBIH_fake_script)()
-local function QBVB_fake_script() -- OutlastHubNormalPremium_2.TextLabel_8.LocalScript 
+coroutine.wrap(VPGO_fake_script)()
+local function CVHZOW_fake_script() -- OutlastHubNormalPremium_2.TextLabel_8.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_8)
 
 	local players = game:GetService("Players")
@@ -5609,8 +5610,8 @@ local function QBVB_fake_script() -- OutlastHubNormalPremium_2.TextLabel_8.Local
 		end
 	end)
 end
-coroutine.wrap(QBVB_fake_script)()
-local function ILIVVDN_fake_script() -- OutlastHubNormalPremium_2.TextLabel_9.LocalScript 
+coroutine.wrap(CVHZOW_fake_script)()
+local function QACC_fake_script() -- OutlastHubNormalPremium_2.TextLabel_9.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_9)
 
 	local Players = game:GetService("Players")
@@ -5685,8 +5686,8 @@ local function ILIVVDN_fake_script() -- OutlastHubNormalPremium_2.TextLabel_9.Lo
 		end)
 	end)
 end
-coroutine.wrap(ILIVVDN_fake_script)()
-local function TXDBI_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_3.mainScript 
+coroutine.wrap(QACC_fake_script)()
+local function DTBPF_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_3.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_3)
 
 	
@@ -5958,8 +5959,8 @@ local function TXDBI_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_3.m
 		end)
 	end
 end
-coroutine.wrap(TXDBI_fake_script)()
-local function LVHBSQ_fake_script() -- OutlastHubNormalPremium_2.AntiKnockDown.LocalScript 
+coroutine.wrap(DTBPF_fake_script)()
+local function IIDOD_fake_script() -- OutlastHubNormalPremium_2.AntiKnockDown.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AntiKnockDown)
 
 	local Players = game:GetService("Players")
@@ -5997,8 +5998,8 @@ local function LVHBSQ_fake_script() -- OutlastHubNormalPremium_2.AntiKnockDown.L
 	
 	
 end
-coroutine.wrap(LVHBSQ_fake_script)()
-local function BEMQY_fake_script() -- OutlastHubNormalPremium_2.Headless.LocalScript 
+coroutine.wrap(IIDOD_fake_script)()
+local function LMCW_fake_script() -- OutlastHubNormalPremium_2.Headless.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Headless)
 
 	local Players = game:GetService("Players")
@@ -6060,8 +6061,8 @@ local function BEMQY_fake_script() -- OutlastHubNormalPremium_2.Headless.LocalSc
 		end
 	end)
 end
-coroutine.wrap(BEMQY_fake_script)()
-local function PGLHWIW_fake_script() -- OutlastHubNormalPremium_2.NotifyWhenaAdminjoin.LocalScript 
+coroutine.wrap(LMCW_fake_script)()
+local function RYDNG_fake_script() -- OutlastHubNormalPremium_2.NotifyWhenaAdminjoin.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.NotifyWhenaAdminjoin)
 
 	local Players = game:GetService("Players")
@@ -6125,8 +6126,8 @@ local function PGLHWIW_fake_script() -- OutlastHubNormalPremium_2.NotifyWhenaAdm
 		end)
 	end
 end
-coroutine.wrap(PGLHWIW_fake_script)()
-local function VWAUQU_fake_script() -- OutlastHubNormalPremium_2.AntiStunWeaveOnHit.LocalScript 
+coroutine.wrap(RYDNG_fake_script)()
+local function GJHCB_fake_script() -- OutlastHubNormalPremium_2.AntiStunWeaveOnHit.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AntiStunWeaveOnHit)
 
 	local Players = game:GetService("Players")
@@ -6176,8 +6177,8 @@ local function VWAUQU_fake_script() -- OutlastHubNormalPremium_2.AntiStunWeaveOn
 		
 	end
 end
-coroutine.wrap(VWAUQU_fake_script)()
-local function YEUITKI_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_4.mainScript 
+coroutine.wrap(GJHCB_fake_script)()
+local function YXHANT_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_4.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_4)
 
 	local Players = game:GetService("Players")
@@ -6374,8 +6375,8 @@ local function YEUITKI_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_4
 		end)
 	end
 end
-coroutine.wrap(YEUITKI_fake_script)()
-local function PZVRV_fake_script() -- OutlastHubNormalPremium_2.TextLabel_13.LocalScript 
+coroutine.wrap(YXHANT_fake_script)()
+local function ABRNTM_fake_script() -- OutlastHubNormalPremium_2.TextLabel_13.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_13)
 
 	local players = game:GetService("Players")
@@ -6470,8 +6471,8 @@ local function PZVRV_fake_script() -- OutlastHubNormalPremium_2.TextLabel_13.Loc
 		end
 	end)
 end
-coroutine.wrap(PZVRV_fake_script)()
-local function NMOHVHB_fake_script() -- OutlastHubNormalPremium_2.UnlockCursor.LocalScript 
+coroutine.wrap(ABRNTM_fake_script)()
+local function HGQZ_fake_script() -- OutlastHubNormalPremium_2.UnlockCursor.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.UnlockCursor)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -6516,8 +6517,8 @@ local function NMOHVHB_fake_script() -- OutlastHubNormalPremium_2.UnlockCursor.L
 		end
 	end)
 end
-coroutine.wrap(NMOHVHB_fake_script)()
-local function EMSV_fake_script() -- OutlastHubNormalPremium_2.Tab1Button.LocalScript 
+coroutine.wrap(HGQZ_fake_script)()
+local function SJYUWXG_fake_script() -- OutlastHubNormalPremium_2.Tab1Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab1Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -6536,8 +6537,8 @@ local function EMSV_fake_script() -- OutlastHubNormalPremium_2.Tab1Button.LocalS
 		wait(0.1)
 	end)
 end
-coroutine.wrap(EMSV_fake_script)()
-local function JOGW_fake_script() -- OutlastHubNormalPremium_2.Tab2Button.LocalScript 
+coroutine.wrap(SJYUWXG_fake_script)()
+local function JUBVQGO_fake_script() -- OutlastHubNormalPremium_2.Tab2Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab2Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -6556,8 +6557,8 @@ local function JOGW_fake_script() -- OutlastHubNormalPremium_2.Tab2Button.LocalS
 		wait(0.1)
 	end)
 end
-coroutine.wrap(JOGW_fake_script)()
-local function SLDX_fake_script() -- OutlastHubNormalPremium_2.Tab5Button.LocalScript 
+coroutine.wrap(JUBVQGO_fake_script)()
+local function BAJI_fake_script() -- OutlastHubNormalPremium_2.Tab5Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab5Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -6576,8 +6577,8 @@ local function SLDX_fake_script() -- OutlastHubNormalPremium_2.Tab5Button.LocalS
 		wait(0.1)
 	end)
 end
-coroutine.wrap(SLDX_fake_script)()
-local function AIRGV_fake_script() -- OutlastHubNormalPremium_2.TextLabel_15.LocalScript 
+coroutine.wrap(BAJI_fake_script)()
+local function VSSJSN_fake_script() -- OutlastHubNormalPremium_2.TextLabel_15.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_15)
 
 	local Players = game:GetService("Players")
@@ -6613,8 +6614,8 @@ local function AIRGV_fake_script() -- OutlastHubNormalPremium_2.TextLabel_15.Loc
 		end
 	end)
 end
-coroutine.wrap(AIRGV_fake_script)()
-local function CCPEOS_fake_script() -- OutlastHubNormalPremium_2.TextLabel_16.LocalScript 
+coroutine.wrap(VSSJSN_fake_script)()
+local function MVDMF_fake_script() -- OutlastHubNormalPremium_2.TextLabel_16.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_16)
 
 	local Players = game:GetService("Players")
@@ -6659,8 +6660,8 @@ local function CCPEOS_fake_script() -- OutlastHubNormalPremium_2.TextLabel_16.Lo
 		DestroyCell(child)
 	end)
 end
-coroutine.wrap(CCPEOS_fake_script)()
-local function PXFMHB_fake_script() -- OutlastHubNormalPremium_2.AutoBuy.LocalScript 
+coroutine.wrap(MVDMF_fake_script)()
+local function WWNQDD_fake_script() -- OutlastHubNormalPremium_2.AutoBuy.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoBuy)
 
 	local Players = game:GetService("Players")
@@ -6843,8 +6844,8 @@ local function PXFMHB_fake_script() -- OutlastHubNormalPremium_2.AutoBuy.LocalSc
 		end
 	end)
 end
-coroutine.wrap(PXFMHB_fake_script)()
-local function WYVMCA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_5.mainScript 
+coroutine.wrap(WWNQDD_fake_script)()
+local function WZWBUIR_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_5.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_5)
 
 	local Players = game:GetService("Players")
@@ -6996,8 +6997,8 @@ local function WYVMCA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_5.
 	-- Run hooking routine asynchronously so it doesn't freeze UI setup
 	task.spawn(startGlobalHooking)
 end
-coroutine.wrap(WYVMCA_fake_script)()
-local function EJZE_fake_script() -- OutlastHubNormalPremium_2.MouseClickTapPlayertoFling.LocalScript 
+coroutine.wrap(WZWBUIR_fake_script)()
+local function JPZPCNZ_fake_script() -- OutlastHubNormalPremium_2.MouseClickTapPlayertoFling.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MouseClickTapPlayertoFling)
 
 	local Players = game:GetService("Players")
@@ -7420,8 +7421,8 @@ local function EJZE_fake_script() -- OutlastHubNormalPremium_2.MouseClickTapPlay
 		handleCharacterParenting(char)
 	end)
 end
-coroutine.wrap(EJZE_fake_script)()
-local function NCAP_fake_script() -- OutlastHubNormalPremium_2.VoidSlam.LocalScript 
+coroutine.wrap(JPZPCNZ_fake_script)()
+local function ZHRCR_fake_script() -- OutlastHubNormalPremium_2.VoidSlam.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.VoidSlam)
 
 	local Players = game:GetService("Players")
@@ -7585,8 +7586,8 @@ local function NCAP_fake_script() -- OutlastHubNormalPremium_2.VoidSlam.LocalScr
 		monitorOccupied(char)
 	end)
 end
-coroutine.wrap(NCAP_fake_script)()
-local function MLTZJUN_fake_script() -- OutlastHubNormalPremium_2.LoopSlam.LocalScript 
+coroutine.wrap(ZHRCR_fake_script)()
+local function TLPUYOI_fake_script() -- OutlastHubNormalPremium_2.LoopSlam.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.LoopSlam)
 
 	local Players = game:GetService("Players")
@@ -7858,8 +7859,8 @@ local function MLTZJUN_fake_script() -- OutlastHubNormalPremium_2.LoopSlam.Local
 		monitorOccupied(char)
 	end)
 end
-coroutine.wrap(MLTZJUN_fake_script)()
-local function CRNN_fake_script() -- OutlastHubNormalPremium_2.Camlock.LocalScript 
+coroutine.wrap(TLPUYOI_fake_script)()
+local function MEPC_fake_script() -- OutlastHubNormalPremium_2.Camlock.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Camlock)
 
 	local Players = game:GetService("Players")
@@ -7961,8 +7962,8 @@ local function CRNN_fake_script() -- OutlastHubNormalPremium_2.Camlock.LocalScri
 		end
 	end)
 end
-coroutine.wrap(CRNN_fake_script)()
-local function VWOTBA_fake_script() -- OutlastHubNormalPremium_2.TextLabel_19.LocalScript 
+coroutine.wrap(MEPC_fake_script)()
+local function HHTH_fake_script() -- OutlastHubNormalPremium_2.TextLabel_19.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_19)
 
 	local Players = game:GetService("Players")
@@ -7992,8 +7993,8 @@ local function VWOTBA_fake_script() -- OutlastHubNormalPremium_2.TextLabel_19.Lo
 		end
 	end)
 end
-coroutine.wrap(VWOTBA_fake_script)()
-local function CQUKJPW_fake_script() -- OutlastHubNormalPremium_2.GlitchPlayer.LocalScript 
+coroutine.wrap(HHTH_fake_script)()
+local function CGHIUFB_fake_script() -- OutlastHubNormalPremium_2.GlitchPlayer.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.GlitchPlayer)
 
 	local Players = game:GetService("Players")
@@ -8182,8 +8183,8 @@ local function CQUKJPW_fake_script() -- OutlastHubNormalPremium_2.GlitchPlayer.L
 		end
 	end)
 end
-coroutine.wrap(CQUKJPW_fake_script)()
-local function OLEQFQ_fake_script() -- OutlastHubNormalPremium_2.AutoGlitchTarget.LocalScript 
+coroutine.wrap(CGHIUFB_fake_script)()
+local function BEZHMIV_fake_script() -- OutlastHubNormalPremium_2.AutoGlitchTarget.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoGlitchTarget)
 
 	local Players = game:GetService("Players")
@@ -8478,8 +8479,8 @@ local function OLEQFQ_fake_script() -- OutlastHubNormalPremium_2.AutoGlitchTarge
 	blatantButton.MouseButton1Down:Connect(function() if wipEnabled then currentMode = "Blatant" startMovementLoop() startThrowingLoop() end end)
 	hiddenButton.MouseButton1Down:Connect(function() if wipEnabled then currentMode = "Hidden" startMovementLoop() startThrowingLoop() end end)
 end
-coroutine.wrap(OLEQFQ_fake_script)()
-local function SSFQH_fake_script() -- OutlastHubNormalPremium_2.TextLabel_20.LocalScript 
+coroutine.wrap(BEZHMIV_fake_script)()
+local function OZRC_fake_script() -- OutlastHubNormalPremium_2.TextLabel_20.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_20)
 
 	local Players = game:GetService("Players")
@@ -8589,8 +8590,8 @@ local function SSFQH_fake_script() -- OutlastHubNormalPremium_2.TextLabel_20.Loc
 		end
 	end)
 end
-coroutine.wrap(SSFQH_fake_script)()
-local function UAAXW_fake_script() -- OutlastHubNormalPremium_2.TextLabel_21.LocalScript 
+coroutine.wrap(OZRC_fake_script)()
+local function CPITZ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_21.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_21)
 
 	local Players = game:GetService("Players")
@@ -8709,8 +8710,8 @@ local function UAAXW_fake_script() -- OutlastHubNormalPremium_2.TextLabel_21.Loc
 		end
 	end)
 end
-coroutine.wrap(UAAXW_fake_script)()
-local function WFVEY_fake_script() -- OutlastHubNormalPremium_2.GlitchPlayer_2.LocalScript 
+coroutine.wrap(CPITZ_fake_script)()
+local function TRVKZ_fake_script() -- OutlastHubNormalPremium_2.GlitchPlayer_2.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.GlitchPlayer_2)
 
 	local Players = game:GetService("Players")
@@ -8887,8 +8888,8 @@ local function WFVEY_fake_script() -- OutlastHubNormalPremium_2.GlitchPlayer_2.L
 		end
 	end)
 end
-coroutine.wrap(WFVEY_fake_script)()
-local function EIQYINO_fake_script() -- OutlastHubNormalPremium_2.MakeSomeoneGlitchOthers.LocalScript 
+coroutine.wrap(TRVKZ_fake_script)()
+local function SHRNC_fake_script() -- OutlastHubNormalPremium_2.MakeSomeoneGlitchOthers.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MakeSomeoneGlitchOthers)
 
 	local Players = game:GetService("Players")
@@ -9169,8 +9170,8 @@ local function EIQYINO_fake_script() -- OutlastHubNormalPremium_2.MakeSomeoneGli
 	
 	textBox.Focused:Connect(function() stopThrowing() end)
 end
-coroutine.wrap(EIQYINO_fake_script)()
-local function GUMRJA_fake_script() -- OutlastHubNormalPremium_2.MakeEveryoneGlitchThemselves.LocalScript 
+coroutine.wrap(SHRNC_fake_script)()
+local function SYCLI_fake_script() -- OutlastHubNormalPremium_2.MakeEveryoneGlitchThemselves.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MakeEveryoneGlitchThemselves)
 
 	local Players = game:GetService("Players")
@@ -9432,8 +9433,8 @@ local function GUMRJA_fake_script() -- OutlastHubNormalPremium_2.MakeEveryoneGli
 		end
 	end)
 end
-coroutine.wrap(GUMRJA_fake_script)()
-local function SIYPZ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_23.LocalScript 
+coroutine.wrap(SYCLI_fake_script)()
+local function GPWYCS_fake_script() -- OutlastHubNormalPremium_2.TextLabel_23.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_23)
 
 	local Players = game:GetService("Players")
@@ -9637,8 +9638,8 @@ local function SIYPZ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_23.Loc
 	
 	textBox.Focused:Connect(function() stopThrowing() end)
 end
-coroutine.wrap(SIYPZ_fake_script)()
-local function BWTAVZY_fake_script() -- OutlastHubNormalPremium_2.LegitAutoConnect.LocalScript 
+coroutine.wrap(GPWYCS_fake_script)()
+local function GKFT_fake_script() -- OutlastHubNormalPremium_2.LegitAutoConnect.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.LegitAutoConnect)
 
 	local Players = game:GetService("Players")
@@ -9819,8 +9820,8 @@ local function BWTAVZY_fake_script() -- OutlastHubNormalPremium_2.LegitAutoConne
 	-- Initialize class at startup
 	updateCurrentClass()
 end
-coroutine.wrap(BWTAVZY_fake_script)()
-local function FFGVQ_fake_script() -- OutlastHubNormalPremium_2.MessUpGame.LocalScript 
+coroutine.wrap(GKFT_fake_script)()
+local function GQCBQQ_fake_script() -- OutlastHubNormalPremium_2.MessUpGame.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MessUpGame)
 
 	local Players = game:GetService("Players")
@@ -9941,8 +9942,8 @@ local function FFGVQ_fake_script() -- OutlastHubNormalPremium_2.MessUpGame.Local
 		end
 	end)
 end
-coroutine.wrap(FFGVQ_fake_script)()
-local function RUWGNA_fake_script() -- OutlastHubNormalPremium_2.MakeOthersHitAura.LocalScript 
+coroutine.wrap(GQCBQQ_fake_script)()
+local function VCZGK_fake_script() -- OutlastHubNormalPremium_2.MakeOthersHitAura.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MakeOthersHitAura)
 
 	local Players = game:GetService("Players")
@@ -9956,45 +9957,32 @@ local function RUWGNA_fake_script() -- OutlastHubNormalPremium_2.MakeOthersHitAu
 	button.BackgroundColor3 = offColor
 	
 	-- CONFIGURATION
-	local ATTACK_DELAY = 0.13 
+	local ATTACK_DELAY = 0.19 
 	local MAX_DISTANCE = 10     
 	local currentHand = "RightHand"
 	
-	-- FRIEND CACHES
-	local myFriendIds = {}
-	local puppetFriendIds = {}
+	-- FRIEND CACHES (Stores results to avoid network spam)
+	local myFriendCache = {}
+	local puppetFriendCache = {}
 	local lastPuppetChecked = nil
-	local friendsLoaded = false
 	
-	-- Load your friends once at the start
-	task.spawn(function()
-		local success, friends = pcall(function()
-			return player:GetFriendsAsync()
-		end)
-		if success then
-			for _, info in pairs(friends:GetCurrentPage()) do
-				myFriendIds[info.Id] = true
-			end
+	-- Helper function to check friendship safely and cache it
+	local function checkFriendship(checkingPlayer, targetUserId, cache)
+		if cache[targetUserId] ~= nil then
+			return cache[targetUserId]
 		end
-		friendsLoaded = true
-	end)
 	
-	-- --> NEW: Caches the puppet's friends so the loop doesn't spam requests
-	local function updatePuppetFriendCache(puppetPlr)
-		if not puppetPlr or puppetPlr == lastPuppetChecked then return end
-		lastPuppetChecked = puppetPlr
-		table.clear(puppetFriendIds)
-	
-		task.spawn(function()
-			local success, friends = pcall(function()
-				return Players:GetFriendsAsync(puppetPlr.UserId)
-			end)
-			if success then
-				for _, info in pairs(friends:GetCurrentPage()) do
-					puppetFriendIds[info.Id] = true
-				end
-			end
+		-- Run the async check safely
+		local success, isFriend = pcall(function()
+			return checkingPlayer:IsFriendsWith(targetUserId)
 		end)
+	
+		if success then
+			cache[targetUserId] = isFriend
+			return isFriend
+		end
+	
+		return false -- Default to false if the request fails
 	end
 	
 	-- PUPPET SYSTEM
@@ -10007,7 +9995,11 @@ local function RUWGNA_fake_script() -- OutlastHubNormalPremium_2.MakeOthersHitAu
 			local displayNameMatch = p.DisplayName:lower():sub(1, #typedName) == typedName:lower()
 	
 			if nameMatch or displayNameMatch then
-				updatePuppetFriendCache(p) -- Trigger cache update for this puppet
+				-- Reset puppet cache if we switch to a different puppet
+				if lastPuppetChecked ~= p then
+					lastPuppetChecked = p
+					table.clear(puppetFriendCache)
+				end
 				return p
 			end
 		end
@@ -10038,13 +10030,13 @@ local function RUWGNA_fake_script() -- OutlastHubNormalPremium_2.MakeOthersHitAu
 		return nil 
 	end 
 	
-	-- Updated ignore filter relying purely on fast table caches and health checks
+	-- Updated ignore filter using IsFriendsWith + dynamic caching
 	local function shouldIgnoreTarget(potentialTarget, puppetPlr)
 		if not potentialTarget then return true end
 		if potentialTarget == player then return true end 
 		if potentialTarget == puppetPlr then return true end 
 	
-		-- NEW: Check if the target is dead or missing a Humanoid
+		-- Check if the target is dead or missing a Humanoid
 		local tChar = potentialTarget.Character
 		if not tChar then return true end
 	
@@ -10053,11 +10045,15 @@ local function RUWGNA_fake_script() -- OutlastHubNormalPremium_2.MakeOthersHitAu
 			return true 
 		end
 	
-		-- Check your friends cache
-		if myFriendIds[potentialTarget.UserId] == true then return true end
+		-- Check your friends cache using IsFriendsWith
+		if checkFriendship(player, potentialTarget.UserId, myFriendCache) then 
+			return true 
+		end
 	
-		-- Check puppet's friends cache
-		if puppetFriendIds[potentialTarget.UserId] == true then return true end
+		-- Check puppet's friends cache using IsFriendsWith
+		if checkFriendship(puppetPlr, potentialTarget.UserId, puppetFriendCache) then 
+			return true 
+		end
 	
 		return false
 	end
@@ -10074,14 +10070,14 @@ local function RUWGNA_fake_script() -- OutlastHubNormalPremium_2.MakeOthersHitAu
 		if not targetPart then return end
 	
 		local targetClassArgs = {
-			"Attack",
+			"Heavy",
 			{
 				Point = puppetPart.Position, 
 				Combo = math.random(1, 4),
 				Class = myClass, 
 				IsKnockdown = false,
-				Character = tChar,           
-				Hit = targetPart,            
+				Character = tChar,            
+				Hit = targetPart,             
 				Limb = currentHand, 
 				Result = nil
 			},
@@ -10103,11 +10099,6 @@ local function RUWGNA_fake_script() -- OutlastHubNormalPremium_2.MakeOthersHitAu
 	
 			task.spawn(function()
 				while Toggle do
-					if not friendsLoaded then 
-						task.wait()
-						continue 
-					end
-	
 					local puppetPlr = getPuppetPlayer()
 	
 					if puppetPlr and puppetPlr.Character then
@@ -10156,8 +10147,8 @@ local function RUWGNA_fake_script() -- OutlastHubNormalPremium_2.MakeOthersHitAu
 		end
 	end)
 end
-coroutine.wrap(RUWGNA_fake_script)()
-local function VSNQKVK_fake_script() -- OutlastHubNormalPremium_2.FakeAnimationsAttack.LocalScript 
+coroutine.wrap(VCZGK_fake_script)()
+local function VDGWOH_fake_script() -- OutlastHubNormalPremium_2.FakeAnimationsAttack.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.FakeAnimationsAttack)
 
 	local Players = game:GetService("Players")
@@ -10531,8 +10522,8 @@ local function VSNQKVK_fake_script() -- OutlastHubNormalPremium_2.FakeAnimations
 	
 	updateCurrentClass()
 end
-coroutine.wrap(VSNQKVK_fake_script)()
-local function QGWBTS_fake_script() -- OutlastHubNormalPremium_2.OMNI.LocalScript 
+coroutine.wrap(VDGWOH_fake_script)()
+local function YAUP_fake_script() -- OutlastHubNormalPremium_2.OMNI.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.OMNI)
 
 	local Players = game:GetService("Players")
@@ -10653,8 +10644,8 @@ local function QGWBTS_fake_script() -- OutlastHubNormalPremium_2.OMNI.LocalScrip
 		end
 	end)
 end
-coroutine.wrap(QGWBTS_fake_script)()
-local function HSTP_fake_script() -- OutlastHubNormalPremium_2.AutoShoveAlll.LocalScript 
+coroutine.wrap(YAUP_fake_script)()
+local function GFKBSZI_fake_script() -- OutlastHubNormalPremium_2.AutoShoveAlll.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoShoveAlll)
 
 	local Players = game:GetService("Players")
@@ -10824,8 +10815,8 @@ local function HSTP_fake_script() -- OutlastHubNormalPremium_2.AutoShoveAlll.Loc
 		end
 	end)
 end
-coroutine.wrap(HSTP_fake_script)()
-local function FTOLVH_fake_script() -- OutlastHubNormalPremium_2.RemoveStatue.LocalScript 
+coroutine.wrap(GFKBSZI_fake_script)()
+local function UOACF_fake_script() -- OutlastHubNormalPremium_2.RemoveStatue.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.RemoveStatue)
 
 	local Players = game:GetService("Players")
@@ -10941,8 +10932,8 @@ local function FTOLVH_fake_script() -- OutlastHubNormalPremium_2.RemoveStatue.Lo
 		end
 	end)
 end
-coroutine.wrap(FTOLVH_fake_script)()
-local function YOYXO_fake_script() -- OutlastHubNormalPremium_2.TextLabel_24.LocalScript 
+coroutine.wrap(UOACF_fake_script)()
+local function LFBHT_fake_script() -- OutlastHubNormalPremium_2.TextLabel_24.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_24)
 
 	local Players = game:GetService("Players")
@@ -10993,8 +10984,8 @@ local function YOYXO_fake_script() -- OutlastHubNormalPremium_2.TextLabel_24.Loc
 		end
 	end)
 end
-coroutine.wrap(YOYXO_fake_script)()
-local function GTGU_fake_script() -- OutlastHubNormalPremium_2.MakeEveryonePickThemselvesUp.LocalScript 
+coroutine.wrap(LFBHT_fake_script)()
+local function MBDYU_fake_script() -- OutlastHubNormalPremium_2.MakeEveryonePickThemselvesUp.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MakeEveryonePickThemselvesUp)
 
 	local Players = game:GetService("Players")
@@ -11249,8 +11240,8 @@ local function GTGU_fake_script() -- OutlastHubNormalPremium_2.MakeEveryonePickT
 		end
 	end)
 end
-coroutine.wrap(GTGU_fake_script)()
-local function NFXLYHT_fake_script() -- OutlastHubNormalPremium_2.Tab3Button.LocalScript 
+coroutine.wrap(MBDYU_fake_script)()
+local function KYNVNQA_fake_script() -- OutlastHubNormalPremium_2.Tab3Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab3Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -11270,8 +11261,8 @@ local function NFXLYHT_fake_script() -- OutlastHubNormalPremium_2.Tab3Button.Loc
 		wait(0.1)
 	end)
 end
-coroutine.wrap(NFXLYHT_fake_script)()
-local function FREJK_fake_script() -- OutlastHubNormalPremium_2.TargetHit.LocalScript 
+coroutine.wrap(KYNVNQA_fake_script)()
+local function UFFBCH_fake_script() -- OutlastHubNormalPremium_2.TargetHit.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TargetHit)
 
 	local Players = game:GetService("Players")
@@ -11757,8 +11748,8 @@ local function FREJK_fake_script() -- OutlastHubNormalPremium_2.TargetHit.LocalS
 		end
 	end)
 end
-coroutine.wrap(FREJK_fake_script)()
-local function ARTEA_fake_script() -- OutlastHubNormalPremium_2.AutoFarm.LocalScript 
+coroutine.wrap(UFFBCH_fake_script)()
+local function BMDW_fake_script() -- OutlastHubNormalPremium_2.AutoFarm.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoFarm)
 
 	local Players = game:GetService("Players")
@@ -11878,8 +11869,8 @@ local function ARTEA_fake_script() -- OutlastHubNormalPremium_2.AutoFarm.LocalSc
 		end)
 	end
 end
-coroutine.wrap(ARTEA_fake_script)()
-local function CJVJX_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_6.mainScript 
+coroutine.wrap(BMDW_fake_script)()
+local function ERTYA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_6.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_6)
 
 	-- Services
@@ -12196,8 +12187,8 @@ local function CJVJX_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_6.m
 	onCharacterAdded(player.Character or player.CharacterAdded:Wait())
 	player.CharacterAdded:Connect(onCharacterAdded)
 end
-coroutine.wrap(CJVJX_fake_script)()
-local function PUBCLHY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_32.LocalScript 
+coroutine.wrap(ERTYA_fake_script)()
+local function KEBXO_fake_script() -- OutlastHubNormalPremium_2.TextLabel_32.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_32)
 
 	--[[local playersService = game:GetService("Players")
@@ -12563,8 +12554,8 @@ local function PUBCLHY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_32.L
 		end)
 	end
 end
-coroutine.wrap(PUBCLHY_fake_script)()
-local function UOMU_fake_script() -- OutlastHubNormalPremium_2.TextLabel_33.LocalScript 
+coroutine.wrap(KEBXO_fake_script)()
+local function OWST_fake_script() -- OutlastHubNormalPremium_2.TextLabel_33.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_33)
 
 	local Players = game:GetService("Players")
@@ -12650,8 +12641,8 @@ local function UOMU_fake_script() -- OutlastHubNormalPremium_2.TextLabel_33.Loca
 	button.MouseButton1Click:Connect(toggleButton)
 	button.TouchTap:Connect(toggleButton)
 end
-coroutine.wrap(UOMU_fake_script)()
-local function KHPHIEX_fake_script() -- OutlastHubNormalPremium_2.TextLabel_34.LocalScript 
+coroutine.wrap(OWST_fake_script)()
+local function MHGII_fake_script() -- OutlastHubNormalPremium_2.TextLabel_34.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_34)
 
 	local parentRoot = script.Parent
@@ -12703,8 +12694,8 @@ local function KHPHIEX_fake_script() -- OutlastHubNormalPremium_2.TextLabel_34.L
 		end)
 	end
 end
-coroutine.wrap(KHPHIEX_fake_script)()
-local function XALBYUJ_fake_script() -- OutlastHubNormalPremium_2.AutoFarmKills.mainScript 
+coroutine.wrap(MHGII_fake_script)()
+local function LJSNVBI_fake_script() -- OutlastHubNormalPremium_2.AutoFarmKills.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoFarmKills)
 
 	local Players = game:GetService("Players")
@@ -12750,7 +12741,7 @@ local function XALBYUJ_fake_script() -- OutlastHubNormalPremium_2.AutoFarmKills.
 	local offColor = Color3.fromRGB(255, 0, 0)
 	button.BackgroundColor3 = offColor
 	
-	local attackInterval = 0.14
+	local attackInterval = 0.16
 	local hitPartsList = { "Head" }
 	local attackHealthThreshold = 100
 	local currentHand = "RightHand"
@@ -12773,11 +12764,11 @@ local function XALBYUJ_fake_script() -- OutlastHubNormalPremium_2.AutoFarmKills.
 		if not char then return end
 		local hum = char:FindFirstChildOfClass("Humanoid")
 		if not hum then return end
-		local animator = hum:FindFirstChildOfClass("Animator") or hum:WaitForChild("Animator", 0.1)
+		local animator = hum:FindFirstChildOfClass("Animator") or hum:WaitForChild("Animator", 0)
 		if not animator then return end
 	
 		for _, track in ipairs(animator:GetPlayingAnimationTracks()) do
-			track:Stop(0)
+			track:Stop()
 		end
 	end
 	
@@ -12804,7 +12795,7 @@ local function XALBYUJ_fake_script() -- OutlastHubNormalPremium_2.AutoFarmKills.
 			local moveDirection = horizontalVelocity.Unit
 			finalPosition = targetPart.Position + (moveDirection * 5)
 		elseif targetChar:FindFirstChild("SkateBoard") then
-			local board = targetChar:FindFirstChild("SkateBoard")
+			local board = targetChar:FindFirstChild("SkateBoard") or targetChar:FindFirstChild("Bike")
 			if board:IsA("BasePart") and board.Velocity.Magnitude > 0.5 then
 				finalPosition = targetPart.Position + (board.Velocity.Unit * 7)
 			else
@@ -13142,8 +13133,8 @@ local function XALBYUJ_fake_script() -- OutlastHubNormalPremium_2.AutoFarmKills.
 		end
 	end)
 end
-coroutine.wrap(XALBYUJ_fake_script)()
-local function GWDT_fake_script() -- OutlastHubNormalPremium_2.TargetSlam.LocalScript 
+coroutine.wrap(LJSNVBI_fake_script)()
+local function UOKEENT_fake_script() -- OutlastHubNormalPremium_2.TargetSlam.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TargetSlam)
 
 	local Players = game:GetService("Players")
@@ -13377,8 +13368,8 @@ local function GWDT_fake_script() -- OutlastHubNormalPremium_2.TargetSlam.LocalS
 		end
 	end)
 end
-coroutine.wrap(GWDT_fake_script)()
-local function ZAOGK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_36.LocalScript 
+coroutine.wrap(UOKEENT_fake_script)()
+local function JBIMAF_fake_script() -- OutlastHubNormalPremium_2.TextLabel_36.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_36)
 
 	local parentRoot = script.Parent
@@ -13403,8 +13394,8 @@ local function ZAOGK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_36.Loc
 		end)
 	end
 end
-coroutine.wrap(ZAOGK_fake_script)()
-local function NVNIRQ_fake_script() -- OutlastHubNormalPremium_2.AutoFarmBoss.mainScript 
+coroutine.wrap(JBIMAF_fake_script)()
+local function AFJD_fake_script() -- OutlastHubNormalPremium_2.AutoFarmBoss.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoFarmBoss)
 
 	local Players = game:GetService("Players")
@@ -13513,8 +13504,8 @@ local function NVNIRQ_fake_script() -- OutlastHubNormalPremium_2.AutoFarmBoss.ma
 		end
 	end)
 end
-coroutine.wrap(NVNIRQ_fake_script)()
-local function BVAG_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_7.mainScript 
+coroutine.wrap(AFJD_fake_script)()
+local function QQKYVLB_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_7.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_7)
 
 	local slider = script.Parent
@@ -13631,8 +13622,8 @@ local function BVAG_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_7.ma
 		end)
 	end
 end
-coroutine.wrap(BVAG_fake_script)()
-local function MSOC_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_8.mainScript 
+coroutine.wrap(QQKYVLB_fake_script)()
+local function UGQBUM_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_8.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_8)
 
 	local Players = game:GetService("Players")
@@ -13842,8 +13833,8 @@ local function MSOC_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_8.ma
 		end)
 	end
 end
-coroutine.wrap(MSOC_fake_script)()
-local function ZMATV_fake_script() -- OutlastHubNormalPremium_2.TextLabel_42.LocalScript 
+coroutine.wrap(UGQBUM_fake_script)()
+local function XKNEX_fake_script() -- OutlastHubNormalPremium_2.TextLabel_42.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_42)
 
 	local Players = game:GetService("Players")
@@ -13899,8 +13890,8 @@ local function ZMATV_fake_script() -- OutlastHubNormalPremium_2.TextLabel_42.Loc
 		button.BackgroundColor3 = Toggle and onColor or offColor
 	end)
 end
-coroutine.wrap(ZMATV_fake_script)()
-local function VTQCAL_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_9.mainScript 
+coroutine.wrap(XKNEX_fake_script)()
+local function IBZIXLA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_9.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_9)
 
 	local Players = game:GetService("Players")
@@ -14120,8 +14111,8 @@ local function VTQCAL_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_9.
 		end)
 	end
 end
-coroutine.wrap(VTQCAL_fake_script)()
-local function KMTA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_10.mainScript 
+coroutine.wrap(IBZIXLA_fake_script)()
+local function TJOE_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_10.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_10)
 
 	local Players = game:GetService("Players")
@@ -14136,6 +14127,9 @@ local function KMTA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_10.m
 	local parentRoot = slider.Parent.Parent
 	local wipButton = parentRoot:FindFirstChild("WipButton")
 	
+	local ignoreKnockedLabel = parentRoot:FindFirstChild("Ignoreknocked") 
+	local ignoreKnockedButton = ignoreKnockedLabel and ignoreKnockedLabel:FindFirstChild("Ignoreknocked")
+	
 	-- Track connections per player to clean them up properly and prevent leaks
 	local playerConnections = {}
 	
@@ -14144,6 +14138,7 @@ local function KMTA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_10.m
 	local currentSize = MIN_SIZE
 	local dragging = false
 	local hitboxActive = false 
+	local ignoreKnockedActive = false 
 	
 	-- Purely updates a character's properties based on current states
 	local function applyHitboxToCharacter(character)
@@ -14159,9 +14154,15 @@ local function KMTA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_10.m
 			return
 		end
 	
-		-- Automatically scales and disables collision when active
-		rootPart.Size = Vector3.new(currentSize, currentSize, currentSize)
-		rootPart.CanCollide = false -- Turn off collision ONLY on the HumanoidRootPart so it doesn't block you
+		-- Evaluate size based on the ignoreKnocked toggle
+		if ignoreKnockedActive and character:FindFirstChild("Knocked") then
+			rootPart.Size = Vector3.new(2, 2, 1) -- Resets size if knocked and toggle is on
+		else
+			rootPart.Size = Vector3.new(currentSize, currentSize, currentSize) -- Applies custom size
+		end
+	
+		-- NEW LOGIC: Collision is ALWAYS false when the main toggle is on, regardless of knocked status
+		rootPart.CanCollide = false 
 	end
 	
 	local function updateAllHitboxes()
@@ -14176,7 +14177,7 @@ local function KMTA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_10.m
 	local function watchCharacterState(character)
 		applyHitboxToCharacter(character)
 	
-		-- Listen for the "Knocked" instance being added or removed dynamically to refresh state
+		-- Listen for the "Knocked" instance being added or removed dynamically
 		local childAdded = character.ChildAdded:Connect(function(child)
 			if child.Name == "Knocked" then
 				applyHitboxToCharacter(character)
@@ -14248,6 +14249,15 @@ local function KMTA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_10.m
 		end)
 	end
 	
+	-- Ignore Knocked Button Toggle
+	if ignoreKnockedButton then
+		ignoreKnockedButton.MouseButton1Down:Connect(function()
+			ignoreKnockedActive = not ignoreKnockedActive
+			ignoreKnockedButton.BackgroundColor3 = ignoreKnockedActive and Color3.fromRGB(51, 255, 47) or Color3.fromRGB(255, 11, 0)
+			updateAllHitboxes()
+		end)
+	end
+	
 	-- Player Setup Events
 	local function setupPlayer(player)
 		playerConnections[player] = {}
@@ -14274,10 +14284,11 @@ local function KMTA_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_10.m
 		if player ~= LocalPlayer then setupPlayer(player) end
 	end
 	
+	-- Initialize slider visually to default size WITHOUT changing player hitboxes
 	updateSlider((currentSize - MIN_SIZE) / (MAX_SIZE - MIN_SIZE), true)
 end
-coroutine.wrap(KMTA_fake_script)()
-local function SOOGE_fake_script() -- OutlastHubNormalPremium_2.TextLabel_46.LocalScript 
+coroutine.wrap(TJOE_fake_script)()
+local function SVHK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_46.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_46)
 
 	local Players = game:GetService("Players")
@@ -14452,8 +14463,8 @@ local function SOOGE_fake_script() -- OutlastHubNormalPremium_2.TextLabel_46.Loc
 	end
 	player.CharacterAdded:Connect(onCharacterAdded)
 end
-coroutine.wrap(SOOGE_fake_script)()
-local function EWKN_fake_script() -- OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.LocalScript 
+coroutine.wrap(SVHK_fake_script)()
+local function YAUP_fake_script() -- OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill)
 
 	local Players = game:GetService("Players")
@@ -14769,8 +14780,8 @@ local function EWKN_fake_script() -- OutlastHubNormalPremium_2.MouseClickTouchPl
 		humanoid = char:WaitForChild("Humanoid")
 	end)
 end
-coroutine.wrap(EWKN_fake_script)()
-local function GLSMFX_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_11.mainScript 
+coroutine.wrap(YAUP_fake_script)()
+local function ZXNDIGR_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_11.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_11)
 
 	local Players = game:GetService("Players")
@@ -14901,8 +14912,8 @@ local function GLSMFX_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_11
 		end)
 	end
 end
-coroutine.wrap(GLSMFX_fake_script)()
-local function IKDEPIB_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_12.mainScript 
+coroutine.wrap(ZXNDIGR_fake_script)()
+local function MDILPF_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_12.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_12)
 
 	local Players = game:GetService("Players")
@@ -15061,8 +15072,8 @@ local function IKDEPIB_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_1
 		end)
 	end
 end
-coroutine.wrap(IKDEPIB_fake_script)()
-local function JHUF_fake_script() -- OutlastHubNormalPremium_2.AutoHitAll.LocalScript 
+coroutine.wrap(MDILPF_fake_script)()
+local function OBZWZ_fake_script() -- OutlastHubNormalPremium_2.AutoHitAll.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoHitAll)
 
 	local Players = game:GetService("Players")
@@ -15297,8 +15308,8 @@ local function JHUF_fake_script() -- OutlastHubNormalPremium_2.AutoHitAll.LocalS
 		end
 	end)
 end
-coroutine.wrap(JHUF_fake_script)()
-local function MONKNSC_fake_script() -- OutlastHubNormalPremium_2.Tab4Button.LocalScript 
+coroutine.wrap(OBZWZ_fake_script)()
+local function MKXZ_fake_script() -- OutlastHubNormalPremium_2.Tab4Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab4Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -15317,8 +15328,8 @@ local function MONKNSC_fake_script() -- OutlastHubNormalPremium_2.Tab4Button.Loc
 		wait(0.1)
 	end)
 end
-coroutine.wrap(MONKNSC_fake_script)()
-local function UWOYU_fake_script() -- OutlastHubNormalPremium_2.TextLabel_51.LocalScript 
+coroutine.wrap(MKXZ_fake_script)()
+local function WLYTA_fake_script() -- OutlastHubNormalPremium_2.TextLabel_51.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_51)
 
 	local Toggle = false
@@ -15340,8 +15351,8 @@ local function UWOYU_fake_script() -- OutlastHubNormalPremium_2.TextLabel_51.Loc
 	
 	button.MouseButton1Click:Connect(toggleAntiVoid)
 end
-coroutine.wrap(UWOYU_fake_script)()
-local function OPERVFK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_52.LocalScript 
+coroutine.wrap(WLYTA_fake_script)()
+local function UMQQGKJ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_52.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_52)
 
 	local Toggle = false
@@ -15372,8 +15383,8 @@ local function OPERVFK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_52.L
 	button.MouseButton1Click:Connect(toggleAntiAFK)
 	
 end
-coroutine.wrap(OPERVFK_fake_script)()
-local function AWXW_fake_script() -- OutlastHubNormalPremium_2.Rejoin.LocalScript 
+coroutine.wrap(UMQQGKJ_fake_script)()
+local function VRAGE_fake_script() -- OutlastHubNormalPremium_2.Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Rejoin)
 
 	local button = script.Parent
@@ -15404,8 +15415,8 @@ local function AWXW_fake_script() -- OutlastHubNormalPremium_2.Rejoin.LocalScrip
 	end)
 	
 end
-coroutine.wrap(AWXW_fake_script)()
-local function SPIAJ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_53.LocalScript 
+coroutine.wrap(VRAGE_fake_script)()
+local function KOZK_fake_script() -- OutlastHubNormalPremium_2.TextLabel_53.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_53)
 
 	local Toggle = false
@@ -15452,8 +15463,8 @@ local function SPIAJ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_53.Loc
 	
 	button.MouseButton1Click:Connect(h)
 end
-coroutine.wrap(SPIAJ_fake_script)()
-local function BFXJDTZ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_54.LocalScript 
+coroutine.wrap(KOZK_fake_script)()
+local function TZEG_fake_script() -- OutlastHubNormalPremium_2.TextLabel_54.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_54)
 
 	--[[local Toggle = false
@@ -15613,8 +15624,8 @@ local function BFXJDTZ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_54.L
 	
 	button.MouseButton1Click:Connect(h)
 end
-coroutine.wrap(BFXJDTZ_fake_script)()
-local function GYYCT_fake_script() -- OutlastHubNormalPremium_2.TeleportToAll.LocalScript 
+coroutine.wrap(TZEG_fake_script)()
+local function WMHTRFL_fake_script() -- OutlastHubNormalPremium_2.TeleportToAll.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TeleportToAll)
 
 	local plrs = game:GetService("Players")
@@ -15743,8 +15754,8 @@ local function GYYCT_fake_script() -- OutlastHubNormalPremium_2.TeleportToAll.Lo
 		end
 	end)
 end
-coroutine.wrap(GYYCT_fake_script)()
-local function ULAEI_fake_script() -- OutlastHubNormalPremium_2.TextLabel_56.LocalScript 
+coroutine.wrap(WMHTRFL_fake_script)()
+local function SWUMCQX_fake_script() -- OutlastHubNormalPremium_2.TextLabel_56.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_56)
 
 	local Players = game:GetService("Players")
@@ -15776,8 +15787,8 @@ local function ULAEI_fake_script() -- OutlastHubNormalPremium_2.TextLabel_56.Loc
 	
 	button.MouseButton1Click:Connect(h)
 end
-coroutine.wrap(ULAEI_fake_script)()
-local function DGFI_fake_script() -- OutlastHubNormalPremium_2.LunchRoom.LocalScript 
+coroutine.wrap(SWUMCQX_fake_script)()
+local function CTIYZRO_fake_script() -- OutlastHubNormalPremium_2.LunchRoom.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.LunchRoom)
 
 	local Players = game:GetService("Players")
@@ -15806,8 +15817,8 @@ local function DGFI_fake_script() -- OutlastHubNormalPremium_2.LunchRoom.LocalSc
 		end
 	end)
 end
-coroutine.wrap(DGFI_fake_script)()
-local function OQHARY_fake_script() -- OutlastHubNormalPremium_2.BasketBallCourt.LocalScript 
+coroutine.wrap(CTIYZRO_fake_script)()
+local function PDBJAFC_fake_script() -- OutlastHubNormalPremium_2.BasketBallCourt.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.BasketBallCourt)
 
 	
@@ -15843,8 +15854,8 @@ local function OQHARY_fake_script() -- OutlastHubNormalPremium_2.BasketBallCourt
 	
 	
 end
-coroutine.wrap(OQHARY_fake_script)()
-local function VPQXV_fake_script() -- OutlastHubNormalPremium_2.Outside.LocalScript 
+coroutine.wrap(PDBJAFC_fake_script)()
+local function KMAQRL_fake_script() -- OutlastHubNormalPremium_2.Outside.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Outside)
 
 	
@@ -15877,8 +15888,8 @@ local function VPQXV_fake_script() -- OutlastHubNormalPremium_2.Outside.LocalScr
 	
 	
 end
-coroutine.wrap(VPQXV_fake_script)()
-local function WSJY_fake_script() -- OutlastHubNormalPremium_2.LeaderboardArea.LocalScript 
+coroutine.wrap(KMAQRL_fake_script)()
+local function MELW_fake_script() -- OutlastHubNormalPremium_2.LeaderboardArea.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.LeaderboardArea)
 
 	
@@ -15914,8 +15925,8 @@ local function WSJY_fake_script() -- OutlastHubNormalPremium_2.LeaderboardArea.L
 	
 	
 end
-coroutine.wrap(WSJY_fake_script)()
-local function MRUCO_fake_script() -- OutlastHubNormalPremium_2.BathroomArea.LocalScript 
+coroutine.wrap(MELW_fake_script)()
+local function QYTKF_fake_script() -- OutlastHubNormalPremium_2.BathroomArea.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.BathroomArea)
 
 	
@@ -15951,8 +15962,8 @@ local function MRUCO_fake_script() -- OutlastHubNormalPremium_2.BathroomArea.Loc
 	
 	
 end
-coroutine.wrap(MRUCO_fake_script)()
-local function KZEJ_fake_script() -- OutlastHubNormalPremium_2.Tab6Button.LocalScript 
+coroutine.wrap(QYTKF_fake_script)()
+local function EUMQ_fake_script() -- OutlastHubNormalPremium_2.Tab6Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab6Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -15971,4 +15982,4 @@ local function KZEJ_fake_script() -- OutlastHubNormalPremium_2.Tab6Button.LocalS
 		wait(0.1)
 	end)
 end
-coroutine.wrap(KZEJ_fake_script)()
+coroutine.wrap(EUMQ_fake_script)()
