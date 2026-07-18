@@ -131,7 +131,7 @@ local OutlastHubNormalPremium_2 = {
 	Tab2Button = Instance.new("TextButton"),
 	UIStroke_38 = Instance.new("UIStroke"),
 	ImageLabel_4 = Instance.new("ImageLabel"),
-	Tab5Button = Instance.new("TextButton"),
+	Tab7Button = Instance.new("TextButton"),
 	ImageLabel_5 = Instance.new("ImageLabel"),
 	UIStroke_39 = Instance.new("UIStroke"),
 	TabFrame4 = Instance.new("ScrollingFrame"),
@@ -493,6 +493,19 @@ local OutlastHubNormalPremium_2 = {
 	Tab6Button = Instance.new("TextButton"),
 	UIStroke_171 = Instance.new("UIStroke"),
 	ImageLabel_8 = Instance.new("ImageLabel"),
+	Tab5Button = Instance.new("TextButton"),
+	ImageLabel_9 = Instance.new("ImageLabel"),
+	UIStroke_172 = Instance.new("UIStroke"),
+	TabFrame7 = Instance.new("ScrollingFrame"),
+	idk = Instance.new("TextButton"),
+	idk_2 = Instance.new("TextButton"),
+	idk_3 = Instance.new("TextButton"),
+	idk_4 = Instance.new("TextButton"),
+	idk_5 = Instance.new("TextButton"),
+	idk_6 = Instance.new("TextButton"),
+	idk_7 = Instance.new("TextButton"),
+	idk_8 = Instance.new("TextButton"),
+	idk_9 = Instance.new("TextButton"),
 }
 
 --Properties:
@@ -662,8 +675,8 @@ OutlastHubNormalPremium_2.Tab1.Parent = OutlastHubNormalPremium_2.Container
 OutlastHubNormalPremium_2.Tab1.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 OutlastHubNormalPremium_2.Tab1.BorderColor3 = Color3.fromRGB(27, 42, 53)
 OutlastHubNormalPremium_2.Tab1.BorderSizePixel = 0
-OutlastHubNormalPremium_2.Tab1.Position = UDim2.new(-0.0233628377, 0, -0.0136363637, 0)
-OutlastHubNormalPremium_2.Tab1.Size = UDim2.new(0, 133, 0, 223)
+OutlastHubNormalPremium_2.Tab1.Position = UDim2.new(-0.0233628526, 0, -0.0136363832, 0)
+OutlastHubNormalPremium_2.Tab1.Size = UDim2.new(0, 133, 0, 233)
 
 OutlastHubNormalPremium_2.TabFrame1.Name = "TabFrame1"
 OutlastHubNormalPremium_2.TabFrame1.Parent = OutlastHubNormalPremium_2.Container
@@ -1488,7 +1501,7 @@ OutlastHubNormalPremium_2.Tab1Button.Name = "Tab1Button"
 OutlastHubNormalPremium_2.Tab1Button.Parent = OutlastHubNormalPremium_2.Container
 OutlastHubNormalPremium_2.Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 OutlastHubNormalPremium_2.Tab1Button.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OutlastHubNormalPremium_2.Tab1Button.Position = UDim2.new(-0.0118764844, 0, 0.0460829511, 0)
+OutlastHubNormalPremium_2.Tab1Button.Position = UDim2.new(-0.0118764611, 0, 0.0108405966, 0)
 OutlastHubNormalPremium_2.Tab1Button.Size = UDim2.new(0, 123, 0, 21)
 OutlastHubNormalPremium_2.Tab1Button.Font = Enum.Font.SourceSans
 OutlastHubNormalPremium_2.Tab1Button.Text = "                    Local"
@@ -1513,7 +1526,7 @@ OutlastHubNormalPremium_2.ImageLabel_3.Image = "rbxassetid://12671673643"
 OutlastHubNormalPremium_2.Tab2Button.Name = "Tab2Button"
 OutlastHubNormalPremium_2.Tab2Button.Parent = OutlastHubNormalPremium_2.Container
 OutlastHubNormalPremium_2.Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-OutlastHubNormalPremium_2.Tab2Button.Position = UDim2.new(-0.0118764844, 0, 0.193548396, 0)
+OutlastHubNormalPremium_2.Tab2Button.Position = UDim2.new(-0.0118764611, 0, 0.149495527, 0)
 OutlastHubNormalPremium_2.Tab2Button.Size = UDim2.new(0, 123, 0, 21)
 OutlastHubNormalPremium_2.Tab2Button.Font = Enum.Font.SourceSans
 OutlastHubNormalPremium_2.Tab2Button.Text = "                   Combat"
@@ -1535,30 +1548,30 @@ OutlastHubNormalPremium_2.ImageLabel_4.Position = UDim2.new(0.048780486, 0, 0, 0
 OutlastHubNormalPremium_2.ImageLabel_4.Size = UDim2.new(0, 20, 0, 20)
 OutlastHubNormalPremium_2.ImageLabel_4.Image = "rbxassetid://12671744738"
 
-OutlastHubNormalPremium_2.Tab5Button.Name = "Tab5Button"
-OutlastHubNormalPremium_2.Tab5Button.Parent = OutlastHubNormalPremium_2.Container
-OutlastHubNormalPremium_2.Tab5Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-OutlastHubNormalPremium_2.Tab5Button.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OutlastHubNormalPremium_2.Tab5Button.Position = UDim2.new(-0.0120000001, 0, 0.781357944, 0)
-OutlastHubNormalPremium_2.Tab5Button.Size = UDim2.new(0, 123, 0, 21)
-OutlastHubNormalPremium_2.Tab5Button.Font = Enum.Font.SourceSans
-OutlastHubNormalPremium_2.Tab5Button.Text = "Setting's"
-OutlastHubNormalPremium_2.Tab5Button.TextColor3 = Color3.fromRGB(255, 255, 255)
-OutlastHubNormalPremium_2.Tab5Button.TextSize = 14.000
-OutlastHubNormalPremium_2.Tab5Button.TextStrokeTransparency = 0.000
+OutlastHubNormalPremium_2.Tab7Button.Name = "Tab7Button"
+OutlastHubNormalPremium_2.Tab7Button.Parent = OutlastHubNormalPremium_2.Container
+OutlastHubNormalPremium_2.Tab7Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+OutlastHubNormalPremium_2.Tab7Button.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OutlastHubNormalPremium_2.Tab7Button.Position = UDim2.new(-0.0119999945, 0, 0.680036366, 0)
+OutlastHubNormalPremium_2.Tab7Button.Size = UDim2.new(0, 123, 0, 21)
+OutlastHubNormalPremium_2.Tab7Button.Font = Enum.Font.SourceSans
+OutlastHubNormalPremium_2.Tab7Button.Text = "Emotes"
+OutlastHubNormalPremium_2.Tab7Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+OutlastHubNormalPremium_2.Tab7Button.TextSize = 14.000
+OutlastHubNormalPremium_2.Tab7Button.TextStrokeTransparency = 0.000
 
-OutlastHubNormalPremium_2.ImageLabel_5.Parent = OutlastHubNormalPremium_2.Tab5Button
+OutlastHubNormalPremium_2.ImageLabel_5.Parent = OutlastHubNormalPremium_2.Tab7Button
 OutlastHubNormalPremium_2.ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 OutlastHubNormalPremium_2.ImageLabel_5.BackgroundTransparency = 1.000
 OutlastHubNormalPremium_2.ImageLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
 OutlastHubNormalPremium_2.ImageLabel_5.Position = UDim2.new(0.048780486, 0, 0, 0)
 OutlastHubNormalPremium_2.ImageLabel_5.Size = UDim2.new(0, 20, 0, 20)
-OutlastHubNormalPremium_2.ImageLabel_5.Image = "rbxassetid://12671757664"
+OutlastHubNormalPremium_2.ImageLabel_5.Image = "rbxassetid://110748588642372"
 
 OutlastHubNormalPremium_2.UIStroke_39.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 OutlastHubNormalPremium_2.UIStroke_39.Color = Color3.fromRGB(84, 86, 86)
 OutlastHubNormalPremium_2.UIStroke_39.Thickness = 1.7999999523162842
-OutlastHubNormalPremium_2.UIStroke_39.Parent = OutlastHubNormalPremium_2.Tab5Button
+OutlastHubNormalPremium_2.UIStroke_39.Parent = OutlastHubNormalPremium_2.Tab7Button
 
 OutlastHubNormalPremium_2.TabFrame4.Name = "TabFrame4"
 OutlastHubNormalPremium_2.TabFrame4.Parent = OutlastHubNormalPremium_2.Container
@@ -2763,7 +2776,7 @@ OutlastHubNormalPremium_2.Tab3Button.Parent = OutlastHubNormalPremium_2.Containe
 OutlastHubNormalPremium_2.Tab3Button.Active = false
 OutlastHubNormalPremium_2.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 OutlastHubNormalPremium_2.Tab3Button.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OutlastHubNormalPremium_2.Tab3Button.Position = UDim2.new(-0.0118764844, 0, 0.345622122, 0)
+OutlastHubNormalPremium_2.Tab3Button.Position = UDim2.new(-0.0118764611, 0, 0.288353473, 0)
 OutlastHubNormalPremium_2.Tab3Button.Size = UDim2.new(0, 123, 0, 21)
 OutlastHubNormalPremium_2.Tab3Button.Font = Enum.Font.SourceSans
 OutlastHubNormalPremium_2.Tab3Button.Text = "AutoFarm"
@@ -3453,7 +3466,6 @@ OutlastHubNormalPremium_2.TabFrame2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 OutlastHubNormalPremium_2.TabFrame2.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
 OutlastHubNormalPremium_2.TabFrame2.Size = UDim2.new(0, 297, 0, 225)
 OutlastHubNormalPremium_2.TabFrame2.Visible = false
-OutlastHubNormalPremium_2.TabFrame2.CanvasPosition = Vector2.new(0, 400)
 OutlastHubNormalPremium_2.TabFrame2.CanvasSize = UDim2.new(0, 0, 4, 0)
 OutlastHubNormalPremium_2.TabFrame2.ScrollBarThickness = 0
 
@@ -4235,7 +4247,7 @@ OutlastHubNormalPremium_2.Tab4Button.Name = "Tab4Button"
 OutlastHubNormalPremium_2.Tab4Button.Parent = OutlastHubNormalPremium_2.Container
 OutlastHubNormalPremium_2.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 OutlastHubNormalPremium_2.Tab4Button.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OutlastHubNormalPremium_2.Tab4Button.Position = UDim2.new(-0.0120000001, 0, 0.632000029, 0)
+OutlastHubNormalPremium_2.Tab4Button.Position = UDim2.new(-0.0119999945, 0, 0.539488912, 0)
 OutlastHubNormalPremium_2.Tab4Button.Size = UDim2.new(0, 123, 0, 21)
 OutlastHubNormalPremium_2.Tab4Button.Font = Enum.Font.SourceSans
 OutlastHubNormalPremium_2.Tab4Button.Text = "         Game Tweaks"
@@ -4578,7 +4590,7 @@ OutlastHubNormalPremium_2.Tab6Button.Name = "Tab6Button"
 OutlastHubNormalPremium_2.Tab6Button.Parent = OutlastHubNormalPremium_2.Container
 OutlastHubNormalPremium_2.Tab6Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 OutlastHubNormalPremium_2.Tab6Button.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OutlastHubNormalPremium_2.Tab6Button.Position = UDim2.new(-0.0119904075, 0, 0.48017621, 0)
+OutlastHubNormalPremium_2.Tab6Button.Position = UDim2.new(-0.0119904075, 0, 0.405286342, 0)
 OutlastHubNormalPremium_2.Tab6Button.Size = UDim2.new(0, 123, 0, 21)
 OutlastHubNormalPremium_2.Tab6Button.Font = Enum.Font.SourceSans
 OutlastHubNormalPremium_2.Tab6Button.Text = "Teleports"
@@ -4599,9 +4611,136 @@ OutlastHubNormalPremium_2.ImageLabel_8.Position = UDim2.new(0.048780486, 0, 0, 0
 OutlastHubNormalPremium_2.ImageLabel_8.Size = UDim2.new(0, 20, 0, 20)
 OutlastHubNormalPremium_2.ImageLabel_8.Image = "rbxassetid://84854819063665"
 
+OutlastHubNormalPremium_2.Tab5Button.Name = "Tab5Button"
+OutlastHubNormalPremium_2.Tab5Button.Parent = OutlastHubNormalPremium_2.Container
+OutlastHubNormalPremium_2.Tab5Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+OutlastHubNormalPremium_2.Tab5Button.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OutlastHubNormalPremium_2.Tab5Button.Position = UDim2.new(-0.0119999945, 0, 0.803384364, 0)
+OutlastHubNormalPremium_2.Tab5Button.Size = UDim2.new(0, 123, 0, 21)
+OutlastHubNormalPremium_2.Tab5Button.Font = Enum.Font.SourceSans
+OutlastHubNormalPremium_2.Tab5Button.Text = "Setting's"
+OutlastHubNormalPremium_2.Tab5Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+OutlastHubNormalPremium_2.Tab5Button.TextSize = 14.000
+OutlastHubNormalPremium_2.Tab5Button.TextStrokeTransparency = 0.000
+
+OutlastHubNormalPremium_2.ImageLabel_9.Parent = OutlastHubNormalPremium_2.Tab5Button
+OutlastHubNormalPremium_2.ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OutlastHubNormalPremium_2.ImageLabel_9.BackgroundTransparency = 1.000
+OutlastHubNormalPremium_2.ImageLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OutlastHubNormalPremium_2.ImageLabel_9.Position = UDim2.new(0.048780486, 0, 0, 0)
+OutlastHubNormalPremium_2.ImageLabel_9.Size = UDim2.new(0, 20, 0, 20)
+OutlastHubNormalPremium_2.ImageLabel_9.Image = "rbxassetid://12671757664"
+
+OutlastHubNormalPremium_2.UIStroke_172.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+OutlastHubNormalPremium_2.UIStroke_172.Color = Color3.fromRGB(84, 86, 86)
+OutlastHubNormalPremium_2.UIStroke_172.Thickness = 1.7999999523162842
+OutlastHubNormalPremium_2.UIStroke_172.Parent = OutlastHubNormalPremium_2.Tab5Button
+
+OutlastHubNormalPremium_2.TabFrame7.Name = "TabFrame7"
+OutlastHubNormalPremium_2.TabFrame7.Parent = OutlastHubNormalPremium_2.Container
+OutlastHubNormalPremium_2.TabFrame7.Active = true
+OutlastHubNormalPremium_2.TabFrame7.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+OutlastHubNormalPremium_2.TabFrame7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OutlastHubNormalPremium_2.TabFrame7.BackgroundTransparency = 1.000
+OutlastHubNormalPremium_2.TabFrame7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OutlastHubNormalPremium_2.TabFrame7.Position = UDim2.new(0.292551666, 0, -0.0138248848, 0)
+OutlastHubNormalPremium_2.TabFrame7.Size = UDim2.new(0, 297, 0, 225)
+OutlastHubNormalPremium_2.TabFrame7.Visible = false
+OutlastHubNormalPremium_2.TabFrame7.ScrollBarThickness = 0
+
+OutlastHubNormalPremium_2.idk.Name = "idk"
+OutlastHubNormalPremium_2.idk.Parent = OutlastHubNormalPremium_2.TabFrame7
+OutlastHubNormalPremium_2.idk.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+OutlastHubNormalPremium_2.idk.Position = UDim2.new(0.234979182, 0, 0.0733686239, 0)
+OutlastHubNormalPremium_2.idk.Size = UDim2.new(0, 130, 0, 13)
+OutlastHubNormalPremium_2.idk.Font = Enum.Font.Unknown
+OutlastHubNormalPremium_2.idk.Text = "Facepalm"
+OutlastHubNormalPremium_2.idk.TextColor3 = Color3.fromRGB(239, 239, 239)
+OutlastHubNormalPremium_2.idk.TextSize = 10.000
+
+OutlastHubNormalPremium_2.idk_2.Name = "idk"
+OutlastHubNormalPremium_2.idk_2.Parent = OutlastHubNormalPremium_2.TabFrame7
+OutlastHubNormalPremium_2.idk_2.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+OutlastHubNormalPremium_2.idk_2.Position = UDim2.new(0.234979182, 0, 0.0282141063, 0)
+OutlastHubNormalPremium_2.idk_2.Size = UDim2.new(0, 130, 0, 13)
+OutlastHubNormalPremium_2.idk_2.Font = Enum.Font.Unknown
+OutlastHubNormalPremium_2.idk_2.Text = "Shuffle"
+OutlastHubNormalPremium_2.idk_2.TextColor3 = Color3.fromRGB(239, 239, 239)
+OutlastHubNormalPremium_2.idk_2.TextSize = 10.000
+
+OutlastHubNormalPremium_2.idk_3.Name = "idk"
+OutlastHubNormalPremium_2.idk_3.Parent = OutlastHubNormalPremium_2.TabFrame7
+OutlastHubNormalPremium_2.idk_3.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+OutlastHubNormalPremium_2.idk_3.Position = UDim2.new(0.231632933, 0, 0.120925099, 0)
+OutlastHubNormalPremium_2.idk_3.Size = UDim2.new(0, 130, 0, 13)
+OutlastHubNormalPremium_2.idk_3.Font = Enum.Font.Unknown
+OutlastHubNormalPremium_2.idk_3.Text = "L dance"
+OutlastHubNormalPremium_2.idk_3.TextColor3 = Color3.fromRGB(239, 239, 239)
+OutlastHubNormalPremium_2.idk_3.TextSize = 10.000
+
+OutlastHubNormalPremium_2.idk_4.Name = "idk"
+OutlastHubNormalPremium_2.idk_4.Parent = OutlastHubNormalPremium_2.TabFrame7
+OutlastHubNormalPremium_2.idk_4.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+OutlastHubNormalPremium_2.idk_4.Position = UDim2.new(0.234999999, 0, 0.169, 0)
+OutlastHubNormalPremium_2.idk_4.Size = UDim2.new(0, 130, 0, 13)
+OutlastHubNormalPremium_2.idk_4.Font = Enum.Font.Unknown
+OutlastHubNormalPremium_2.idk_4.Text = "LookAtEm"
+OutlastHubNormalPremium_2.idk_4.TextColor3 = Color3.fromRGB(239, 239, 239)
+OutlastHubNormalPremium_2.idk_4.TextSize = 10.000
+
+OutlastHubNormalPremium_2.idk_5.Name = "idk"
+OutlastHubNormalPremium_2.idk_5.Parent = OutlastHubNormalPremium_2.TabFrame7
+OutlastHubNormalPremium_2.idk_5.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+OutlastHubNormalPremium_2.idk_5.Position = UDim2.new(0.231999993, 0, 0.219999999, 0)
+OutlastHubNormalPremium_2.idk_5.Size = UDim2.new(0, 130, 0, 13)
+OutlastHubNormalPremium_2.idk_5.Font = Enum.Font.Unknown
+OutlastHubNormalPremium_2.idk_5.Text = "MuscleFlex"
+OutlastHubNormalPremium_2.idk_5.TextColor3 = Color3.fromRGB(239, 239, 239)
+OutlastHubNormalPremium_2.idk_5.TextSize = 10.000
+
+OutlastHubNormalPremium_2.idk_6.Name = "idk"
+OutlastHubNormalPremium_2.idk_6.Parent = OutlastHubNormalPremium_2.TabFrame7
+OutlastHubNormalPremium_2.idk_6.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+OutlastHubNormalPremium_2.idk_6.Position = UDim2.new(0.23499994, 0, 0.264385074, 0)
+OutlastHubNormalPremium_2.idk_6.Size = UDim2.new(0, 130, 0, 13)
+OutlastHubNormalPremium_2.idk_6.Font = Enum.Font.Unknown
+OutlastHubNormalPremium_2.idk_6.Text = "ScareOff"
+OutlastHubNormalPremium_2.idk_6.TextColor3 = Color3.fromRGB(239, 239, 239)
+OutlastHubNormalPremium_2.idk_6.TextSize = 10.000
+
+OutlastHubNormalPremium_2.idk_7.Name = "idk"
+OutlastHubNormalPremium_2.idk_7.Parent = OutlastHubNormalPremium_2.TabFrame7
+OutlastHubNormalPremium_2.idk_7.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+OutlastHubNormalPremium_2.idk_7.Position = UDim2.new(0.231632933, 0, 0.321802616, 0)
+OutlastHubNormalPremium_2.idk_7.Size = UDim2.new(0, 130, 0, 13)
+OutlastHubNormalPremium_2.idk_7.Font = Enum.Font.Unknown
+OutlastHubNormalPremium_2.idk_7.Text = "Slatt"
+OutlastHubNormalPremium_2.idk_7.TextColor3 = Color3.fromRGB(239, 239, 239)
+OutlastHubNormalPremium_2.idk_7.TextSize = 10.000
+
+OutlastHubNormalPremium_2.idk_8.Name = "idk"
+OutlastHubNormalPremium_2.idk_8.Parent = OutlastHubNormalPremium_2.TabFrame7
+OutlastHubNormalPremium_2.idk_8.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+OutlastHubNormalPremium_2.idk_8.Position = UDim2.new(0.23499994, 0, 0.366881907, 0)
+OutlastHubNormalPremium_2.idk_8.Size = UDim2.new(0, 130, 0, 13)
+OutlastHubNormalPremium_2.idk_8.Font = Enum.Font.Unknown
+OutlastHubNormalPremium_2.idk_8.Text = "UziDance"
+OutlastHubNormalPremium_2.idk_8.TextColor3 = Color3.fromRGB(239, 239, 239)
+OutlastHubNormalPremium_2.idk_8.TextSize = 10.000
+
+OutlastHubNormalPremium_2.idk_9.Name = "idk"
+OutlastHubNormalPremium_2.idk_9.Parent = OutlastHubNormalPremium_2.TabFrame7
+OutlastHubNormalPremium_2.idk_9.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+OutlastHubNormalPremium_2.idk_9.Position = UDim2.new(0.23499994, 0, 0.404584169, 0)
+OutlastHubNormalPremium_2.idk_9.Size = UDim2.new(0, 130, 0, 13)
+OutlastHubNormalPremium_2.idk_9.Font = Enum.Font.Unknown
+OutlastHubNormalPremium_2.idk_9.Text = "WindMill"
+OutlastHubNormalPremium_2.idk_9.TextColor3 = Color3.fromRGB(239, 239, 239)
+OutlastHubNormalPremium_2.idk_9.TextSize = 10.000
+
 -- Scripts:
 
-local function SERGUA_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScript 
+local function YOZE_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Frame)
 
 	if not game:IsLoaded() then
@@ -4901,8 +5040,8 @@ local function SERGUA_fake_script() -- OutlastHubNormalPremium_2.Frame.LocalScri
 		Controller:Destroy()
 	end))
 end
-coroutine.wrap(SERGUA_fake_script)()
-local function ZGYNMC_fake_script() -- OutlastHubNormalPremium_2.Frame_2.LocalScript 
+coroutine.wrap(YOZE_fake_script)()
+local function BRQJQPC_fake_script() -- OutlastHubNormalPremium_2.Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Frame_2)
 
 	local dragger = {}
@@ -4995,8 +5134,8 @@ local function ZGYNMC_fake_script() -- OutlastHubNormalPremium_2.Frame_2.LocalSc
 		end
 	end)
 end
-coroutine.wrap(ZGYNMC_fake_script)()
-local function QVMUL_fake_script() -- OutlastHubNormalPremium_2.Toggle.LocalScript 
+coroutine.wrap(BRQJQPC_fake_script)()
+local function GLRVN_fake_script() -- OutlastHubNormalPremium_2.Toggle.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -5026,8 +5165,8 @@ local function QVMUL_fake_script() -- OutlastHubNormalPremium_2.Toggle.LocalScri
 		end)
 	
 end
-coroutine.wrap(QVMUL_fake_script)()
-local function KFRLO_fake_script() -- OutlastHubNormalPremium_2.AntiFling.LocalScript 
+coroutine.wrap(GLRVN_fake_script)()
+local function RLZKCXI_fake_script() -- OutlastHubNormalPremium_2.AntiFling.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AntiFling)
 
 	local Players = game:GetService("Players")
@@ -5122,8 +5261,8 @@ local function KFRLO_fake_script() -- OutlastHubNormalPremium_2.AntiFling.LocalS
 		end)
 	end)
 end
-coroutine.wrap(KFRLO_fake_script)()
-local function DHQAIMC_fake_script() -- OutlastHubNormalPremium_2.TextLabel_3.LocalScript 
+coroutine.wrap(RLZKCXI_fake_script)()
+local function XKHB_fake_script() -- OutlastHubNormalPremium_2.TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_3)
 
 	local Players = game:GetService("Players")
@@ -5189,8 +5328,8 @@ local function DHQAIMC_fake_script() -- OutlastHubNormalPremium_2.TextLabel_3.Lo
 		end
 	end)
 end
-coroutine.wrap(DHQAIMC_fake_script)()
-local function UIYI_fake_script() -- OutlastHubNormalPremium_2.TextLabel_4.LocalScript 
+coroutine.wrap(XKHB_fake_script)()
+local function ASMF_fake_script() -- OutlastHubNormalPremium_2.TextLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_4)
 
 	local RunService = game:GetService("RunService")
@@ -5241,8 +5380,8 @@ local function UIYI_fake_script() -- OutlastHubNormalPremium_2.TextLabel_4.Local
 		end
 	end)
 end
-coroutine.wrap(UIYI_fake_script)()
-local function VEWJ_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame.mainScript 
+coroutine.wrap(ASMF_fake_script)()
+local function NNCSPFC_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame)
 
 	
@@ -5387,8 +5526,8 @@ local function VEWJ_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame.main
 	local initialPos = (currentSpeed - MIN_SPEED) / (MAX_SPEED - MIN_SPEED)
 	updateSlider(initialPos)
 end
-coroutine.wrap(VEWJ_fake_script)()
-local function FCDUBU_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_2.mainScript 
+coroutine.wrap(NNCSPFC_fake_script)()
+local function KASHC_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_2.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_2)
 
 	local Players = game:GetService("Players")
@@ -5513,8 +5652,8 @@ local function FCDUBU_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_2.
 	-- Display initial slider value
 	amountValue.Text = tostring(currentSpeed)
 end
-coroutine.wrap(FCDUBU_fake_script)()
-local function NVGDSN_fake_script() -- OutlastHubNormalPremium_2.TextLabel_8.LocalScript 
+coroutine.wrap(KASHC_fake_script)()
+local function KTWSWGB_fake_script() -- OutlastHubNormalPremium_2.TextLabel_8.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_8)
 
 	local players = game:GetService("Players")
@@ -5661,8 +5800,8 @@ local function NVGDSN_fake_script() -- OutlastHubNormalPremium_2.TextLabel_8.Loc
 		end
 	end)
 end
-coroutine.wrap(NVGDSN_fake_script)()
-local function JSRKBUB_fake_script() -- OutlastHubNormalPremium_2.TextLabel_9.LocalScript 
+coroutine.wrap(KTWSWGB_fake_script)()
+local function PFEZM_fake_script() -- OutlastHubNormalPremium_2.TextLabel_9.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_9)
 
 	local Players = game:GetService("Players")
@@ -5737,8 +5876,8 @@ local function JSRKBUB_fake_script() -- OutlastHubNormalPremium_2.TextLabel_9.Lo
 		end)
 	end)
 end
-coroutine.wrap(JSRKBUB_fake_script)()
-local function QDZBN_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_3.mainScript 
+coroutine.wrap(PFEZM_fake_script)()
+local function KIOPNC_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_3.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_3)
 
 	
@@ -6010,8 +6149,8 @@ local function QDZBN_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_3.m
 		end)
 	end
 end
-coroutine.wrap(QDZBN_fake_script)()
-local function MKZHI_fake_script() -- OutlastHubNormalPremium_2.AntiKnockDown.LocalScript 
+coroutine.wrap(KIOPNC_fake_script)()
+local function MYXK_fake_script() -- OutlastHubNormalPremium_2.AntiKnockDown.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AntiKnockDown)
 
 	local Players = game:GetService("Players")
@@ -6049,8 +6188,8 @@ local function MKZHI_fake_script() -- OutlastHubNormalPremium_2.AntiKnockDown.Lo
 	
 	
 end
-coroutine.wrap(MKZHI_fake_script)()
-local function PPRK_fake_script() -- OutlastHubNormalPremium_2.Headless.LocalScript 
+coroutine.wrap(MYXK_fake_script)()
+local function LMBOHDE_fake_script() -- OutlastHubNormalPremium_2.Headless.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Headless)
 
 	local Players = game:GetService("Players")
@@ -6112,8 +6251,8 @@ local function PPRK_fake_script() -- OutlastHubNormalPremium_2.Headless.LocalScr
 		end
 	end)
 end
-coroutine.wrap(PPRK_fake_script)()
-local function BTBPLF_fake_script() -- OutlastHubNormalPremium_2.NotifyWhenaAdminjoin.LocalScript 
+coroutine.wrap(LMBOHDE_fake_script)()
+local function DWIKW_fake_script() -- OutlastHubNormalPremium_2.NotifyWhenaAdminjoin.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.NotifyWhenaAdminjoin)
 
 	local Players = game:GetService("Players")
@@ -6177,8 +6316,8 @@ local function BTBPLF_fake_script() -- OutlastHubNormalPremium_2.NotifyWhenaAdmi
 		end)
 	end
 end
-coroutine.wrap(BTBPLF_fake_script)()
-local function NKZXQ_fake_script() -- OutlastHubNormalPremium_2.AntiStunWeaveOnHit.LocalScript 
+coroutine.wrap(DWIKW_fake_script)()
+local function BVTY_fake_script() -- OutlastHubNormalPremium_2.AntiStunWeaveOnHit.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AntiStunWeaveOnHit)
 
 	local Players = game:GetService("Players")
@@ -6228,8 +6367,8 @@ local function NKZXQ_fake_script() -- OutlastHubNormalPremium_2.AntiStunWeaveOnH
 		
 	end
 end
-coroutine.wrap(NKZXQ_fake_script)()
-local function EPIGRUX_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_4.mainScript 
+coroutine.wrap(BVTY_fake_script)()
+local function ZUKYB_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_4.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_4)
 
 	local Players = game:GetService("Players")
@@ -6426,8 +6565,8 @@ local function EPIGRUX_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_4
 		end)
 	end
 end
-coroutine.wrap(EPIGRUX_fake_script)()
-local function PYCG_fake_script() -- OutlastHubNormalPremium_2.TextLabel_13.LocalScript 
+coroutine.wrap(ZUKYB_fake_script)()
+local function ZTDU_fake_script() -- OutlastHubNormalPremium_2.TextLabel_13.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_13)
 
 	local players = game:GetService("Players")
@@ -6522,8 +6661,8 @@ local function PYCG_fake_script() -- OutlastHubNormalPremium_2.TextLabel_13.Loca
 		end
 	end)
 end
-coroutine.wrap(PYCG_fake_script)()
-local function PYIKY_fake_script() -- OutlastHubNormalPremium_2.UnlockCursor.LocalScript 
+coroutine.wrap(ZTDU_fake_script)()
+local function WBGOOG_fake_script() -- OutlastHubNormalPremium_2.UnlockCursor.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.UnlockCursor)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -6568,8 +6707,8 @@ local function PYIKY_fake_script() -- OutlastHubNormalPremium_2.UnlockCursor.Loc
 		end
 	end)
 end
-coroutine.wrap(PYIKY_fake_script)()
-local function VYLQMZ_fake_script() -- OutlastHubNormalPremium_2.Tab1Button.LocalScript 
+coroutine.wrap(WBGOOG_fake_script)()
+local function YOGSD_fake_script() -- OutlastHubNormalPremium_2.Tab1Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab1Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -6580,16 +6719,18 @@ local function VYLQMZ_fake_script() -- OutlastHubNormalPremium_2.Tab1Button.Loca
 		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab5Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab6Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab7Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.TabFrame2.Visible = false
 		script.Parent.Parent.TabFrame3.Visible = false
 		script.Parent.Parent.TabFrame4.Visible = false
 		script.Parent.Parent.TabFrame5.Visible = false
 		script.Parent.Parent.TabFrame6.Visible = false
+		script.Parent.Parent.TabFrame7.Visible = false
 		wait(0.1)
 	end)
 end
-coroutine.wrap(VYLQMZ_fake_script)()
-local function IGIN_fake_script() -- OutlastHubNormalPremium_2.Tab2Button.LocalScript 
+coroutine.wrap(YOGSD_fake_script)()
+local function LQODHWD_fake_script() -- OutlastHubNormalPremium_2.Tab2Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab2Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -6602,34 +6743,38 @@ local function IGIN_fake_script() -- OutlastHubNormalPremium_2.Tab2Button.LocalS
 		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab5Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab6Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab7Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.TabFrame2.Visible = true
 		script.Parent.Parent.TabFrame5.Visible = false
 		script.Parent.Parent.TabFrame6.Visible = false
+		script.Parent.Parent.TabFrame7.Visible = false
 		wait(0.1)
 	end)
 end
-coroutine.wrap(IGIN_fake_script)()
-local function RZYRJP_fake_script() -- OutlastHubNormalPremium_2.Tab5Button.LocalScript 
-	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab5Button)
+coroutine.wrap(LQODHWD_fake_script)()
+local function JXNZGBA_fake_script() -- OutlastHubNormalPremium_2.Tab7Button.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab7Button)
 
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.TabFrame1.Visible = false
 		script.Parent.Parent.TabFrame2.Visible = false
 		script.Parent.Parent.TabFrame3.Visible = false
 		script.Parent.Parent.TabFrame4.Visible = false
-		script.Parent.Parent.TabFrame5.Visible = true
+		script.Parent.Parent.TabFrame5.Visible = false
 		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-		script.Parent.Parent.Tab5Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		script.Parent.Parent.Tab5Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab6Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.TabFrame6.Visible = false
+		script.Parent.Parent.Tab7Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		script.Parent.Parent.TabFrame7.Visible = true
 		wait(0.1)
 	end)
 end
-coroutine.wrap(RZYRJP_fake_script)()
-local function KMKZWS_fake_script() -- OutlastHubNormalPremium_2.TextLabel_15.LocalScript 
+coroutine.wrap(JXNZGBA_fake_script)()
+local function AVIXDBO_fake_script() -- OutlastHubNormalPremium_2.TextLabel_15.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_15)
 
 	local Players = game:GetService("Players")
@@ -6665,8 +6810,8 @@ local function KMKZWS_fake_script() -- OutlastHubNormalPremium_2.TextLabel_15.Lo
 		end
 	end)
 end
-coroutine.wrap(KMKZWS_fake_script)()
-local function JMIFU_fake_script() -- OutlastHubNormalPremium_2.TextLabel_16.LocalScript 
+coroutine.wrap(AVIXDBO_fake_script)()
+local function JZWUY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_16.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_16)
 
 	local Players = game:GetService("Players")
@@ -6711,8 +6856,8 @@ local function JMIFU_fake_script() -- OutlastHubNormalPremium_2.TextLabel_16.Loc
 		DestroyCell(child)
 	end)
 end
-coroutine.wrap(JMIFU_fake_script)()
-local function XUPELQQ_fake_script() -- OutlastHubNormalPremium_2.AutoBuy.LocalScript 
+coroutine.wrap(JZWUY_fake_script)()
+local function HFACCJU_fake_script() -- OutlastHubNormalPremium_2.AutoBuy.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoBuy)
 
 	local Players = game:GetService("Players")
@@ -6895,8 +7040,8 @@ local function XUPELQQ_fake_script() -- OutlastHubNormalPremium_2.AutoBuy.LocalS
 		end
 	end)
 end
-coroutine.wrap(XUPELQQ_fake_script)()
-local function HFVR_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_5.mainScript 
+coroutine.wrap(HFACCJU_fake_script)()
+local function JKMQF_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_5.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_5)
 
 	local Players = game:GetService("Players")
@@ -7048,8 +7193,8 @@ local function HFVR_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_5.ma
 	-- Run hooking routine asynchronously so it doesn't freeze UI setup
 	task.spawn(startGlobalHooking)
 end
-coroutine.wrap(HFVR_fake_script)()
-local function IHVGCZF_fake_script() -- OutlastHubNormalPremium_2.MouseClickTapPlayertoFling.LocalScript 
+coroutine.wrap(JKMQF_fake_script)()
+local function GRPUI_fake_script() -- OutlastHubNormalPremium_2.MouseClickTapPlayertoFling.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MouseClickTapPlayertoFling)
 
 	local Players = game:GetService("Players")
@@ -7472,8 +7617,8 @@ local function IHVGCZF_fake_script() -- OutlastHubNormalPremium_2.MouseClickTapP
 		handleCharacterParenting(char)
 	end)
 end
-coroutine.wrap(IHVGCZF_fake_script)()
-local function UUDT_fake_script() -- OutlastHubNormalPremium_2.VoidSlam.LocalScript 
+coroutine.wrap(GRPUI_fake_script)()
+local function VETPEWS_fake_script() -- OutlastHubNormalPremium_2.VoidSlam.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.VoidSlam)
 
 	local Players = game:GetService("Players")
@@ -7637,8 +7782,8 @@ local function UUDT_fake_script() -- OutlastHubNormalPremium_2.VoidSlam.LocalScr
 		monitorOccupied(char)
 	end)
 end
-coroutine.wrap(UUDT_fake_script)()
-local function EWUYF_fake_script() -- OutlastHubNormalPremium_2.LoopSlam.LocalScript 
+coroutine.wrap(VETPEWS_fake_script)()
+local function KTPMZUV_fake_script() -- OutlastHubNormalPremium_2.LoopSlam.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.LoopSlam)
 
 	local Players = game:GetService("Players")
@@ -7910,8 +8055,8 @@ local function EWUYF_fake_script() -- OutlastHubNormalPremium_2.LoopSlam.LocalSc
 		monitorOccupied(char)
 	end)
 end
-coroutine.wrap(EWUYF_fake_script)()
-local function QXMTQF_fake_script() -- OutlastHubNormalPremium_2.Camlock.LocalScript 
+coroutine.wrap(KTPMZUV_fake_script)()
+local function AUWNE_fake_script() -- OutlastHubNormalPremium_2.Camlock.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Camlock)
 
 	local Players = game:GetService("Players")
@@ -8013,8 +8158,8 @@ local function QXMTQF_fake_script() -- OutlastHubNormalPremium_2.Camlock.LocalSc
 		end
 	end)
 end
-coroutine.wrap(QXMTQF_fake_script)()
-local function JVPZRD_fake_script() -- OutlastHubNormalPremium_2.TextLabel_19.LocalScript 
+coroutine.wrap(AUWNE_fake_script)()
+local function RSXBISN_fake_script() -- OutlastHubNormalPremium_2.TextLabel_19.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_19)
 
 	local Players = game:GetService("Players")
@@ -8044,8 +8189,8 @@ local function JVPZRD_fake_script() -- OutlastHubNormalPremium_2.TextLabel_19.Lo
 		end
 	end)
 end
-coroutine.wrap(JVPZRD_fake_script)()
-local function XLFFJEB_fake_script() -- OutlastHubNormalPremium_2.GlitchPlayer.LocalScript 
+coroutine.wrap(RSXBISN_fake_script)()
+local function RTYUCN_fake_script() -- OutlastHubNormalPremium_2.GlitchPlayer.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.GlitchPlayer)
 
 	local Players = game:GetService("Players")
@@ -8243,8 +8388,8 @@ local function XLFFJEB_fake_script() -- OutlastHubNormalPremium_2.GlitchPlayer.L
 		end
 	end)
 end
-coroutine.wrap(XLFFJEB_fake_script)()
-local function YSUVI_fake_script() -- OutlastHubNormalPremium_2.AutoGlitchTarget.LocalScript 
+coroutine.wrap(RTYUCN_fake_script)()
+local function TYNL_fake_script() -- OutlastHubNormalPremium_2.AutoGlitchTarget.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoGlitchTarget)
 
 	local Players = game:GetService("Players")
@@ -8539,8 +8684,8 @@ local function YSUVI_fake_script() -- OutlastHubNormalPremium_2.AutoGlitchTarget
 	blatantButton.MouseButton1Down:Connect(function() if wipEnabled then currentMode = "Blatant" startMovementLoop() startThrowingLoop() end end)
 	hiddenButton.MouseButton1Down:Connect(function() if wipEnabled then currentMode = "Hidden" startMovementLoop() startThrowingLoop() end end)
 end
-coroutine.wrap(YSUVI_fake_script)()
-local function UAPQ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_20.LocalScript 
+coroutine.wrap(TYNL_fake_script)()
+local function DIPEDW_fake_script() -- OutlastHubNormalPremium_2.TextLabel_20.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_20)
 
 	local Players = game:GetService("Players")
@@ -8650,8 +8795,8 @@ local function UAPQ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_20.Loca
 		end
 	end)
 end
-coroutine.wrap(UAPQ_fake_script)()
-local function DUWPY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_21.LocalScript 
+coroutine.wrap(DIPEDW_fake_script)()
+local function JIAJC_fake_script() -- OutlastHubNormalPremium_2.TextLabel_21.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_21)
 
 	local Players = game:GetService("Players")
@@ -8770,8 +8915,8 @@ local function DUWPY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_21.Loc
 		end
 	end)
 end
-coroutine.wrap(DUWPY_fake_script)()
-local function JSIY_fake_script() -- OutlastHubNormalPremium_2.GlitchPlayer_2.LocalScript 
+coroutine.wrap(JIAJC_fake_script)()
+local function SZDVW_fake_script() -- OutlastHubNormalPremium_2.GlitchPlayer_2.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.GlitchPlayer_2)
 
 	local Players = game:GetService("Players")
@@ -8961,8 +9106,8 @@ local function JSIY_fake_script() -- OutlastHubNormalPremium_2.GlitchPlayer_2.Lo
 		end
 	end)
 end
-coroutine.wrap(JSIY_fake_script)()
-local function NMQPLZ_fake_script() -- OutlastHubNormalPremium_2.MakeSomeoneGlitchOthers.LocalScript 
+coroutine.wrap(SZDVW_fake_script)()
+local function ISEPNL_fake_script() -- OutlastHubNormalPremium_2.MakeSomeoneGlitchOthers.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MakeSomeoneGlitchOthers)
 
 	local Players = game:GetService("Players")
@@ -9243,8 +9388,8 @@ local function NMQPLZ_fake_script() -- OutlastHubNormalPremium_2.MakeSomeoneGlit
 	
 	textBox.Focused:Connect(function() stopThrowing() end)
 end
-coroutine.wrap(NMQPLZ_fake_script)()
-local function YOEFXOO_fake_script() -- OutlastHubNormalPremium_2.MakeEveryoneGlitchThemselves.LocalScript 
+coroutine.wrap(ISEPNL_fake_script)()
+local function ZIKIM_fake_script() -- OutlastHubNormalPremium_2.MakeEveryoneGlitchThemselves.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MakeEveryoneGlitchThemselves)
 
 	local Players = game:GetService("Players")
@@ -9513,8 +9658,8 @@ local function YOEFXOO_fake_script() -- OutlastHubNormalPremium_2.MakeEveryoneGl
 		end
 	end)
 end
-coroutine.wrap(YOEFXOO_fake_script)()
-local function OEVAJ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_23.LocalScript 
+coroutine.wrap(ZIKIM_fake_script)()
+local function RSAUR_fake_script() -- OutlastHubNormalPremium_2.TextLabel_23.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_23)
 
 	local Players = game:GetService("Players")
@@ -9718,8 +9863,8 @@ local function OEVAJ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_23.Loc
 	
 	textBox.Focused:Connect(function() stopThrowing() end)
 end
-coroutine.wrap(OEVAJ_fake_script)()
-local function DPNVL_fake_script() -- OutlastHubNormalPremium_2.LegitAutoConnect.LocalScript 
+coroutine.wrap(RSAUR_fake_script)()
+local function RJLJ_fake_script() -- OutlastHubNormalPremium_2.LegitAutoConnect.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.LegitAutoConnect)
 
 	local Players = game:GetService("Players")
@@ -9900,8 +10045,8 @@ local function DPNVL_fake_script() -- OutlastHubNormalPremium_2.LegitAutoConnect
 	-- Initialize class at startup
 	updateCurrentClass()
 end
-coroutine.wrap(DPNVL_fake_script)()
-local function BSUDW_fake_script() -- OutlastHubNormalPremium_2.MessUpGame.LocalScript 
+coroutine.wrap(RJLJ_fake_script)()
+local function YTQHVE_fake_script() -- OutlastHubNormalPremium_2.MessUpGame.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MessUpGame)
 
 	local Players = game:GetService("Players")
@@ -10022,8 +10167,8 @@ local function BSUDW_fake_script() -- OutlastHubNormalPremium_2.MessUpGame.Local
 		end
 	end)
 end
-coroutine.wrap(BSUDW_fake_script)()
-local function YHII_fake_script() -- OutlastHubNormalPremium_2.MakeOthersHitAura.LocalScript 
+coroutine.wrap(YTQHVE_fake_script)()
+local function LGLMQZE_fake_script() -- OutlastHubNormalPremium_2.MakeOthersHitAura.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MakeOthersHitAura)
 
 	local Players = game:GetService("Players")
@@ -10227,8 +10372,8 @@ local function YHII_fake_script() -- OutlastHubNormalPremium_2.MakeOthersHitAura
 		end
 	end)
 end
-coroutine.wrap(YHII_fake_script)()
-local function SWOJZC_fake_script() -- OutlastHubNormalPremium_2.FakeAnimationsAttack.LocalScript 
+coroutine.wrap(LGLMQZE_fake_script)()
+local function RAMKD_fake_script() -- OutlastHubNormalPremium_2.FakeAnimationsAttack.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.FakeAnimationsAttack)
 
 	local Players = game:GetService("Players")
@@ -10602,8 +10747,8 @@ local function SWOJZC_fake_script() -- OutlastHubNormalPremium_2.FakeAnimationsA
 	
 	updateCurrentClass()
 end
-coroutine.wrap(SWOJZC_fake_script)()
-local function EHDK_fake_script() -- OutlastHubNormalPremium_2.OMNI.LocalScript 
+coroutine.wrap(RAMKD_fake_script)()
+local function BCILD_fake_script() -- OutlastHubNormalPremium_2.OMNI.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.OMNI)
 
 	local Players = game:GetService("Players")
@@ -10724,8 +10869,8 @@ local function EHDK_fake_script() -- OutlastHubNormalPremium_2.OMNI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EHDK_fake_script)()
-local function NWADNFU_fake_script() -- OutlastHubNormalPremium_2.AutoShoveAlll.LocalScript 
+coroutine.wrap(BCILD_fake_script)()
+local function KGKI_fake_script() -- OutlastHubNormalPremium_2.AutoShoveAlll.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoShoveAlll)
 
 	local Players = game:GetService("Players")
@@ -10895,8 +11040,8 @@ local function NWADNFU_fake_script() -- OutlastHubNormalPremium_2.AutoShoveAlll.
 		end
 	end)
 end
-coroutine.wrap(NWADNFU_fake_script)()
-local function FEOKNIZ_fake_script() -- OutlastHubNormalPremium_2.RemoveStatue.LocalScript 
+coroutine.wrap(KGKI_fake_script)()
+local function KPJJ_fake_script() -- OutlastHubNormalPremium_2.RemoveStatue.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.RemoveStatue)
 
 	local Players = game:GetService("Players")
@@ -10978,7 +11123,7 @@ local function FEOKNIZ_fake_script() -- OutlastHubNormalPremium_2.RemoveStatue.L
 					local currentItem = ItemCycle[CurrentIndex]
 	
 					-- Passes the target MODEL (PhysicalMTX) instead of the individual part
-					commRemote:FireServer("Pickup", {Object = currentItem, Type = currentItem}, false)
+					commRemote:FireServer("Pickup", {Object = targetModel, Type = currentItem}, false)
 					commRemote:FireServer("Throw", {
 						Type = currentItem, 
 						Object = targetModel, 
@@ -11012,8 +11157,8 @@ local function FEOKNIZ_fake_script() -- OutlastHubNormalPremium_2.RemoveStatue.L
 		end
 	end)
 end
-coroutine.wrap(FEOKNIZ_fake_script)()
-local function SWXW_fake_script() -- OutlastHubNormalPremium_2.TextLabel_24.LocalScript 
+coroutine.wrap(KPJJ_fake_script)()
+local function UXQJM_fake_script() -- OutlastHubNormalPremium_2.TextLabel_24.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_24)
 
 	local Players = game:GetService("Players")
@@ -11064,8 +11209,8 @@ local function SWXW_fake_script() -- OutlastHubNormalPremium_2.TextLabel_24.Loca
 		end
 	end)
 end
-coroutine.wrap(SWXW_fake_script)()
-local function YTQT_fake_script() -- OutlastHubNormalPremium_2.MakeEveryonePickThemselvesUp.LocalScript 
+coroutine.wrap(UXQJM_fake_script)()
+local function COPJFTH_fake_script() -- OutlastHubNormalPremium_2.MakeEveryonePickThemselvesUp.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MakeEveryonePickThemselvesUp)
 
 	local Players = game:GetService("Players")
@@ -11320,8 +11465,8 @@ local function YTQT_fake_script() -- OutlastHubNormalPremium_2.MakeEveryonePickT
 		end
 	end)
 end
-coroutine.wrap(YTQT_fake_script)()
-local function ATDAYQN_fake_script() -- OutlastHubNormalPremium_2.Tab3Button.LocalScript 
+coroutine.wrap(COPJFTH_fake_script)()
+local function OHRIBXU_fake_script() -- OutlastHubNormalPremium_2.Tab3Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab3Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -11335,14 +11480,16 @@ local function ATDAYQN_fake_script() -- OutlastHubNormalPremium_2.Tab3Button.Loc
 		script.Parent.Parent.Tab5Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab5Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab6Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab7Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.TabFrame4.Visible = false
 		script.Parent.Parent.TabFrame5.Visible = false
 		script.Parent.Parent.TabFrame6.Visible = false
+		script.Parent.Parent.TabFrame7.Visible = false
 		wait(0.1)
 	end)
 end
-coroutine.wrap(ATDAYQN_fake_script)()
-local function KAICZ_fake_script() -- OutlastHubNormalPremium_2.TargetHit.LocalScript 
+coroutine.wrap(OHRIBXU_fake_script)()
+local function LLMW_fake_script() -- OutlastHubNormalPremium_2.TargetHit.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TargetHit)
 
 	local Players = game:GetService("Players")
@@ -11828,8 +11975,8 @@ local function KAICZ_fake_script() -- OutlastHubNormalPremium_2.TargetHit.LocalS
 		end
 	end)
 end
-coroutine.wrap(KAICZ_fake_script)()
-local function LRMTWDQ_fake_script() -- OutlastHubNormalPremium_2.AutoFarm.LocalScript 
+coroutine.wrap(LLMW_fake_script)()
+local function HNCQGB_fake_script() -- OutlastHubNormalPremium_2.AutoFarm.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoFarm)
 
 	local Players = game:GetService("Players")
@@ -11949,8 +12096,8 @@ local function LRMTWDQ_fake_script() -- OutlastHubNormalPremium_2.AutoFarm.Local
 		end)
 	end
 end
-coroutine.wrap(LRMTWDQ_fake_script)()
-local function AEOAUBJ_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_6.mainScript 
+coroutine.wrap(HNCQGB_fake_script)()
+local function UDLKBR_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_6.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_6)
 
 	-- Services
@@ -12267,8 +12414,8 @@ local function AEOAUBJ_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_6
 	onCharacterAdded(player.Character or player.CharacterAdded:Wait())
 	player.CharacterAdded:Connect(onCharacterAdded)
 end
-coroutine.wrap(AEOAUBJ_fake_script)()
-local function JWAZ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_32.LocalScript 
+coroutine.wrap(UDLKBR_fake_script)()
+local function IWQPWS_fake_script() -- OutlastHubNormalPremium_2.TextLabel_32.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_32)
 
 	--[[local playersService = game:GetService("Players")
@@ -12634,8 +12781,8 @@ local function JWAZ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_32.Loca
 		end)
 	end
 end
-coroutine.wrap(JWAZ_fake_script)()
-local function LQVMD_fake_script() -- OutlastHubNormalPremium_2.TextLabel_33.LocalScript 
+coroutine.wrap(IWQPWS_fake_script)()
+local function QFCTRZY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_33.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_33)
 
 	local Players = game:GetService("Players")
@@ -12721,8 +12868,8 @@ local function LQVMD_fake_script() -- OutlastHubNormalPremium_2.TextLabel_33.Loc
 	button.MouseButton1Click:Connect(toggleButton)
 	button.TouchTap:Connect(toggleButton)
 end
-coroutine.wrap(LQVMD_fake_script)()
-local function EJXL_fake_script() -- OutlastHubNormalPremium_2.TextLabel_34.LocalScript 
+coroutine.wrap(QFCTRZY_fake_script)()
+local function HSHOTTY_fake_script() -- OutlastHubNormalPremium_2.TextLabel_34.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_34)
 
 	local parentRoot = script.Parent
@@ -12774,8 +12921,8 @@ local function EJXL_fake_script() -- OutlastHubNormalPremium_2.TextLabel_34.Loca
 		end)
 	end
 end
-coroutine.wrap(EJXL_fake_script)()
-local function XRODYDU_fake_script() -- OutlastHubNormalPremium_2.AutoFarmKills.mainScript 
+coroutine.wrap(HSHOTTY_fake_script)()
+local function IRXMM_fake_script() -- OutlastHubNormalPremium_2.AutoFarmKills.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoFarmKills)
 
 	local Players = game:GetService("Players")
@@ -13213,8 +13360,8 @@ local function XRODYDU_fake_script() -- OutlastHubNormalPremium_2.AutoFarmKills.
 		end
 	end)
 end
-coroutine.wrap(XRODYDU_fake_script)()
-local function QMCCOZB_fake_script() -- OutlastHubNormalPremium_2.TargetSlam.LocalScript 
+coroutine.wrap(IRXMM_fake_script)()
+local function BXBF_fake_script() -- OutlastHubNormalPremium_2.TargetSlam.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TargetSlam)
 
 	local Players = game:GetService("Players")
@@ -13448,8 +13595,8 @@ local function QMCCOZB_fake_script() -- OutlastHubNormalPremium_2.TargetSlam.Loc
 		end
 	end)
 end
-coroutine.wrap(QMCCOZB_fake_script)()
-local function ETBQ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_36.LocalScript 
+coroutine.wrap(BXBF_fake_script)()
+local function CUXXKG_fake_script() -- OutlastHubNormalPremium_2.TextLabel_36.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_36)
 
 	local parentRoot = script.Parent
@@ -13474,8 +13621,8 @@ local function ETBQ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_36.Loca
 		end)
 	end
 end
-coroutine.wrap(ETBQ_fake_script)()
-local function RQAL_fake_script() -- OutlastHubNormalPremium_2.AutoFarmBoss.mainScript 
+coroutine.wrap(CUXXKG_fake_script)()
+local function BPAGKS_fake_script() -- OutlastHubNormalPremium_2.AutoFarmBoss.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoFarmBoss)
 
 	local Players = game:GetService("Players")
@@ -13584,8 +13731,8 @@ local function RQAL_fake_script() -- OutlastHubNormalPremium_2.AutoFarmBoss.main
 		end
 	end)
 end
-coroutine.wrap(RQAL_fake_script)()
-local function ITJKX_fake_script() -- OutlastHubNormalPremium_2.AutoFarmHeavys.mainScript 
+coroutine.wrap(BPAGKS_fake_script)()
+local function IBPRIXK_fake_script() -- OutlastHubNormalPremium_2.AutoFarmHeavys.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoFarmHeavys)
 
 	local Players = game:GetService("Players")
@@ -13741,8 +13888,8 @@ local function ITJKX_fake_script() -- OutlastHubNormalPremium_2.AutoFarmHeavys.m
 	end
 	player.CharacterAdded:Connect(onCharacterAdded)
 end
-coroutine.wrap(ITJKX_fake_script)()
-local function TXUB_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_7.mainScript 
+coroutine.wrap(IBPRIXK_fake_script)()
+local function YLXOX_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_7.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_7)
 
 	local slider = script.Parent
@@ -13859,8 +14006,8 @@ local function TXUB_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_7.ma
 		end)
 	end
 end
-coroutine.wrap(TXUB_fake_script)()
-local function IRGOQYE_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_8.mainScript 
+coroutine.wrap(YLXOX_fake_script)()
+local function RSKJZ_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_8.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_8)
 
 	local Players = game:GetService("Players")
@@ -14070,8 +14217,8 @@ local function IRGOQYE_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_8
 		end)
 	end
 end
-coroutine.wrap(IRGOQYE_fake_script)()
-local function CUEB_fake_script() -- OutlastHubNormalPremium_2.TextLabel_43.LocalScript 
+coroutine.wrap(RSKJZ_fake_script)()
+local function TMZG_fake_script() -- OutlastHubNormalPremium_2.TextLabel_43.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_43)
 
 	local Players = game:GetService("Players")
@@ -14127,8 +14274,8 @@ local function CUEB_fake_script() -- OutlastHubNormalPremium_2.TextLabel_43.Loca
 		button.BackgroundColor3 = Toggle and onColor or offColor
 	end)
 end
-coroutine.wrap(CUEB_fake_script)()
-local function JTEZH_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_9.mainScript 
+coroutine.wrap(TMZG_fake_script)()
+local function EXUWAD_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_9.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_9)
 
 	local Players = game:GetService("Players")
@@ -14348,8 +14495,8 @@ local function JTEZH_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_9.m
 		end)
 	end
 end
-coroutine.wrap(JTEZH_fake_script)()
-local function QRAQM_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_10.mainScript 
+coroutine.wrap(EXUWAD_fake_script)()
+local function RUZT_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_10.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_10)
 
 	local Players = game:GetService("Players")
@@ -14524,8 +14671,8 @@ local function QRAQM_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_10.
 	-- Initialize slider visually to default size WITHOUT changing player hitboxes
 	updateSlider((currentSize - MIN_SIZE) / (MAX_SIZE - MIN_SIZE), true)
 end
-coroutine.wrap(QRAQM_fake_script)()
-local function CICJRDC_fake_script() -- OutlastHubNormalPremium_2.TextLabel_47.LocalScript 
+coroutine.wrap(RUZT_fake_script)()
+local function QGHIAB_fake_script() -- OutlastHubNormalPremium_2.TextLabel_47.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_47)
 
 	local Players = game:GetService("Players")
@@ -14700,8 +14847,8 @@ local function CICJRDC_fake_script() -- OutlastHubNormalPremium_2.TextLabel_47.L
 	end
 	player.CharacterAdded:Connect(onCharacterAdded)
 end
-coroutine.wrap(CICJRDC_fake_script)()
-local function XBLHEX_fake_script() -- OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.LocalScript 
+coroutine.wrap(QGHIAB_fake_script)()
+local function ZEYF_fake_script() -- OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.MouseClickTouchPlayertoKill)
 
 	local Players = game:GetService("Players")
@@ -15017,8 +15164,8 @@ local function XBLHEX_fake_script() -- OutlastHubNormalPremium_2.MouseClickTouch
 		humanoid = char:WaitForChild("Humanoid")
 	end)
 end
-coroutine.wrap(XBLHEX_fake_script)()
-local function CCOZAVX_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_11.mainScript 
+coroutine.wrap(ZEYF_fake_script)()
+local function UUMZNU_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_11.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_11)
 
 	local Players = game:GetService("Players")
@@ -15149,8 +15296,8 @@ local function CCOZAVX_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_1
 		end)
 	end
 end
-coroutine.wrap(CCOZAVX_fake_script)()
-local function LGSEHR_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_12.mainScript 
+coroutine.wrap(UUMZNU_fake_script)()
+local function GGVZYT_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_12.mainScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.bSliderFrame_12)
 
 	local Players = game:GetService("Players")
@@ -15309,8 +15456,8 @@ local function LGSEHR_fake_script() -- OutlastHubNormalPremium_2.bSliderFrame_12
 		end)
 	end
 end
-coroutine.wrap(LGSEHR_fake_script)()
-local function QLRI_fake_script() -- OutlastHubNormalPremium_2.AutoHitAll.LocalScript 
+coroutine.wrap(GGVZYT_fake_script)()
+local function MEXHHT_fake_script() -- OutlastHubNormalPremium_2.AutoHitAll.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.AutoHitAll)
 
 	local Players = game:GetService("Players")
@@ -15545,8 +15692,8 @@ local function QLRI_fake_script() -- OutlastHubNormalPremium_2.AutoHitAll.LocalS
 		end
 	end)
 end
-coroutine.wrap(QLRI_fake_script)()
-local function YKCJD_fake_script() -- OutlastHubNormalPremium_2.Tab4Button.LocalScript 
+coroutine.wrap(MEXHHT_fake_script)()
+local function LNGOY_fake_script() -- OutlastHubNormalPremium_2.Tab4Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab4Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -15556,17 +15703,19 @@ local function YKCJD_fake_script() -- OutlastHubNormalPremium_2.Tab4Button.Local
 		script.Parent.Parent.TabFrame4.Visible = true
 		script.Parent.Parent.TabFrame5.Visible = false
 		script.Parent.Parent.TabFrame6.Visible = false
+		script.Parent.Parent.TabFrame7.Visible = false
 		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 		script.Parent.Parent.Tab5Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab6Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab7Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		wait(0.1)
 	end)
 end
-coroutine.wrap(YKCJD_fake_script)()
-local function VXDHF_fake_script() -- OutlastHubNormalPremium_2.TextLabel_52.LocalScript 
+coroutine.wrap(LNGOY_fake_script)()
+local function EVSKL_fake_script() -- OutlastHubNormalPremium_2.TextLabel_52.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_52)
 
 	local Toggle = false
@@ -15588,8 +15737,8 @@ local function VXDHF_fake_script() -- OutlastHubNormalPremium_2.TextLabel_52.Loc
 	
 	button.MouseButton1Click:Connect(toggleAntiVoid)
 end
-coroutine.wrap(VXDHF_fake_script)()
-local function GCLRBC_fake_script() -- OutlastHubNormalPremium_2.TextLabel_53.LocalScript 
+coroutine.wrap(EVSKL_fake_script)()
+local function GMTDPM_fake_script() -- OutlastHubNormalPremium_2.TextLabel_53.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_53)
 
 	local Toggle = false
@@ -15620,8 +15769,8 @@ local function GCLRBC_fake_script() -- OutlastHubNormalPremium_2.TextLabel_53.Lo
 	button.MouseButton1Click:Connect(toggleAntiAFK)
 	
 end
-coroutine.wrap(GCLRBC_fake_script)()
-local function BTLO_fake_script() -- OutlastHubNormalPremium_2.Rejoin.LocalScript 
+coroutine.wrap(GMTDPM_fake_script)()
+local function KWHESU_fake_script() -- OutlastHubNormalPremium_2.Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Rejoin)
 
 	local button = script.Parent
@@ -15652,8 +15801,8 @@ local function BTLO_fake_script() -- OutlastHubNormalPremium_2.Rejoin.LocalScrip
 	end)
 	
 end
-coroutine.wrap(BTLO_fake_script)()
-local function RFAYBG_fake_script() -- OutlastHubNormalPremium_2.TextLabel_54.LocalScript 
+coroutine.wrap(KWHESU_fake_script)()
+local function ERPJ_fake_script() -- OutlastHubNormalPremium_2.TextLabel_54.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_54)
 
 	local Toggle = false
@@ -15700,8 +15849,8 @@ local function RFAYBG_fake_script() -- OutlastHubNormalPremium_2.TextLabel_54.Lo
 	
 	button.MouseButton1Click:Connect(h)
 end
-coroutine.wrap(RFAYBG_fake_script)()
-local function EBPXKI_fake_script() -- OutlastHubNormalPremium_2.TextLabel_55.LocalScript 
+coroutine.wrap(ERPJ_fake_script)()
+local function NZRRF_fake_script() -- OutlastHubNormalPremium_2.TextLabel_55.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_55)
 
 	--[[local Toggle = false
@@ -15861,8 +16010,8 @@ local function EBPXKI_fake_script() -- OutlastHubNormalPremium_2.TextLabel_55.Lo
 	
 	button.MouseButton1Click:Connect(h)
 end
-coroutine.wrap(EBPXKI_fake_script)()
-local function HCGA_fake_script() -- OutlastHubNormalPremium_2.TeleportToAll.LocalScript 
+coroutine.wrap(NZRRF_fake_script)()
+local function CYFZR_fake_script() -- OutlastHubNormalPremium_2.TeleportToAll.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TeleportToAll)
 
 	local plrs = game:GetService("Players")
@@ -15991,8 +16140,8 @@ local function HCGA_fake_script() -- OutlastHubNormalPremium_2.TeleportToAll.Loc
 		end
 	end)
 end
-coroutine.wrap(HCGA_fake_script)()
-local function CPYTRYD_fake_script() -- OutlastHubNormalPremium_2.TextLabel_57.LocalScript 
+coroutine.wrap(CYFZR_fake_script)()
+local function XWBVW_fake_script() -- OutlastHubNormalPremium_2.TextLabel_57.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.TextLabel_57)
 
 	local Players = game:GetService("Players")
@@ -16024,8 +16173,8 @@ local function CPYTRYD_fake_script() -- OutlastHubNormalPremium_2.TextLabel_57.L
 	
 	button.MouseButton1Click:Connect(h)
 end
-coroutine.wrap(CPYTRYD_fake_script)()
-local function IRVQAX_fake_script() -- OutlastHubNormalPremium_2.LunchRoom.LocalScript 
+coroutine.wrap(XWBVW_fake_script)()
+local function QRPLZAX_fake_script() -- OutlastHubNormalPremium_2.LunchRoom.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.LunchRoom)
 
 	local Players = game:GetService("Players")
@@ -16054,8 +16203,8 @@ local function IRVQAX_fake_script() -- OutlastHubNormalPremium_2.LunchRoom.Local
 		end
 	end)
 end
-coroutine.wrap(IRVQAX_fake_script)()
-local function QLFL_fake_script() -- OutlastHubNormalPremium_2.BasketBallCourt.LocalScript 
+coroutine.wrap(QRPLZAX_fake_script)()
+local function QNBYL_fake_script() -- OutlastHubNormalPremium_2.BasketBallCourt.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.BasketBallCourt)
 
 	
@@ -16091,8 +16240,8 @@ local function QLFL_fake_script() -- OutlastHubNormalPremium_2.BasketBallCourt.L
 	
 	
 end
-coroutine.wrap(QLFL_fake_script)()
-local function DXCVH_fake_script() -- OutlastHubNormalPremium_2.Outside.LocalScript 
+coroutine.wrap(QNBYL_fake_script)()
+local function AUIOPHI_fake_script() -- OutlastHubNormalPremium_2.Outside.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Outside)
 
 	
@@ -16125,8 +16274,8 @@ local function DXCVH_fake_script() -- OutlastHubNormalPremium_2.Outside.LocalScr
 	
 	
 end
-coroutine.wrap(DXCVH_fake_script)()
-local function IZSDVGF_fake_script() -- OutlastHubNormalPremium_2.LeaderboardArea.LocalScript 
+coroutine.wrap(AUIOPHI_fake_script)()
+local function PTWTDNH_fake_script() -- OutlastHubNormalPremium_2.LeaderboardArea.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.LeaderboardArea)
 
 	
@@ -16162,8 +16311,8 @@ local function IZSDVGF_fake_script() -- OutlastHubNormalPremium_2.LeaderboardAre
 	
 	
 end
-coroutine.wrap(IZSDVGF_fake_script)()
-local function YBIDVN_fake_script() -- OutlastHubNormalPremium_2.BathroomArea.LocalScript 
+coroutine.wrap(PTWTDNH_fake_script)()
+local function ZVTVOTC_fake_script() -- OutlastHubNormalPremium_2.BathroomArea.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.BathroomArea)
 
 	
@@ -16199,8 +16348,8 @@ local function YBIDVN_fake_script() -- OutlastHubNormalPremium_2.BathroomArea.Lo
 	
 	
 end
-coroutine.wrap(YBIDVN_fake_script)()
-local function XSCPR_fake_script() -- OutlastHubNormalPremium_2.Tab6Button.LocalScript 
+coroutine.wrap(ZVTVOTC_fake_script)()
+local function DQEWDWG_fake_script() -- OutlastHubNormalPremium_2.Tab6Button.LocalScript 
 	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab6Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -16213,10 +16362,762 @@ local function XSCPR_fake_script() -- OutlastHubNormalPremium_2.Tab6Button.Local
 		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab5Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.Tab6Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		script.Parent.Parent.Tab7Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 		script.Parent.Parent.TabFrame4.Visible = false
 		script.Parent.Parent.TabFrame5.Visible = false
 		script.Parent.Parent.TabFrame6.Visible = true
+		script.Parent.Parent.TabFrame7.Visible = false
 		wait(0.1)
 	end)
 end
-coroutine.wrap(XSCPR_fake_script)()
+coroutine.wrap(DQEWDWG_fake_script)()
+local function JHIWAX_fake_script() -- OutlastHubNormalPremium_2.Tab5Button.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.Tab5Button)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.TabFrame1.Visible = false
+		script.Parent.Parent.TabFrame2.Visible = false
+		script.Parent.Parent.TabFrame3.Visible = false
+		script.Parent.Parent.TabFrame4.Visible = false
+		script.Parent.Parent.TabFrame5.Visible = true
+		script.Parent.Parent.Tab1Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab2Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab3Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab4Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.Tab5Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+		script.Parent.Parent.Tab6Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.TabFrame6.Visible = false
+		script.Parent.Parent.Tab7Button.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+		script.Parent.Parent.TabFrame7.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(JHIWAX_fake_script)()
+local function VBEDWK_fake_script() -- OutlastHubNormalPremium_2.idk.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.idk)
+
+	
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- 1. Put your Animation ID here
+	local ANIMATION_ID = "rbxassetid://72183601488494"
+	
+	-- 2. Create the Animation object
+	local animation = Instance.new("Animation")
+	animation.AnimationId = ANIMATION_ID
+	
+	-- Variable to store the currently playing animation track
+	local currentTrack = nil
+	local toolConnection = nil -- Stores the click listener for the tool
+	
+	-- Function to stop the animation if it's currently running
+	local function stopAnimation()
+		if currentTrack then
+			currentTrack:Stop()
+			currentTrack = nil
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if humanoid then
+			-- Find or create the Animator object
+			local animator = humanoid:FindFirstChildOfClass("Animator")
+			if not animator then
+				animator = Instance.new("Animator", humanoid)
+			end
+	
+			-- STOP the previous animation if it is already playing
+			stopAnimation()
+	
+			-- 3. Load and play the new animation
+			currentTrack = animator:LoadAnimation(animation)
+			currentTrack:Play()
+		end
+	end)
+	
+	-- Function to handle the tool setup
+	local function setupToolListener(character)
+		-- Disconnect old connection if it exists
+		if toolConnection then
+			toolConnection:Disconnect()
+			toolConnection = nil
+		end
+	
+		-- Listen for tools being equipped
+		character.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				-- Listen for the player clicking/activating the tool
+				toolConnection = child.Activated:Connect(function()
+					stopAnimation()
+				end)
+			end
+		end)
+	
+		-- Listen for tools being unequipped (cleans up the click connection)
+		character.ChildRemoved:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				if toolConnection then
+					toolConnection:Disconnect()
+					toolConnection = nil
+				end
+			end
+		end)
+	end
+	
+	-- Run setup for new characters when they spawn
+	player.CharacterAdded:Connect(setupToolListener)
+	
+	-- Run setup for the current character if they already exist
+	if player.Character then
+		setupToolListener(player.Character)
+	end
+end
+coroutine.wrap(VBEDWK_fake_script)()
+local function RFRZ_fake_script() -- OutlastHubNormalPremium_2.idk_2.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.idk_2)
+
+	
+	
+	
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- 1. Put your Animation ID here
+	local ANIMATION_ID = "rbxassetid://120976231005418"
+	
+	-- 2. Create the Animation object
+	local animation = Instance.new("Animation")
+	animation.AnimationId = ANIMATION_ID
+	
+	-- Variable to store the currently playing animation track
+	local currentTrack = nil
+	local toolConnection = nil -- Stores the click listener for the tool
+	
+	-- Function to stop the animation if it's currently running
+	local function stopAnimation()
+		if currentTrack then
+			currentTrack:Stop()
+			currentTrack = nil
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if humanoid then
+			-- Find or create the Animator object
+			local animator = humanoid:FindFirstChildOfClass("Animator")
+			if not animator then
+				animator = Instance.new("Animator", humanoid)
+			end
+	
+			-- STOP the previous animation if it is already playing
+			stopAnimation()
+	
+			-- 3. Load and play the new animation
+			currentTrack = animator:LoadAnimation(animation)
+			currentTrack:Play()
+		end
+	end)
+	
+	-- Function to handle the tool setup
+	local function setupToolListener(character)
+		-- Disconnect old connection if it exists
+		if toolConnection then
+			toolConnection:Disconnect()
+			toolConnection = nil
+		end
+	
+		-- Listen for tools being equipped
+		character.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				-- Listen for the player clicking/activating the tool
+				toolConnection = child.Activated:Connect(function()
+					stopAnimation()
+				end)
+			end
+		end)
+	
+		-- Listen for tools being unequipped (cleans up the click connection)
+		character.ChildRemoved:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				if toolConnection then
+					toolConnection:Disconnect()
+					toolConnection = nil
+				end
+			end
+		end)
+	end
+	
+	-- Run setup for new characters when they spawn
+	player.CharacterAdded:Connect(setupToolListener)
+	
+	-- Run setup for the current character if they already exist
+	if player.Character then
+		setupToolListener(player.Character)
+	end
+end
+coroutine.wrap(RFRZ_fake_script)()
+local function RLKUG_fake_script() -- OutlastHubNormalPremium_2.idk_3.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.idk_3)
+
+	
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- 1. Put your Animation ID here
+	local ANIMATION_ID = "rbxassetid://119797830122478"
+	
+	-- 2. Create the Animation object
+	local animation = Instance.new("Animation")
+	animation.AnimationId = ANIMATION_ID
+	
+	-- Variable to store the currently playing animation track
+	local currentTrack = nil
+	local toolConnection = nil -- Stores the click listener for the tool
+	
+	-- Function to stop the animation if it's currently running
+	local function stopAnimation()
+		if currentTrack then
+			currentTrack:Stop()
+			currentTrack = nil
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if humanoid then
+			-- Find or create the Animator object
+			local animator = humanoid:FindFirstChildOfClass("Animator")
+			if not animator then
+				animator = Instance.new("Animator", humanoid)
+			end
+	
+			-- STOP the previous animation if it is already playing
+			stopAnimation()
+	
+			-- 3. Load and play the new animation
+			currentTrack = animator:LoadAnimation(animation)
+			currentTrack:Play()
+		end
+	end)
+	
+	-- Function to handle the tool setup
+	local function setupToolListener(character)
+		-- Disconnect old connection if it exists
+		if toolConnection then
+			toolConnection:Disconnect()
+			toolConnection = nil
+		end
+	
+		-- Listen for tools being equipped
+		character.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				-- Listen for the player clicking/activating the tool
+				toolConnection = child.Activated:Connect(function()
+					stopAnimation()
+				end)
+			end
+		end)
+	
+		-- Listen for tools being unequipped (cleans up the click connection)
+		character.ChildRemoved:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				if toolConnection then
+					toolConnection:Disconnect()
+					toolConnection = nil
+				end
+			end
+		end)
+	end
+	
+	-- Run setup for new characters when they spawn
+	player.CharacterAdded:Connect(setupToolListener)
+	
+	-- Run setup for the current character if they already exist
+	if player.Character then
+		setupToolListener(player.Character)
+	end
+end
+coroutine.wrap(RLKUG_fake_script)()
+local function FVTXJN_fake_script() -- OutlastHubNormalPremium_2.idk_4.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.idk_4)
+
+	
+	
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- 1. Put your Animation ID here
+	local ANIMATION_ID = "rbxassetid://129993522134701"
+	
+	-- 2. Create the Animation object
+	local animation = Instance.new("Animation")
+	animation.AnimationId = ANIMATION_ID
+	
+	-- Variable to store the currently playing animation track
+	local currentTrack = nil
+	local toolConnection = nil -- Stores the click listener for the tool
+	
+	-- Function to stop the animation if it's currently running
+	local function stopAnimation()
+		if currentTrack then
+			currentTrack:Stop()
+			currentTrack = nil
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if humanoid then
+			-- Find or create the Animator object
+			local animator = humanoid:FindFirstChildOfClass("Animator")
+			if not animator then
+				animator = Instance.new("Animator", humanoid)
+			end
+	
+			-- STOP the previous animation if it is already playing
+			stopAnimation()
+	
+			-- 3. Load and play the new animation
+			currentTrack = animator:LoadAnimation(animation)
+			currentTrack:Play()
+		end
+	end)
+	
+	-- Function to handle the tool setup
+	local function setupToolListener(character)
+		-- Disconnect old connection if it exists
+		if toolConnection then
+			toolConnection:Disconnect()
+			toolConnection = nil
+		end
+	
+		-- Listen for tools being equipped
+		character.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				-- Listen for the player clicking/activating the tool
+				toolConnection = child.Activated:Connect(function()
+					stopAnimation()
+				end)
+			end
+		end)
+	
+		-- Listen for tools being unequipped (cleans up the click connection)
+		character.ChildRemoved:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				if toolConnection then
+					toolConnection:Disconnect()
+					toolConnection = nil
+				end
+			end
+		end)
+	end
+	
+	-- Run setup for new characters when they spawn
+	player.CharacterAdded:Connect(setupToolListener)
+	
+	-- Run setup for the current character if they already exist
+	if player.Character then
+		setupToolListener(player.Character)
+	end
+end
+coroutine.wrap(FVTXJN_fake_script)()
+local function JHUMKJ_fake_script() -- OutlastHubNormalPremium_2.idk_5.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.idk_5)
+
+	
+	
+	
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- 1. Put your Animation ID here
+	local ANIMATION_ID = "rbxassetid://83146673889164"
+	
+	-- 2. Create the Animation object
+	local animation = Instance.new("Animation")
+	animation.AnimationId = ANIMATION_ID
+	
+	-- Variable to store the currently playing animation track
+	local currentTrack = nil
+	local toolConnection = nil -- Stores the click listener for the tool
+	
+	-- Function to stop the animation if it's currently running
+	local function stopAnimation()
+		if currentTrack then
+			currentTrack:Stop()
+			currentTrack = nil
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if humanoid then
+			-- Find or create the Animator object
+			local animator = humanoid:FindFirstChildOfClass("Animator")
+			if not animator then
+				animator = Instance.new("Animator", humanoid)
+			end
+	
+			-- STOP the previous animation if it is already playing
+			stopAnimation()
+	
+			-- 3. Load and play the new animation
+			currentTrack = animator:LoadAnimation(animation)
+			currentTrack:Play()
+		end
+	end)
+	
+	-- Function to handle the tool setup
+	local function setupToolListener(character)
+		-- Disconnect old connection if it exists
+		if toolConnection then
+			toolConnection:Disconnect()
+			toolConnection = nil
+		end
+	
+		-- Listen for tools being equipped
+		character.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				-- Listen for the player clicking/activating the tool
+				toolConnection = child.Activated:Connect(function()
+					stopAnimation()
+				end)
+			end
+		end)
+	
+		-- Listen for tools being unequipped (cleans up the click connection)
+		character.ChildRemoved:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				if toolConnection then
+					toolConnection:Disconnect()
+					toolConnection = nil
+				end
+			end
+		end)
+	end
+	
+	-- Run setup for new characters when they spawn
+	player.CharacterAdded:Connect(setupToolListener)
+	
+	-- Run setup for the current character if they already exist
+	if player.Character then
+		setupToolListener(player.Character)
+	end
+end
+coroutine.wrap(JHUMKJ_fake_script)()
+local function WCMML_fake_script() -- OutlastHubNormalPremium_2.idk_6.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.idk_6)
+
+	
+	
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- 1. Put your Animation ID here
+	local ANIMATION_ID = "rbxassetid://100130267699800"
+	
+	-- 2. Create the Animation object
+	local animation = Instance.new("Animation")
+	animation.AnimationId = ANIMATION_ID
+	
+	-- Variable to store the currently playing animation track
+	local currentTrack = nil
+	local toolConnection = nil -- Stores the click listener for the tool
+	
+	-- Function to stop the animation if it's currently running
+	local function stopAnimation()
+		if currentTrack then
+			currentTrack:Stop()
+			currentTrack = nil
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if humanoid then
+			-- Find or create the Animator object
+			local animator = humanoid:FindFirstChildOfClass("Animator")
+			if not animator then
+				animator = Instance.new("Animator", humanoid)
+			end
+	
+			-- STOP the previous animation if it is already playing
+			stopAnimation()
+	
+			-- 3. Load and play the new animation
+			currentTrack = animator:LoadAnimation(animation)
+			currentTrack:Play()
+		end
+	end)
+	
+	-- Function to handle the tool setup
+	local function setupToolListener(character)
+		-- Disconnect old connection if it exists
+		if toolConnection then
+			toolConnection:Disconnect()
+			toolConnection = nil
+		end
+	
+		-- Listen for tools being equipped
+		character.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				-- Listen for the player clicking/activating the tool
+				toolConnection = child.Activated:Connect(function()
+					stopAnimation()
+				end)
+			end
+		end)
+	
+		-- Listen for tools being unequipped (cleans up the click connection)
+		character.ChildRemoved:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				if toolConnection then
+					toolConnection:Disconnect()
+					toolConnection = nil
+				end
+			end
+		end)
+	end
+	
+	-- Run setup for new characters when they spawn
+	player.CharacterAdded:Connect(setupToolListener)
+	
+	-- Run setup for the current character if they already exist
+	if player.Character then
+		setupToolListener(player.Character)
+	end
+end
+coroutine.wrap(WCMML_fake_script)()
+local function JIMZ_fake_script() -- OutlastHubNormalPremium_2.idk_7.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.idk_7)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- 1. Put your Animation ID here
+	local ANIMATION_ID = "rbxassetid://120763222024641"
+	
+	-- 2. Create the Animation object
+	local animation = Instance.new("Animation")
+	animation.AnimationId = ANIMATION_ID
+	
+	-- Variable to store the currently playing animation track
+	local currentTrack = nil
+	local toolConnection = nil -- Stores the click listener for the tool
+	
+	-- Function to stop the animation if it's currently running
+	local function stopAnimation()
+		if currentTrack then
+			currentTrack:Stop()
+			currentTrack = nil
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if humanoid then
+			-- Find or create the Animator object
+			local animator = humanoid:FindFirstChildOfClass("Animator")
+			if not animator then
+				animator = Instance.new("Animator", humanoid)
+			end
+	
+			-- STOP the previous animation if it is already playing
+			stopAnimation()
+	
+			-- 3. Load and play the new animation
+			currentTrack = animator:LoadAnimation(animation)
+			currentTrack:Play()
+		end
+	end)
+	
+	-- Function to handle the tool setup
+	local function setupToolListener(character)
+		-- Disconnect old connection if it exists
+		if toolConnection then
+			toolConnection:Disconnect()
+			toolConnection = nil
+		end
+	
+		-- Listen for tools being equipped
+		character.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				-- Listen for the player clicking/activating the tool
+				toolConnection = child.Activated:Connect(function()
+					stopAnimation()
+				end)
+			end
+		end)
+	
+		-- Listen for tools being unequipped (cleans up the click connection)
+		character.ChildRemoved:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				if toolConnection then
+					toolConnection:Disconnect()
+					toolConnection = nil
+				end
+			end
+		end)
+	end
+	
+	-- Run setup for new characters when they spawn
+	player.CharacterAdded:Connect(setupToolListener)
+	
+	-- Run setup for the current character if they already exist
+	if player.Character then
+		setupToolListener(player.Character)
+	end
+	
+	
+end
+coroutine.wrap(JIMZ_fake_script)()
+local function GHPWKW_fake_script() -- OutlastHubNormalPremium_2.idk_8.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.idk_8)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- 1. Put your Animation ID here (Replace 0000000000 with your actual ID)
+	local ANIMATION_ID = "rbxassetid://85034347911052"
+	local currentTrack = nil
+	-- 2. Create the Animation object
+	local animation = Instance.new("Animation")
+	animation.AnimationId = ANIMATION_ID
+	
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if humanoid then
+			-- Find or create the Animator object
+			local animator = humanoid:FindFirstChildOfClass("Animator")
+			if not animator then
+				animator = Instance.new("Animator", humanoid)
+			end
+	
+			-- STOP the previous animation if it is already playing
+			stopAnimation()
+	
+			-- 3. Load and play the new animation
+			currentTrack = animator:LoadAnimation(animation)
+			currentTrack:Play()
+		end
+	end)
+	
+	-- Detect when a tool named "Fight" is equipped
+	player.CharacterAdded:Connect(function(character)
+		character.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				stopAnimation()
+			end
+		end)
+	end)
+	
+	-- Also handle the setup for the current character if they already exist when the script runs
+	if player.Character then
+		player.Character.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				stopAnimation()
+			end
+		end)
+	end
+end
+coroutine.wrap(GHPWKW_fake_script)()
+local function LOKNTBQ_fake_script() -- OutlastHubNormalPremium_2.idk_9.LocalScript 
+	local script = Instance.new('LocalScript', OutlastHubNormalPremium_2.idk_9)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	-- 1. Put your Animation ID here
+	local ANIMATION_ID = "rbxassetid://124610310313589"
+	
+	-- 2. Create the Animation object
+	local animation = Instance.new("Animation")
+	animation.AnimationId = ANIMATION_ID
+	
+	-- Variable to store the currently playing animation track
+	local currentTrack = nil
+	
+	-- Function to stop the animation if it's currently running
+	local function stopAnimation()
+		if currentTrack then
+			currentTrack:Stop()
+			currentTrack = nil -- Reset the variable
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if humanoid then
+			-- Find or create the Animator object
+			local animator = humanoid:FindFirstChildOfClass("Animator")
+			if not animator then
+				animator = Instance.new("Animator", humanoid)
+			end
+	
+			-- STOP the previous animation if it is already playing
+			stopAnimation()
+	
+			-- 3. Load and play the new animation
+			currentTrack = animator:LoadAnimation(animation)
+			currentTrack:Play()
+		end
+	end)
+	
+	-- Detect when a tool named "Fight" is equipped
+	player.CharacterAdded:Connect(function(character)
+		character.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				stopAnimation()
+			end
+		end)
+	end)
+	
+	-- Also handle the setup for the current character if they already exist when the script runs
+	if player.Character then
+		player.Character.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") and child.Name == "Fight" then
+				stopAnimation()
+			end
+		end)
+	end
+end
+coroutine.wrap(LOKNTBQ_fake_script)()
